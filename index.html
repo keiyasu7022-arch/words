@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>単語帳アプリ</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f0f4f8;
+            min-height: 100vh;
+            color: #2d3748;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(102,126,234,0.4);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header h1 { font-size: 1.3rem; font-weight: 700; letter-spacing: 0.5px; }
+
+        .container { max-width: 560px; margin: 0 auto; padding: 16px; }
+
+        /* ====== Upload ====== */
+        .upload-area {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 24px;
+            text-align: center;
+            border: 2px dashed #cbd5e0;
+            cursor: pointer;
+            transition: all 0.25s;
+            margin-bottom: 12px;
+        }
+        .upload-area:hover, .upload-area.drag-over {
+            border-color: #667eea;
+            background: #f7f8ff;
+        }
+        .upload-icon { font-size: 3.5rem; margin-bottom: 14px; }
+        .upload-area p { color: #718096; margin-bottom: 8px; font-size: 0.95rem; }
+        .upload-area .hint { font-size: 0.78rem; color: #a0aec0; margin-bottom: 20px; }
+
+        /* ====== File list (server mode) ====== */
+        .file-list-wrap {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+        }
+        .file-list-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #a0aec0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 14px;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 2px solid #e2e8f0;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.18s;
+            background: #fafbfc;
+        }
+        .file-item:hover { border-color: #667eea; background: #f7f8ff; }
+        .file-item:last-child { margin-bottom: 0; }
+        .file-item-icon { font-size: 1.5rem; }
+        .file-item-name { flex: 1; font-weight: 700; font-size: 0.95rem; color: #2d3748; }
+        .file-item-arrow { color: #cbd5e0; font-size: 1rem; }
+
+        .no-file-msg {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 24px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+            margin-bottom: 12px;
+        }
+        .no-file-msg .icon { font-size: 3rem; margin-bottom: 12px; }
+        .no-file-msg p { color: #718096; font-size: 0.9rem; line-height: 1.6; }
+        .no-file-msg code {
+            display: inline-block;
+            background: #f0f4f8;
+            border-radius: 6px;
+            padding: 2px 8px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: #4a5568;
+            margin-top: 6px;
+        }
+
+        .loading-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 700;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(102,126,234,0.45); }
+        .btn-secondary { background: #e2e8f0; color: #4a5568; }
+        .btn-secondary:hover { background: #cbd5e0; }
+
+        /* ====== File info bar ====== */
+        .file-info {
+            background: #f0fff4;
+            border: 1px solid #c6f6d5;
+            border-radius: 10px;
+            padding: 10px 14px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.84rem;
+        }
+        .file-info-left { display: flex; align-items: center; gap: 6px; color: #276749; font-weight: 600; }
+        .file-info-count { color: #68d391; font-weight: 400; }
+        .change-btn { background: none; border: none; cursor: pointer; color: #e53e3e; font-size: 0.8rem; font-weight: 700; }
+
+        /* ====== Controls ====== */
+        .controls {
+            background: white;
+            border-radius: 12px;
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+        }
+        .direction-toggle { display: flex; background: #f0f4f8; border-radius: 8px; padding: 3px; }
+        .direction-btn {
+            padding: 6px 16px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 700;
+            transition: all 0.2s;
+            background: transparent;
+            color: #a0aec0;
+        }
+        .direction-btn.active { background: white; color: #667eea; box-shadow: 0 1px 4px rgba(0,0,0,0.12); }
+
+        .shuffle-btn {
+            padding: 7px 14px;
+            border-radius: 8px;
+            border: 2px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #718096;
+            transition: all 0.2s;
+        }
+        .shuffle-btn:hover { border-color: #667eea; color: #667eea; }
+
+        .filter-label { font-size: 0.78rem; color: #a0aec0; font-weight: 700; }
+        .filter-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+        .filter-btn {
+            padding: 5px 12px;
+            border-radius: 20px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            font-size: 0.78rem;
+            font-weight: 700;
+            transition: all 0.18s;
+        }
+        .filter-btn.all  { background: #e2e8f0; color: #4a5568; }
+        .filter-btn.all.active  { background: #4a5568; color: white; }
+        .filter-btn.unknown { background: #ebf8ff; color: #2b6cb0; border-color: #bee3f8; }
+        .filter-btn.unknown.active { background: #2b6cb0; color: white; }
+        .filter-btn.hard { background: #fff5f5; color: #c53030; border-color: #fed7d7; }
+        .filter-btn.hard.active { background: #c53030; color: white; }
+        .filter-btn.known { background: #f0fff4; color: #276749; border-color: #c6f6d5; }
+        .filter-btn.known.active { background: #276749; color: white; }
+
+        /* ====== Stats ====== */
+        .stats-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .stat {
+            flex: 1;
+            background: white;
+            border-radius: 10px;
+            padding: 10px 8px;
+            text-align: center;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+        }
+        .stat-num { font-size: 1.4rem; font-weight: 800; }
+        .stat.unknown .stat-num { color: #3182ce; }
+        .stat.hard    .stat-num { color: #e53e3e; }
+        .stat.known   .stat-num { color: #38a169; }
+        .stat-label { font-size: 0.68rem; color: #a0aec0; margin-top: 2px; font-weight: 600; }
+
+        .progress-wrap {
+            background: white;
+            border-radius: 10px;
+            padding: 10px 14px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+        }
+        .progress-row { display: flex; justify-content: space-between; font-size: 0.8rem; color: #718096; margin-bottom: 6px; }
+        .progress-track { background: #e2e8f0; border-radius: 999px; height: 7px; overflow: hidden; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); border-radius: 999px; transition: width 0.4s ease; }
+
+        /* ====== Card ====== */
+        .card-wrap { margin-bottom: 12px; }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 36px 24px 28px;
+            text-align: center;
+            min-height: 210px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.09);
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.1s;
+            user-select: none;
+        }
+        .card:active { transform: scale(0.98); }
+
+        .card-counter { position: absolute; top: 14px; right: 18px; font-size: 0.78rem; color: #a0aec0; }
+        .card-badge {
+            position: absolute;
+            top: 14px;
+            left: 18px;
+            font-size: 0.72rem;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 700;
+        }
+        .card-badge.hard  { background: #fff5f5; color: #c53030; }
+        .card-badge.known { background: #f0fff4; color: #276749; }
+
+        .q-label { font-size: 0.72rem; color: #a0aec0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+        .q-text  { font-size: 1.9rem; font-weight: 800; color: #2d3748; line-height: 1.2; }
+        .tap-hint { font-size: 0.78rem; color: #d0d8e4; margin-top: 18px; }
+
+        .answer-area {
+            display: none;
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid #edf2f7;
+            width: 100%;
+        }
+        .answer-area.visible { display: block; }
+        .a-label { font-size: 0.72rem; color: #a0aec0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+        .a-text  { font-size: 1.45rem; font-weight: 700; color: #667eea; }
+
+        /* ====== Action buttons ====== */
+        .action-buttons {
+            display: none;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .action-buttons.visible { display: flex; }
+        .action-btn {
+            flex: 1;
+            padding: 14px 8px;
+            border-radius: 12px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 700;
+            transition: all 0.18s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+        .action-btn .icon { font-size: 1.3rem; }
+        .action-btn.hard  { background: #fff5f5; color: #c53030; border-color: #fed7d7; }
+        .action-btn.hard:active  { background: #c53030; color: white; }
+        .action-btn.skip  { background: #f7fafc; color: #718096; border-color: #e2e8f0; }
+        .action-btn.skip:active  { background: #718096; color: white; }
+        .action-btn.known { background: #f0fff4; color: #276749; border-color: #c6f6d5; }
+        .action-btn.known:active { background: #276749; color: white; }
+
+        /* ====== Nav ====== */
+        .nav-buttons { display: flex; gap: 10px; justify-content: center; margin-bottom: 12px; }
+        .nav-btn {
+            padding: 11px 26px;
+            border-radius: 10px;
+            border: 2px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: #4a5568;
+            transition: all 0.18s;
+        }
+        .nav-btn:hover { border-color: #667eea; color: #667eea; }
+        .nav-btn:disabled { opacity: 0.35; cursor: default; }
+
+        /* ====== Empty / Done ====== */
+        .empty-state, .done-state {
+            background: white;
+            border-radius: 20px;
+            padding: 52px 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-bottom: 12px;
+        }
+        .empty-state .icon, .done-state .icon { font-size: 3.5rem; margin-bottom: 14px; }
+        .done-state h2 { font-size: 1.4rem; font-weight: 800; margin-bottom: 8px; }
+        .done-state p  { color: #718096; margin-bottom: 20px; }
+
+        /* ====== Keyboard hint ====== */
+        .kb-hint {
+            background: white;
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 0.74rem;
+            color: #a0aec0;
+            text-align: center;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+            margin-bottom: 8px;
+        }
+        .kb-hint span { background: #f0f4f8; border-radius: 4px; padding: 1px 6px; margin: 0 2px; font-family: monospace; }
+
+        /* ====== Toast ====== */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: #2d3748;
+            color: white;
+            padding: 11px 22px;
+            border-radius: 10px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            transition: transform 0.28s;
+            z-index: 999;
+            white-space: nowrap;
+        }
+        .toast.show { transform: translateX(-50%) translateY(0); }
+
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>📚 単語帳アプリ</h1>
+</div>
+
+<div class="container">
+
+    <!-- ===== Upload Screen ===== -->
+    <div id="uploadScreen">
+        <!-- サーバーモード: 自動検出されたファイル一覧 -->
+        <div id="serverFileArea" class="hidden">
+            <div class="loading-state" id="loadingMsg">📂 Excelファイルを検索中...</div>
+            <div id="fileListWrap"></div>
+        </div>
+
+        <!-- フォールバック: ドラッグ&ドロップ -->
+        <div id="fallbackArea" class="hidden">
+            <div class="upload-area" id="dropZone">
+                <div class="upload-icon">📂</div>
+                <p>Excelファイルをドラッグするかタップしてアップロード</p>
+                <p class="hint">A列: 日本語 &nbsp;|&nbsp; B列: 英語（1行目からデータ可）</p>
+                <button class="btn btn-primary" onclick="document.getElementById('fileInput').click()">ファイルを選択</button>
+                <input type="file" id="fileInput" accept=".xlsx,.xls" class="hidden">
+            </div>
+        </div>
+
+        <div style="text-align:center; margin-top: 8px;">
+            <button class="btn btn-secondary" onclick="loadDemo()" style="font-size:0.82rem; padding: 9px 20px;">
+                デモデータで試す
+            </button>
+        </div>
+    </div>
+
+    <!-- ===== Study Screen ===== -->
+    <div id="studyScreen" class="hidden">
+
+        <div class="file-info" id="fileInfo">
+            <div class="file-info-left">
+                <span>📄</span>
+                <span id="fileName"></span>
+                <span class="file-info-count" id="wordCount"></span>
+            </div>
+            <button class="change-btn" onclick="resetApp()">ファイル変更</button>
+        </div>
+
+        <!-- Direction + Shuffle -->
+        <div class="controls">
+            <div class="direction-toggle">
+                <button class="direction-btn active" id="btnJtoE" onclick="setDirection('ja-en')">日 → 英</button>
+                <button class="direction-btn"        id="btnEtoJ" onclick="setDirection('en-ja')">英 → 日</button>
+            </div>
+            <button class="shuffle-btn" onclick="shuffleCards()">🔀 シャッフル</button>
+        </div>
+
+        <!-- Filter -->
+        <div class="controls">
+            <span class="filter-label">フィルター:</span>
+            <div class="filter-tabs">
+                <button class="filter-btn all     active" onclick="setFilter('all')">すべて</button>
+                <button class="filter-btn unknown"        onclick="setFilter('unknown')">未学習</button>
+                <button class="filter-btn hard"           onclick="setFilter('hard')">苦手</button>
+                <button class="filter-btn known"          onclick="setFilter('known')">覚えた</button>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-bar">
+            <div class="stat unknown"><div class="stat-num" id="sUnknown">0</div><div class="stat-label">未学習</div></div>
+            <div class="stat hard">  <div class="stat-num" id="sHard">0</div>   <div class="stat-label">苦手</div></div>
+            <div class="stat known"> <div class="stat-num" id="sKnown">0</div>  <div class="stat-label">覚えた</div></div>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-wrap">
+            <div class="progress-row">
+                <span id="progressLabel">習得率</span>
+                <span id="progressPct">0%</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill" style="width:0%"></div>
+            </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card-wrap" id="cardWrap"></div>
+
+        <!-- Action buttons (shown after reveal) -->
+        <div class="action-buttons" id="actionBtns">
+            <button class="action-btn hard"  onclick="mark('hard')">
+                <span class="icon">😓</span>苦手
+            </button>
+            <button class="action-btn skip"  onclick="mark('unknown')">
+                <span class="icon">😐</span>次回も
+            </button>
+            <button class="action-btn known" onclick="mark('known')">
+                <span class="icon">✅</span>覚えた
+            </button>
+        </div>
+
+        <!-- Nav -->
+        <div class="nav-buttons" id="navBtns">
+            <button class="nav-btn" id="btnPrev" onclick="prevCard()">← 前へ</button>
+            <button class="nav-btn" id="btnNext" onclick="nextCard()">次へ →</button>
+        </div>
+
+        <!-- Keyboard hint (PC only) -->
+        <div class="kb-hint" id="kbHint">
+            <span>Space</span>答えを表示 &nbsp;
+            <span>←</span><span>→</span>前後移動 &nbsp;
+            <span>1</span>苦手 <span>2</span>次回も <span>3</span>覚えた
+        </div>
+
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ===== State =====
+let words        = [];   // [{ja, en, status}]
+let filtered     = [];
+let idx          = 0;
+let revealed     = false;
+let direction    = 'ja-en';
+let activeFilter = 'all';
+let srcName      = '';
+const STORE = 'vocabApp_v2';
+
+// ===== Boot =====
+// 読み込み優先順位: words.json（Netlify）→ サーバーAPI（ローカル起動）→ ドラッグ&ドロップ
+const API = 'http://localhost:8765';
+
+async function init() {
+    // 1. words.json があれば静的モード（Netlify / ファイルと同梱）
+    try {
+        const res = await fetch('./words.json', { signal: AbortSignal.timeout(2000) });
+        if (res.ok) {
+            const data = await res.json();
+            showFileList(data, 'json');
+            return;
+        }
+    } catch {}
+
+    // 2. ローカルサーバーが起動していればサーバーモード
+    try {
+        const res = await fetch(`${API}/api/excel-files`, { signal: AbortSignal.timeout(1000) });
+        const files = await res.json();
+        showFileList(files, 'server');
+        return;
+    } catch {}
+
+    // 3. どちらもなければドラッグ&ドロップ
+    showFallbackMode();
+}
+
+function showFileList(source, mode) {
+    // source: JSONモード → {filename: [{ja,en},...]}  サーバーモード → ['filename', ...]
+    const files = mode === 'json' ? Object.keys(source) : source;
+
+    document.getElementById('serverFileArea').classList.remove('hidden');
+    document.getElementById('loadingMsg').classList.add('hidden');
+    const wrap = document.getElementById('fileListWrap');
+
+    if (files.length === 0) {
+        wrap.innerHTML = `
+            <div class="no-file-msg">
+                <div class="icon">📭</div>
+                <p>単語帳が見つかりませんでした。<br>
+                   Excelを追加して <code>変換.command</code> を実行してください。</p>
+            </div>`;
+        return;
+    }
+
+    if (files.length === 1) {
+        // 1ファイルなら自動読み込み
+        if (mode === 'json') loadFromJson(source, files[0]);
+        else loadFromServer(files[0]);
+        return;
+    }
+
+    // 複数ファイルはリスト表示
+    wrap.innerHTML = `
+        <div class="file-list-wrap">
+            <div class="file-list-title">単語帳を選択</div>
+            ${files.map(f => `
+                <div class="file-item" onclick="${mode === 'json'
+                    ? `loadFromJsonData('${esc(f)}')`
+                    : `loadFromServer('${esc(f)}')`}">
+                    <span class="file-item-icon">📗</span>
+                    <span class="file-item-name">${esc(f)}</span>
+                    <span class="file-item-arrow">›</span>
+                </div>`).join('')}
+        </div>`;
+
+    // JSONデータをグローバルに保持（複数選択用）
+    if (mode === 'json') window._jsonData = source;
+}
+
+function loadFromJson(data, filename) {
+    const list = data[filename];
+    if (!list || !list.length) { toast('単語が見つかりません'); return; }
+    srcName = filename;
+    words = list.map(w => ({ ...w, status: 'unknown' }));
+    restoreProgress();
+    startStudy();
+}
+
+function loadFromJsonData(filename) {
+    loadFromJson(window._jsonData, filename);
+}
+
+async function loadFromServer(filename) {
+    try {
+        const res = await fetch(`${API}/api/load?file=${encodeURIComponent(filename)}`);
+        const data = await res.json();
+        if (!data.words || data.words.length === 0) {
+            toast('単語が見つかりません。A列:日本語 B列:英語 の形式か確認してください');
+            return;
+        }
+        srcName = data.filename;
+        words = data.words.map(w => ({ ...w, status: 'unknown' }));
+        restoreProgress();
+        startStudy();
+    } catch {
+        toast('ファイルの読み込みに失敗しました');
+    }
+}
+
+function showFallbackMode() {
+    document.getElementById('fallbackArea').classList.remove('hidden');
+    const dz = document.getElementById('dropZone');
+    dz.addEventListener('dragover',  e => { e.preventDefault(); dz.classList.add('drag-over'); });
+    dz.addEventListener('dragleave', () => dz.classList.remove('drag-over'));
+    dz.addEventListener('drop', e => {
+        e.preventDefault();
+        dz.classList.remove('drag-over');
+        const f = e.dataTransfer.files[0];
+        if (f) processFile(f);
+    });
+    dz.addEventListener('click', e => {
+        if (e.target.tagName !== 'BUTTON') document.getElementById('fileInput').click();
+    });
+    document.getElementById('fileInput').addEventListener('change', e => {
+        const f = e.target.files[0];
+        if (f) processFile(f);
+        e.target.value = '';
+    });
+}
+
+// ===== File processing (fallback) =====
+function processFile(file) {
+    if (!/\.(xlsx|xls)$/i.test(file.name)) { toast('Excelファイル (.xlsx/.xls) を選択してください'); return; }
+    srcName = file.name;
+    const reader = new FileReader();
+    reader.onload = e => {
+        try {
+            const wb = XLSX.read(new Uint8Array(e.target.result), { type: 'array' });
+            const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1 });
+            const parsed = rows
+                .map(r => ({ ja: String(r[0]||'').trim(), en: String(r[1]||'').trim(), status: 'unknown' }))
+                .filter(w => w.ja && w.en);
+            if (!parsed.length) { toast('単語が見つかりません。A列:日本語 B列:英語 の形式で入力してください'); return; }
+            words = parsed;
+            restoreProgress();
+            startStudy();
+        } catch { toast('ファイルの読み込みに失敗しました'); }
+    };
+    reader.readAsArrayBuffer(file);
+}
+
+init();
+
+function loadDemo() {
+    srcName = 'デモデータ';
+    words = [
+        ['りんご','apple'],['犬','dog'],['猫','cat'],['学校','school'],
+        ['先生','teacher'],['本','book'],['水','water'],['空','sky'],
+        ['山','mountain'],['海','sea'],['電車','train'],['友達','friend'],
+        ['家族','family'],['食べる','eat'],['飲む','drink'],['走る','run'],
+        ['読む','read'],['書く','write'],['聞く','listen'],['話す','speak'],
+    ].map(([ja,en]) => ({ ja, en, status: 'unknown' }));
+    restoreProgress();
+    startStudy();
+}
+
+// ===== Progress =====
+function saveProgress() {
+    const all = JSON.parse(localStorage.getItem(STORE) || '{}');
+    all[srcName] = words.map(w => ({ ja: w.ja, en: w.en, status: w.status }));
+    localStorage.setItem(STORE, JSON.stringify(all));
+}
+
+function restoreProgress() {
+    const all = JSON.parse(localStorage.getItem(STORE) || '{}');
+    const saved = all[srcName];
+    if (!saved) return;
+    words.forEach(w => {
+        const s = saved.find(s => s.ja === w.ja && s.en === w.en);
+        if (s) w.status = s.status;
+    });
+}
+
+// ===== Study =====
+function startStudy() {
+    document.getElementById('uploadScreen').classList.add('hidden');
+    document.getElementById('studyScreen').classList.remove('hidden');
+    document.getElementById('fileName').textContent = srcName;
+    applyFilter();
+}
+
+function applyFilter() {
+    filtered = activeFilter === 'all' ? [...words] : words.filter(w => w.status === activeFilter);
+    idx = 0; revealed = false;
+    updateWordCount();
+    updateStats();
+    render();
+}
+
+function setFilter(f) {
+    activeFilter = f;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector(`.filter-btn.${f === 'all' ? 'all' : f}`).classList.add('active');
+    applyFilter();
+}
+
+function setDirection(d) {
+    direction = d;
+    document.getElementById('btnJtoE').classList.toggle('active', d === 'ja-en');
+    document.getElementById('btnEtoJ').classList.toggle('active', d === 'en-ja');
+    revealed = false;
+    render();
+}
+
+function shuffleCards() {
+    for (let i = filtered.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+    }
+    idx = 0; revealed = false;
+    render();
+    toast('シャッフルしました 🔀');
+}
+
+// ===== Render =====
+function render() {
+    const wrap = document.getElementById('cardWrap');
+    const navBtns = document.getElementById('navBtns');
+    const actionBtns = document.getElementById('actionBtns');
+    actionBtns.classList.remove('visible');
+
+    if (!filtered.length) {
+        navBtns.classList.add('hidden');
+        wrap.innerHTML = `<div class="empty-state"><div class="icon">📭</div><p>この条件の単語はありません</p></div>`;
+        return;
+    }
+
+    if (idx >= filtered.length) {
+        navBtns.classList.add('hidden');
+        wrap.innerHTML = `
+            <div class="done-state">
+                <div class="icon">🎉</div>
+                <h2>セット完了！</h2>
+                <p>${filtered.length}語の学習が終わりました</p>
+                <button class="btn btn-primary" onclick="restartSet()">もう一度</button>
+            </div>`;
+        return;
+    }
+
+    navBtns.classList.remove('hidden');
+    document.getElementById('btnPrev').disabled = idx === 0;
+
+    const w = filtered[idx];
+    const q = direction === 'ja-en' ? w.ja : w.en;
+    const a = direction === 'ja-en' ? w.en : w.ja;
+    const qLabel = direction === 'ja-en' ? '日本語' : 'English';
+    const aLabel = direction === 'ja-en' ? 'English' : '日本語';
+
+    const badge = w.status !== 'unknown'
+        ? `<span class="card-badge ${w.status}">${w.status === 'hard' ? '😓 苦手' : '✅ 覚えた'}</span>`
+        : '';
+
+    wrap.innerHTML = `
+        <div class="card" onclick="revealAnswer()">
+            <div class="card-counter">${idx + 1} / ${filtered.length}</div>
+            ${badge}
+            <div class="q-label">${qLabel}</div>
+            <div class="q-text">${esc(q)}</div>
+            <div class="tap-hint" id="tapHint">タップして答えを確認</div>
+            <div class="answer-area ${revealed ? 'visible' : ''}" id="answerArea">
+                <div class="a-label">${aLabel}</div>
+                <div class="a-text">${esc(a)}</div>
+            </div>
+        </div>`;
+
+    if (revealed) {
+        document.getElementById('tapHint').style.display = 'none';
+        actionBtns.classList.add('visible');
+    }
+}
+
+function revealAnswer() {
+    if (revealed) return;
+    revealed = true;
+    const aa = document.getElementById('answerArea');
+    const th = document.getElementById('tapHint');
+    if (aa) aa.classList.add('visible');
+    if (th) th.style.display = 'none';
+    document.getElementById('actionBtns').classList.add('visible');
+}
+
+function mark(status) {
+    const w = filtered[idx];
+    const main = words.find(x => x.ja === w.ja && x.en === w.en);
+    if (main) main.status = status;
+    w.status = status;
+    saveProgress();
+    updateStats();
+    nextCard();
+}
+
+function nextCard() {
+    idx++;
+    revealed = false;
+    document.getElementById('actionBtns').classList.remove('visible');
+    render();
+}
+
+function prevCard() {
+    if (idx > 0) { idx--; revealed = false; render(); }
+}
+
+function restartSet() {
+    idx = 0; revealed = false; render();
+}
+
+// ===== Stats =====
+function updateWordCount() {
+    document.getElementById('wordCount').textContent = `（${filtered.length}語）`;
+}
+
+function updateStats() {
+    const u = words.filter(w => w.status === 'unknown').length;
+    const h = words.filter(w => w.status === 'hard').length;
+    const k = words.filter(w => w.status === 'known').length;
+    document.getElementById('sUnknown').textContent = u;
+    document.getElementById('sHard').textContent    = h;
+    document.getElementById('sKnown').textContent   = k;
+    const pct = words.length ? Math.round(k / words.length * 100) : 0;
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPct').textContent  = pct + '%';
+    document.getElementById('progressLabel').textContent = `習得率 ${k}/${words.length}語`;
+}
+
+// ===== Misc =====
+function resetApp() {
+    words = []; filtered = []; idx = 0; srcName = '';
+    document.getElementById('studyScreen').classList.add('hidden');
+    document.getElementById('uploadScreen').classList.remove('hidden');
+    document.getElementById('loadingMsg').classList.remove('hidden');
+    document.getElementById('fileListWrap').innerHTML = '';
+    init();
+}
+
+function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2600);
+}
+
+function esc(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ===== Keyboard =====
+document.addEventListener('keydown', e => {
+    if (document.getElementById('studyScreen').classList.contains('hidden')) return;
+    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); revealAnswer(); }
+    else if (e.key === 'ArrowRight') nextCard();
+    else if (e.key === 'ArrowLeft')  prevCard();
+    else if (e.key === '1' && revealed) mark('hard');
+    else if (e.key === '2' && revealed) mark('unknown');
+    else if (e.key === '3' && revealed) mark('known');
+});
+
+// Hide keyboard hint on touch devices
+if ('ontouchstart' in window) {
+    document.getElementById('kbHint').style.display = 'none';
+}
+</script>
+</body>
+</html>
