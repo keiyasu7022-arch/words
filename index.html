@@ -504,11 +504,19 @@ let srcName      = '';
 const STORE = 'vocabApp_v2';
 
 // ===== Boot =====
-// 読み込み優先順位: words.json（Netlify）→ サーバーAPI（ローカル起動）→ ドラッグ&ドロップ
+// 読み込み優先順位: サーバーAPI（ローカル起動）→ words.json（Netlify）→ ドラッグ&ドロップ
 const API = 'http://localhost:8765';
 
 async function init() {
-    // 1. words.json があれば静的モード（Netlify / ファイルと同梱）
+    // 1. ローカルサーバーが起動していればサーバーモード（動的スキャン・常に最新）
+    try {
+        const res = await fetch(`${API}/api/excel-files`, { signal: AbortSignal.timeout(1000) });
+        const files = await res.json();
+        showFileList(files, 'server');
+        return;
+    } catch {}
+
+    // 2. words.json があれば静的モード（Netlifyデプロイ時）
     try {
         const res = await fetch('./words.json', { signal: AbortSignal.timeout(2000) });
         if (res.ok) {
@@ -516,14 +524,6 @@ async function init() {
             showFileList(data, 'json');
             return;
         }
-    } catch {}
-
-    // 2. ローカルサーバーが起動していればサーバーモード
-    try {
-        const res = await fetch(`${API}/api/excel-files`, { signal: AbortSignal.timeout(1000) });
-        const files = await res.json();
-        showFileList(files, 'server');
-        return;
     } catch {}
 
     // 3. どちらもなければドラッグ&ドロップ
