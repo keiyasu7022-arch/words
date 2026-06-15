@@ -2,6 +2,9 @@
 """ExcelをJSONに変換してNetlifyにデプロイできる形にする"""
 import json, os, sys
 
+# --silent: 起動.commandからのバックグラウンド実行時は出力なし・確認なし
+SILENT = '--silent' in sys.argv
+
 try:
     import openpyxl
 except ImportError:
@@ -21,12 +24,13 @@ for root, dirs, fs in os.walk(BASE):
 files = sorted(files)
 
 if not files:
-    print('❌ Excelファイルが見つかりません')
-    print('   .xlsx ファイルをこのフォルダ（またはサブフォルダ）に入れてから実行してください')
-    try:
-        input('\nEnterキーで閉じる')
-    except EOFError:
-        pass
+    if not SILENT:
+        print('❌ Excelファイルが見つかりません')
+        print('   .xlsx ファイルをこのフォルダ（またはサブフォルダ）に入れてから実行してください')
+        try:
+            input('\nEnterキーで閉じる')
+        except EOFError:
+            pass
     sys.exit(1)
 
 all_data = {}
@@ -43,13 +47,15 @@ for f in files:
     wb.close()
     if words:
         all_data[rel] = words
-        print(f'✅ {rel}: {len(words)}語')
-    else:
-        print(f'⚠️  {rel}: 単語が見つかりませんでした')
+        if not SILENT:
+            print(f'✅ {rel}: {len(words)}語')
 
 out = os.path.join(BASE, 'words.json')
 with open(out, 'w', encoding='utf-8') as fp:
     json.dump(all_data, fp, ensure_ascii=False, indent=2)
+
+if SILENT:
+    sys.exit(0)
 
 print(f'\n📄 words.json を作成しました（{len(all_data)}ファイル）')
 print()
