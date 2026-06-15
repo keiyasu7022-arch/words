@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ExcelをJSONに変換してNetlifyにデプロイできる形にする"""
-import openpyxl, json, glob, os, sys
+import json, os, sys
 
 try:
     import openpyxl
@@ -11,23 +11,27 @@ except ImportError:
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-files = sorted(
-    glob.glob(os.path.join(BASE, '*.xlsx')) +
-    glob.glob(os.path.join(BASE, '*.xls'))
-)
+# サブフォルダも含めて再帰スキャン、相対パスで収集
+files = []
+for root, dirs, fs in os.walk(BASE):
+    dirs[:] = [d for d in dirs if not d.startswith('.')]
+    for f in sorted(fs):
+        if f.lower().endswith(('.xlsx', '.xls')):
+            files.append(os.path.join(root, f))
+files = sorted(files)
 
 if not files:
     print('❌ Excelファイルが見つかりません')
-    print('   .xlsx ファイルをこのフォルダに入れてから実行してください')
+    print('   .xlsx ファイルをこのフォルダ（またはサブフォルダ）に入れてから実行してください')
     try:
-    input('\nEnterキーで閉じる')
-except EOFError:
-    pass
+        input('\nEnterキーで閉じる')
+    except EOFError:
+        pass
     sys.exit(1)
 
 all_data = {}
 for f in files:
-    name = os.path.basename(f)
+    rel = os.path.relpath(f, BASE)
     wb = openpyxl.load_workbook(f, read_only=True, data_only=True)
     ws = wb.active
     words = []
@@ -38,10 +42,10 @@ for f in files:
             words.append({'ja': ja, 'en': en})
     wb.close()
     if words:
-        all_data[name] = words
-        print(f'✅ {name}: {len(words)}語')
+        all_data[rel] = words
+        print(f'✅ {rel}: {len(words)}語')
     else:
-        print(f'⚠️  {name}: 単語が見つかりませんでした')
+        print(f'⚠️  {rel}: 単語が見つかりませんでした')
 
 out = os.path.join(BASE, 'words.json')
 with open(out, 'w', encoding='utf-8') as fp:

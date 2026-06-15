@@ -19,16 +19,23 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/api/excel-files':
-            files = glob.glob(os.path.join(BASE_DIR, '*.xlsx')) + \
-                    glob.glob(os.path.join(BASE_DIR, '*.xls'))
-            names = sorted(os.path.basename(f) for f in files)
-            self._send_json(names)
+            # サブフォルダも含めて再帰スキャン、相対パスで返す
+            names = []
+            for root, dirs, files in os.walk(BASE_DIR):
+                # 隠しフォルダをスキップ
+                dirs[:] = [d for d in dirs if not d.startswith('.')]
+                for f in sorted(files):
+                    if f.lower().endswith(('.xlsx', '.xls')):
+                        rel = os.path.relpath(os.path.join(root, f), BASE_DIR)
+                        names.append(rel)
+            self._send_json(sorted(names))
 
         elif self.path.startswith('/api/load?file='):
             raw = self.path.split('=', 1)[1]
             filename = urllib.parse.unquote(raw)
-            filepath = os.path.join(BASE_DIR, filename)
-            if not os.path.isfile(filepath):
+            # パストラバーサル対策
+            filepath = os.path.realpath(os.path.join(BASE_DIR, filename))
+            if not filepath.startswith(BASE_DIR) or not os.path.isfile(filepath):
                 self.send_error(404, 'File not found')
                 return
             words = []
