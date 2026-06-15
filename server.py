@@ -64,6 +64,85 @@ class Handler(SimpleHTTPRequestHandler):
     def log_message(self, *_):
         pass  # ログを静かにする
 
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.end_headers()
+
+    def do_POST(self):
+        parsed = urllib.parse.urlparse(self.path)
+        params = dict(urllib.parse.parse_qsl(parsed.query))
+        length = int(self.headers.get('Content-Length', 0))
+        body = self.rfile.read(length) if length > 0 else b'{}'
+        try:
+            data = json.loads(body) if body else {}
+        except Exception:
+            data = {}
+
+        if parsed.path == '/api/save':
+            filename = urllib.parse.unquote(params.get('file', ''))
+            if not filename:
+                self.send_error(400, 'Missing file'); return
+            filepath = os.path.realpath(os.path.join(BASE_DIR, filename))
+            if not filepath.startswith(BASE_DIR):
+                self.send_error(403, 'Forbidden'); return
+            wb = openpyxl.Workbook()
+            ws = wb.active
+            for w in data.get('words', []):
+                ws.append([w.get('ja', ''), w.get('en', '')])
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            wb.save(filepath)
+            self._send_json({'ok': True})
+
+        elif parsed.path == '/api/create':
+            filename = data.get('filename', '').strip()
+            if not filename:
+                self.send_error(400, 'Missing filename'); return
+            if not filename.lower().endswith('.xlsx'):
+                filename += '.xlsx'
+            subdir = os.path.join(BASE_DIR, '単語')
+            filepath = os.path.realpath(os.path.join(subdir, os.path.basename(filename)))
+            if not filepath.startswith(BASE_DIR):
+                self.send_error(403, 'Forbidden'); return
+            wb = openpyxl.Workbook()
+            ws = wb.active
+            for w in data.get('words', []):
+                ws.append([w.get('ja', ''), w.get('en', '')])
+            os.makedirs(subdir, exist_ok=True)
+            wb.save(filepath)
+            self._send_json({'ok': True, 'filename': os.path.relpath(filepath, BASE_DIR)})
+
+        elif parsed.path == '/api/delete':
+            filename = urllib.parse.unquote(params.get('file', ''))
+            if not filename:
+                self.send_error(400, 'Missing file'); return
+            filepath = os.path.realpath(os.path.join(BASE_DIR, filename))
+            if not filepath.startswith(BASE_DIR) or not os.path.isfile(filepath):
+                self.send_error(404, 'Not found'); return
+            os.remove(filepath)
+            self._send_json({'ok': True})
+
+        elif parsed.path == '/api/rename':
+            filename = urllib.parse.unquote(params.get('file', ''))
+            newname  = urllib.parse.unquote(params.get('newname', '')).strip()
+            if not filename or not newname:
+                self.send_error(400, 'Missing params'); return
+            if not newname.lower().endswith(('.xlsx', '.xls')):
+                newname += '.xlsx'
+            filepath = os.path.realpath(os.path.join(BASE_DIR, filename))
+            if not filepath.startswith(BASE_DIR) or not os.path.isfile(filepath):
+                self.send_error(404, 'Not found'); return
+            newpath = os.path.realpath(os.path.join(os.path.dirname(filepath), newname))
+            if not newpath.startswith(BASE_DIR):
+                self.send_error(403, 'Forbidden'); return
+            os.rename(filepath, newpath)
+            self._send_json({'ok': True, 'filename': os.path.relpath(newpath, BASE_DIR)})
+
+        else:
+            self.send_error(404, 'Not found')
+
 def _open_browser():
     import time; time.sleep(0.6)
     webbrowser.open(f'http://localhost:{PORT}')

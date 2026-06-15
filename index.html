@@ -372,6 +372,110 @@
         .toast.show { transform: translateX(-50%) translateY(0); }
 
         .hidden { display: none !important; }
+
+        /* ====== Edit Overlay ====== */
+        .edit-overlay {
+            position: fixed; inset: 0; background: #f0f4f8;
+            z-index: 200; display: flex; flex-direction: column;
+        }
+        .edit-overlay-header {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            padding: 12px 16px; display: flex; align-items: center; gap: 10px;
+            box-shadow: 0 2px 10px rgba(56,161,105,0.4); flex-shrink: 0;
+        }
+        .edit-back-btn {
+            background: rgba(255,255,255,0.2); border: none; color: white;
+            padding: 8px 14px; border-radius: 8px; cursor: pointer;
+            font-size: 0.88rem; font-weight: 700; white-space: nowrap;
+        }
+        .edit-back-btn:hover { background: rgba(255,255,255,0.3); }
+        .edit-filename-input {
+            flex: 1; background: rgba(255,255,255,0.9); border: none;
+            border-radius: 8px; padding: 8px 12px; font-size: 0.95rem;
+            font-weight: 700; color: #2d3748; min-width: 0; outline: none; font-family: inherit;
+        }
+        .edit-save-btn {
+            background: white; color: #38a169; border: none; padding: 8px 18px;
+            border-radius: 8px; font-weight: 700; font-size: 0.9rem;
+            cursor: pointer; white-space: nowrap; font-family: inherit;
+        }
+        .edit-save-btn:hover { background: #f0fff4; }
+        .edit-overlay-body { flex: 1; overflow-y: auto; padding: 16px 0 80px; }
+        .edit-col-header {
+            display: flex; gap: 8px; padding: 0 4px 8px;
+            font-size: 0.72rem; font-weight: 700; color: #a0aec0;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .edit-col-header span { flex: 1; }
+        .edit-row {
+            display: flex; gap: 8px; align-items: center; margin-bottom: 8px;
+            background: white; border-radius: 10px; padding: 8px 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .edit-input {
+            flex: 1; border: 2px solid #e2e8f0; border-radius: 8px;
+            padding: 8px 10px; font-size: 0.9rem; color: #2d3748;
+            outline: none; min-width: 0; transition: border-color 0.2s; font-family: inherit;
+        }
+        .edit-input:focus { border-color: #667eea; }
+        .del-row-btn {
+            background: none; border: none; cursor: pointer; color: #a0aec0;
+            font-size: 1rem; padding: 4px 6px; border-radius: 6px;
+            transition: all 0.15s; flex-shrink: 0; line-height: 1;
+        }
+        .del-row-btn:hover { background: #fff5f5; color: #e53e3e; }
+        .add-row-btn {
+            display: block; width: 100%; margin-top: 8px; padding: 12px;
+            background: white; border: 2px dashed #cbd5e0; border-radius: 10px;
+            color: #a0aec0; font-size: 0.9rem; font-weight: 700;
+            cursor: pointer; transition: all 0.2s; text-align: center; font-family: inherit;
+        }
+        .add-row-btn:hover { border-color: #667eea; color: #667eea; background: #f7f8ff; }
+
+        /* ====== File List Enhancements ====== */
+        .file-list-title-row {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+        }
+        .file-list-title-row .file-list-title { margin-bottom: 0; }
+        .create-file-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; border: none; padding: 7px 14px; border-radius: 8px;
+            font-size: 0.82rem; font-weight: 700; cursor: pointer;
+            transition: all 0.2s; font-family: inherit;
+        }
+        .create-file-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(102,126,234,0.4); }
+        .file-action-btn {
+            background: none; border: none; cursor: pointer; font-size: 1.1rem;
+            padding: 4px 8px; border-radius: 6px; transition: all 0.15s; flex-shrink: 0;
+        }
+        .file-action-btn:hover { background: #f0f4f8; }
+        .file-action-btn.danger:hover { background: #fff5f5; }
+        .file-info-actions { display: flex; align-items: center; gap: 8px; }
+        .edit-file-btn {
+            background: #f0fff4; border: 1.5px solid #c6f6d5; color: #276749;
+            padding: 5px 12px; border-radius: 8px; font-size: 0.8rem;
+            font-weight: 700; cursor: pointer; transition: all 0.2s; font-family: inherit;
+        }
+        .edit-file-btn:hover { background: #c6f6d5; }
+
+        /* ====== Confirm Modal ====== */
+        .modal-overlay {
+            position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+            z-index: 400; display: flex; align-items: center;
+            justify-content: center; padding: 20px;
+        }
+        .modal-box {
+            background: white; border-radius: 16px; padding: 28px 24px;
+            max-width: 340px; width: 100%; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .modal-box p {
+            font-size: 0.95rem; color: #2d3748; margin-bottom: 20px;
+            white-space: pre-line; line-height: 1.6;
+        }
+        .modal-btns { display: flex; gap: 10px; justify-content: flex-end; }
+        .btn-danger { background: #e53e3e !important; color: white !important; }
+        .btn-danger:hover { background: #c53030 !important; }
     </style>
 </head>
 <body>
@@ -417,7 +521,10 @@
                 <span id="fileName"></span>
                 <span class="file-info-count" id="wordCount"></span>
             </div>
-            <button class="change-btn" onclick="resetApp()">ファイル変更</button>
+            <div class="file-info-actions">
+                <button class="edit-file-btn" id="editFileBtn" onclick="openEditorForCurrentFile()" style="display:none">✏️ 編集</button>
+                <button class="change-btn" onclick="resetApp()">ファイル変更</button>
+            </div>
         </div>
 
         <!-- Direction + Shuffle -->
@@ -490,6 +597,36 @@
     </div>
 </div>
 
+<!-- ===== Edit Overlay ===== -->
+<div id="editScreen" class="edit-overlay hidden">
+    <div class="edit-overlay-header">
+        <button class="edit-back-btn" onclick="closeEditor()">← 戻る</button>
+        <input type="text" id="editFilenameInput" class="edit-filename-input" placeholder="ファイル名">
+        <button class="edit-save-btn" onclick="saveEdit()">💾 保存</button>
+    </div>
+    <div class="edit-overlay-body">
+        <div class="container">
+            <div class="edit-col-header">
+                <span>日本語</span>
+                <span>英語</span>
+            </div>
+            <div id="editWordRows"></div>
+            <button class="add-row-btn" onclick="addEditRow()">＋ 行を追加</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== Confirm Modal ===== -->
+<div id="confirmModal" class="modal-overlay hidden">
+    <div class="modal-box">
+        <p id="confirmMsg"></p>
+        <div class="modal-btns">
+            <button class="btn btn-secondary" onclick="closeConfirm(false)">キャンセル</button>
+            <button class="btn btn-danger" onclick="closeConfirm(true)">削除</button>
+        </div>
+    </div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -502,6 +639,11 @@ let direction    = 'ja-en';
 let activeFilter = 'all';
 let srcName      = '';
 const STORE = 'vocabApp_v2';
+let serverMode    = false;
+let _displayFiles = [];
+let editCurrentFile  = null;
+let isCreatingNew    = false;
+let _confirmCallback = null;
 
 // ===== Boot =====
 // 読み込み優先順位: サーバーAPI（ローカル起動）→ words.json（Netlify）→ ドラッグ&ドロップ
@@ -514,6 +656,7 @@ async function init(autoLoad = true) {
     try {
         const res = await fetch(`${API}/api/excel-files`, { signal: AbortSignal.timeout(1000) });
         const files = await res.json();
+        serverMode = true;
         showFileList(files, 'server', autoLoad);
         return;
     } catch {}
@@ -535,17 +678,21 @@ async function init(autoLoad = true) {
 function showFileList(source, mode, autoLoad = true) {
     // source: JSONモード → {filename: [{ja,en},...]}  サーバーモード → ['filename', ...]
     const files = mode === 'json' ? Object.keys(source) : source;
+    _displayFiles = files;
 
     document.getElementById('serverFileArea').classList.remove('hidden');
     document.getElementById('loadingMsg').classList.add('hidden');
     const wrap = document.getElementById('fileListWrap');
 
     if (files.length === 0) {
+        const createBtn = mode === 'server'
+            ? `<button class="create-file-btn" style="margin-top:16px" onclick="openEditorNew()">＋ 新規作成</button>` : '';
         wrap.innerHTML = `
             <div class="no-file-msg">
                 <div class="icon">📭</div>
                 <p>単語帳が見つかりませんでした。<br>
                    Excelを追加して <code>変換.command</code> を実行してください。</p>
+                ${createBtn}
             </div>`;
         return;
     }
@@ -558,17 +705,31 @@ function showFileList(source, mode, autoLoad = true) {
     }
 
     // 選択画面を表示
+    const createBtn = mode === 'server'
+        ? `<button class="create-file-btn" onclick="openEditorNew()">＋ 新規作成</button>` : '';
+
     wrap.innerHTML = `
         <div class="file-list-wrap">
-            <div class="file-list-title">単語帳を選択</div>
-            ${files.map(f => `
-                <div class="file-item" onclick="${mode === 'json'
-                    ? `loadFromJsonData('${esc(f)}')`
-                    : `loadFromServer('${esc(f)}')`}">
+            <div class="file-list-title-row">
+                <div class="file-list-title">単語帳を選択</div>
+                ${createBtn}
+            </div>
+            ${files.map((f, i) => {
+                const displayName = f.split('/').pop().replace(/\.xlsx?$/i, '');
+                const loadFn = mode === 'json'
+                    ? `loadFromJsonData(_displayFiles[${i}])`
+                    : `loadFromServer(_displayFiles[${i}])`;
+                const actionBtns = mode === 'server'
+                    ? `<button class="file-action-btn" onclick="event.stopPropagation();openEditorForFile(_displayFiles[${i}])" title="編集">✏️</button>
+                       <button class="file-action-btn danger" onclick="event.stopPropagation();confirmDeleteFile(_displayFiles[${i}])" title="削除">🗑️</button>`
+                    : `<span class="file-item-arrow">›</span>`;
+                return `
+                <div class="file-item" onclick="${loadFn}">
                     <span class="file-item-icon">📗</span>
-                    <span class="file-item-name">${esc(f)}</span>
-                    <span class="file-item-arrow">›</span>
-                </div>`).join('')}
+                    <span class="file-item-name">${esc(displayName)}</span>
+                    ${actionBtns}
+                </div>`;
+            }).join('')}
         </div>`;
 
     // JSONデータをグローバルに保持（複数選択用）
@@ -683,7 +844,9 @@ function restoreProgress() {
 function startStudy() {
     document.getElementById('uploadScreen').classList.add('hidden');
     document.getElementById('studyScreen').classList.remove('hidden');
-    document.getElementById('fileName').textContent = srcName;
+    document.getElementById('fileName').textContent = srcName.split('/').pop().replace(/\.xlsx?$/i, '');
+    const editBtn = document.getElementById('editFileBtn');
+    if (editBtn) editBtn.style.display = serverMode ? 'inline-block' : 'none';
     applyFilter();
 }
 
@@ -865,6 +1028,155 @@ document.addEventListener('keydown', e => {
 // Hide keyboard hint on touch devices
 if ('ontouchstart' in window) {
     document.getElementById('kbHint').style.display = 'none';
+}
+
+// ===== Editor =====
+function openEditorForFile(filename) {
+    isCreatingNew = false;
+    editCurrentFile = filename;
+    document.getElementById('editFilenameInput').value =
+        filename.split('/').pop().replace(/\.xlsx?$/i, '');
+    fetch(`${API}/api/load?file=${encodeURIComponent(filename)}`)
+        .then(r => r.json())
+        .then(data => { renderEditRows(data.words || []); openEditScreen(); })
+        .catch(() => toast('ファイルの読み込みに失敗しました'));
+}
+
+function openEditorNew() {
+    isCreatingNew = true;
+    editCurrentFile = null;
+    document.getElementById('editFilenameInput').value = '';
+    renderEditRows([{ ja: '', en: '' }]);
+    openEditScreen();
+}
+
+function openEditorForCurrentFile() {
+    if (srcName && serverMode) openEditorForFile(srcName);
+}
+
+function openEditScreen() {
+    document.getElementById('editScreen').classList.remove('hidden');
+}
+
+function closeEditor() {
+    document.getElementById('editScreen').classList.add('hidden');
+}
+
+function renderEditRows(wordList) {
+    document.getElementById('editWordRows').innerHTML = wordList.map(w => `
+        <div class="edit-row">
+            <input type="text" class="edit-input" placeholder="日本語" value="${esc(w.ja || '')}">
+            <input type="text" class="edit-input" placeholder="English" value="${esc(w.en || '')}">
+            <button class="del-row-btn" onclick="this.closest('.edit-row').remove()" title="削除">✕</button>
+        </div>
+    `).join('');
+}
+
+function addEditRow() {
+    const container = document.getElementById('editWordRows');
+    const div = document.createElement('div');
+    div.className = 'edit-row';
+    div.innerHTML = `
+        <input type="text" class="edit-input" placeholder="日本語">
+        <input type="text" class="edit-input" placeholder="English">
+        <button class="del-row-btn" onclick="this.closest('.edit-row').remove()" title="削除">✕</button>
+    `;
+    container.appendChild(div);
+    div.querySelector('input').focus();
+    div.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+async function saveEdit() {
+    const rows = document.querySelectorAll('.edit-row');
+    const wordList = [];
+    rows.forEach(row => {
+        const inputs = row.querySelectorAll('.edit-input');
+        const ja = inputs[0].value.trim();
+        const en = inputs[1].value.trim();
+        if (ja && en) wordList.push({ ja, en });
+    });
+    if (wordList.length === 0) { toast('単語を1つ以上入力してください'); return; }
+
+    const filenameInput = document.getElementById('editFilenameInput').value.trim();
+
+    if (isCreatingNew) {
+        if (!filenameInput) { toast('ファイル名を入力してください'); return; }
+        try {
+            const res = await fetch(`${API}/api/create`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ filename: filenameInput, words: wordList })
+            });
+            const data = await res.json();
+            if (data.ok) {
+                toast(`「${filenameInput}」を作成しました ✅`);
+                closeEditor();
+                setTimeout(() => init(false), 300);
+            } else { toast('作成に失敗しました'); }
+        } catch { toast('作成に失敗しました'); }
+        return;
+    }
+
+    let targetFile = editCurrentFile;
+    const currentBase = editCurrentFile.split('/').pop().replace(/\.xlsx?$/i, '');
+    try {
+        if (filenameInput && filenameInput !== currentBase) {
+            const r = await fetch(
+                `${API}/api/rename?file=${encodeURIComponent(editCurrentFile)}&newname=${encodeURIComponent(filenameInput)}`,
+                { method: 'POST' }
+            );
+            const rd = await r.json();
+            if (rd.ok) {
+                if (srcName === targetFile) srcName = rd.filename;
+                targetFile = rd.filename;
+                editCurrentFile = targetFile;
+            }
+        }
+        const res = await fetch(`${API}/api/save?file=${encodeURIComponent(targetFile)}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ words: wordList })
+        });
+        const data = await res.json();
+        if (data.ok) {
+            toast('保存しました ✅');
+            if (srcName === targetFile) {
+                const prev = {};
+                words.forEach(w => { prev[w.ja + '\x00' + w.en] = w.status; });
+                words = wordList.map(w => ({ ...w, status: prev[w.ja + '\x00' + w.en] || 'unknown' }));
+                saveProgress();
+                document.getElementById('fileName').textContent =
+                    targetFile.split('/').pop().replace(/\.xlsx?$/i, '');
+                applyFilter();
+            }
+            closeEditor();
+        } else { toast('保存に失敗しました'); }
+    } catch { toast('保存に失敗しました'); }
+}
+
+async function confirmDeleteFile(filename) {
+    const basename = filename.split('/').pop();
+    showConfirm(`「${basename}」を削除しますか？\nこの操作は取り消せません。`, async confirmed => {
+        if (!confirmed) return;
+        try {
+            const res = await fetch(`${API}/api/delete?file=${encodeURIComponent(filename)}`,
+                { method: 'POST' });
+            const data = await res.json();
+            if (data.ok) { toast(`「${basename}」を削除しました`); init(false); }
+            else { toast('削除に失敗しました'); }
+        } catch { toast('削除に失敗しました'); }
+    });
+}
+
+function showConfirm(msg, callback) {
+    _confirmCallback = callback;
+    document.getElementById('confirmMsg').textContent = msg;
+    document.getElementById('confirmModal').classList.remove('hidden');
+}
+
+function closeConfirm(confirmed) {
+    document.getElementById('confirmModal').classList.add('hidden');
+    if (_confirmCallback) { _confirmCallback(confirmed); _confirmCallback = null; }
 }
 </script>
 </body>
