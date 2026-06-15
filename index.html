@@ -507,12 +507,14 @@ const STORE = 'vocabApp_v2';
 // 読み込み優先順位: サーバーAPI（ローカル起動）→ words.json（Netlify）→ ドラッグ&ドロップ
 const API = 'http://localhost:8765';
 
-async function init() {
+// autoLoad: 初回起動時のみ true（1ファイルなら自動読み込み）
+// ファイル変更ボタンからは false にして必ず選択画面を出す
+async function init(autoLoad = true) {
     // 1. ローカルサーバーが起動していればサーバーモード（動的スキャン・常に最新）
     try {
         const res = await fetch(`${API}/api/excel-files`, { signal: AbortSignal.timeout(1000) });
         const files = await res.json();
-        showFileList(files, 'server');
+        showFileList(files, 'server', autoLoad);
         return;
     } catch {}
 
@@ -521,7 +523,7 @@ async function init() {
         const res = await fetch('./words.json', { signal: AbortSignal.timeout(2000) });
         if (res.ok) {
             const data = await res.json();
-            showFileList(data, 'json');
+            showFileList(data, 'json', autoLoad);
             return;
         }
     } catch {}
@@ -530,7 +532,7 @@ async function init() {
     showFallbackMode();
 }
 
-function showFileList(source, mode) {
+function showFileList(source, mode, autoLoad = true) {
     // source: JSONモード → {filename: [{ja,en},...]}  サーバーモード → ['filename', ...]
     const files = mode === 'json' ? Object.keys(source) : source;
 
@@ -548,14 +550,14 @@ function showFileList(source, mode) {
         return;
     }
 
-    if (files.length === 1) {
-        // 1ファイルなら自動読み込み
+    // 初回起動で1ファイルのみの場合だけ自動読み込み
+    if (autoLoad && files.length === 1) {
         if (mode === 'json') loadFromJson(source, files[0]);
         else loadFromServer(files[0]);
         return;
     }
 
-    // 複数ファイルはリスト表示
+    // 選択画面を表示
     wrap.innerHTML = `
         <div class="file-list-wrap">
             <div class="file-list-title">単語帳を選択</div>
@@ -835,7 +837,7 @@ function resetApp() {
     document.getElementById('uploadScreen').classList.remove('hidden');
     document.getElementById('loadingMsg').classList.remove('hidden');
     document.getElementById('fileListWrap').innerHTML = '';
-    init();
+    init(false); // ファイル変更時は1ファイルでも自動読み込みしない
 }
 
 function toast(msg) {
