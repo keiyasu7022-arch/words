@@ -664,7 +664,7 @@ async function init(autoLoad = true) {
 
     // 2. words.json があれば静的モード（Netlifyデプロイ時）
     try {
-        const res = await fetch('./words.json', { signal: AbortSignal.timeout(2000) });
+        const res = await fetch('./words.json?v=' + Date.now(), { signal: AbortSignal.timeout(2000) });
         if (res.ok) {
             const data = await res.json();
             showFileList(data, 'json', autoLoad);
