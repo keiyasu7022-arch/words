@@ -19,7 +19,7 @@ files = []
 for root, dirs, fs in os.walk(BASE):
     dirs[:] = [d for d in dirs if not d.startswith('.')]
     for f in sorted(fs):
-        if f.lower().endswith(('.xlsx', '.xls')):
+        if f.lower().endswith(('.xlsx', '.xls')) and not f.startswith('~$'):
             files.append(os.path.join(root, f))
 files = sorted(files)
 
