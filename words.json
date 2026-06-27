@@ -3230,5 +3230,407 @@
       "ja": "〜より下に",
       "en": "below"
     }
+  ],
+  "単語/単語9.xlsx": [
+    {
+      "ja": "おしゃべりする／雑談する",
+      "en": "chat"
+    },
+    {
+      "ja": "を宣伝する",
+      "en": "advertise"
+    },
+    {
+      "ja": "を感謝する",
+      "en": "appreciate"
+    },
+    {
+      "ja": "を展示する",
+      "en": "exhibit"
+    },
+    {
+      "ja": "を取り決める／準備をする",
+      "en": "arrange"
+    },
+    {
+      "ja": "凍る／を凍らせる",
+      "en": "freeze"
+    },
+    {
+      "ja": "(データなど)をダウンロードする",
+      "en": "download"
+    },
+    {
+      "ja": "を扱う／に手を触れる",
+      "en": "handle"
+    },
+    {
+      "ja": "謝る",
+      "en": "apologize"
+    },
+    {
+      "ja": "自転車で走る／循環する",
+      "en": "cycle"
+    },
+    {
+      "ja": "を嫌う",
+      "en": "dislike"
+    },
+    {
+      "ja": "存在する",
+      "en": "exist"
+    },
+    {
+      "ja": "漂う／浮かぶ／を浮かべる",
+      "en": "float"
+    },
+    {
+      "ja": "流れる",
+      "en": "flow"
+    },
+    {
+      "ja": "を逮捕する",
+      "en": "arrest"
+    },
+    {
+      "ja": "(犬などが)ほえる",
+      "en": "bark"
+    },
+    {
+      "ja": "を掘る",
+      "en": "dig"
+    },
+    {
+      "ja": "を分ける",
+      "en": "divide"
+    },
+    {
+      "ja": "ぴかっと光る／をぱっと照らす",
+      "en": "flash"
+    },
+    {
+      "ja": "(子供の)世話をする／子供を世話する",
+      "en": "babysit"
+    },
+    {
+      "ja": "Aに〜することを強いる",
+      "en": "force"
+    },
+    {
+      "ja": "増加する／を増やす",
+      "en": "increase"
+    },
+    {
+      "ja": "を減らす／減る",
+      "en": "reduce"
+    },
+    {
+      "ja": "を防ぐ／を妨げる",
+      "en": "prevent"
+    },
+    {
+      "ja": "を下げる",
+      "en": "lower"
+    },
+    {
+      "ja": "(太陽などが)昇る／(価格・温度などが)上がる",
+      "en": "rise"
+    },
+    {
+      "ja": "を制限する",
+      "en": "limit"
+    },
+    {
+      "ja": "をそれとわかる／を認識する",
+      "en": "recognize"
+    },
+    {
+      "ja": "のままである／残る",
+      "en": "remain"
+    },
+    {
+      "ja": "昇進する／を促進する",
+      "en": "promote"
+    },
+    {
+      "ja": "を要請する",
+      "en": "request"
+    },
+    {
+      "ja": "を観察する／(法律・習慣など)を守る",
+      "en": "observe"
+    },
+    {
+      "ja": "を克服する／に打ち勝つ",
+      "en": "overcome"
+    },
+    {
+      "ja": "宇宙飛行士",
+      "en": "astronaut"
+    },
+    {
+      "ja": "病気",
+      "en": "disease"
+    },
+    {
+      "ja": "化学製品／化学薬品",
+      "en": "chemical"
+    },
+    {
+      "ja": "教育",
+      "en": "education"
+    },
+    {
+      "ja": "生物学",
+      "en": "biology"
+    },
+    {
+      "ja": "バレエ",
+      "en": "ballet"
+    },
+    {
+      "ja": "世代",
+      "en": "generation"
+    },
+    {
+      "ja": "毛布",
+      "en": "blanket"
+    },
+    {
+      "ja": "ガソリン",
+      "en": "gasoline"
+    },
+    {
+      "ja": "診療所",
+      "en": "clinic"
+    },
+    {
+      "ja": "店員／事務員",
+      "en": "clerk"
+    },
+    {
+      "ja": "エンジニア／技術者",
+      "en": "engineer"
+    },
+    {
+      "ja": "搭乗／乗船／乗車",
+      "en": "boarding"
+    },
+    {
+      "ja": "文書／書類",
+      "en": "document"
+    },
+    {
+      "ja": "感情",
+      "en": "emotion"
+    },
+    {
+      "ja": "(〜s)祝辞／祝いの言葉",
+      "en": "congratulation"
+    },
+    {
+      "ja": "儀式",
+      "en": "ceremony"
+    },
+    {
+      "ja": "10億／(〜sで)数十億",
+      "en": "billion"
+    },
+    {
+      "ja": "助手／補佐",
+      "en": "assistant"
+    },
+    {
+      "ja": "習慣",
+      "en": "habit"
+    },
+    {
+      "ja": "漁師／釣り人",
+      "en": "fisherman"
+    },
+    {
+      "ja": "雰囲気／(the〜)大気",
+      "en": "atmosphere"
+    },
+    {
+      "ja": "コマーシャル",
+      "en": "commercial"
+    },
+    {
+      "ja": "デザイナー／設計者",
+      "en": "designer"
+    },
+    {
+      "ja": "封筒",
+      "en": "envelope"
+    },
+    {
+      "ja": "人物／形／数字／図",
+      "en": "figure"
+    },
+    {
+      "ja": "美／美人",
+      "en": "beauty"
+    },
+    {
+      "ja": "枝／支流／支店",
+      "en": "branch"
+    },
+    {
+      "ja": "ダイエット／日常の食事",
+      "en": "diet"
+    },
+    {
+      "ja": "縁／刃",
+      "en": "edge"
+    },
+    {
+      "ja": "敵",
+      "en": "enemy"
+    },
+    {
+      "ja": "卒業／卒業式",
+      "en": "graduation"
+    },
+    {
+      "ja": "計算機",
+      "en": "calculator"
+    },
+    {
+      "ja": "態度",
+      "en": "attitude"
+    },
+    {
+      "ja": "災害／不幸",
+      "en": "disaster"
+    },
+    {
+      "ja": "予報",
+      "en": "forecast"
+    },
+    {
+      "ja": "(集合的に)家具",
+      "en": "furniture"
+    },
+    {
+      "ja": "角度／観点",
+      "en": "angle"
+    },
+    {
+      "ja": "カブトムシ(の類)",
+      "en": "beetle"
+    },
+    {
+      "ja": "本棚",
+      "en": "bookshelf"
+    },
+    {
+      "ja": "論評／コメント",
+      "en": "comment"
+    },
+    {
+      "ja": "幸福／幸せ",
+      "en": "happiness"
+    },
+    {
+      "ja": "国籍",
+      "en": "nationality"
+    },
+    {
+      "ja": "太った／厚い",
+      "en": "fat"
+    },
+    {
+      "ja": "空の",
+      "en": "empty"
+    },
+    {
+      "ja": "確信して／自信のある",
+      "en": "confident"
+    },
+    {
+      "ja": "正確な",
+      "en": "exact"
+    },
+    {
+      "ja": "死んだ",
+      "en": "dead"
+    },
+    {
+      "ja": "好奇心の強い／知りたがる",
+      "en": "curious"
+    },
+    {
+      "ja": "精通して／よく知られた",
+      "en": "familiar"
+    },
+    {
+      "ja": "素晴らしい／空想的な",
+      "en": "fantastic"
+    },
+    {
+      "ja": "(互いに)似ている／同様で",
+      "en": "alike"
+    },
+    {
+      "ja": "落ち着いた",
+      "en": "calm"
+    },
+    {
+      "ja": "取り扱いの難しい／繊細な",
+      "en": "delicate"
+    },
+    {
+      "ja": "平らな／空気の抜けた／均一の",
+      "en": "flat"
+    },
+    {
+      "ja": "(その)次の／以下の",
+      "en": "following"
+    },
+    {
+      "ja": "ハンサムな／端正な顔立ちの",
+      "en": "handsome"
+    },
+    {
+      "ja": "バランス[均衡]の取れた",
+      "en": "balanced"
+    },
+    {
+      "ja": "勇敢な／勇ましい",
+      "en": "brave"
+    },
+    {
+      "ja": "(人・行為が)不注意な／軽率な",
+      "en": "careless"
+    },
+    {
+      "ja": "愚かな／ばかな",
+      "en": "foolish"
+    },
+    {
+      "ja": "いてつくように寒い[冷たい]",
+      "en": "freezing"
+    },
+    {
+      "ja": "徐々に",
+      "en": "gradually"
+    },
+    {
+      "ja": "結局(は)",
+      "en": "eventually"
+    },
+    {
+      "ja": "その上／さらに",
+      "en": "besides"
+    },
+    {
+      "ja": "(apart fromで)〜を除いて／〜から離れて",
+      "en": "apart"
+    },
+    {
+      "ja": "ほとんど〜ない",
+      "en": "hardly"
+    }
   ]
 }
