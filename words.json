@@ -2,4419 +2,5523 @@
   "単語/all_vocabulary_with_examples.xlsx": [
     {
       "ja": "Oに〜させる",
-      "en": "let"
+      "en": "let",
+      "example": "Let me do it."
     },
     {
       "ja": "を決心する",
-      "en": "decide"
+      "en": "decide",
+      "example": "decide to study abroad"
     },
     {
       "ja": "を訓練する・トレーニングする",
-      "en": "train"
+      "en": "train",
+      "example": "train dogs properly"
     },
     {
       "ja": "を旅行する",
-      "en": "travel"
+      "en": "travel",
+      "example": "travel all through Japan"
     },
     {
       "ja": "OをCのままにしておく / を去る",
-      "en": "leave"
+      "en": "leave",
+      "example": "leave a door open"
     },
     {
       "ja": "を駐車する",
-      "en": "park"
+      "en": "park",
+      "example": "park a car"
     },
     {
       "ja": "を注文する / を命じる",
-      "en": "order"
+      "en": "order",
+      "example": "Are you ready to order?"
     },
     {
       "ja": "を失う / で負ける",
-      "en": "lose"
+      "en": "lose",
+      "example": "I have lost my wallet."
     },
     {
       "ja": "引っ越す / を動かす",
-      "en": "move"
+      "en": "move",
+      "example": "move to a new town"
     },
     {
       "ja": "を支払う",
-      "en": "pay"
+      "en": "pay",
+      "example": "pay $500 for the computer"
     },
     {
       "ja": "待つ",
-      "en": "wait"
+      "en": "wait",
+      "example": "wait in line for the express train"
     },
     {
       "ja": "を変える / 変わる",
-      "en": "change"
+      "en": "change",
+      "example": "change water into ice"
     },
     {
       "ja": "を確かめる / を調べる",
-      "en": "check"
+      "en": "check",
+      "example": "check one's e-mail"
     },
     {
       "ja": "を建てる / を築き上げる",
-      "en": "build"
+      "en": "build",
+      "example": "build a dam"
     },
     {
       "ja": "心配する / を心配させる",
-      "en": "worry"
+      "en": "worry",
+      "example": "Don't worry about me."
     },
     {
       "ja": "を植える / (種)をまく",
-      "en": "plant"
+      "en": "plant",
+      "example": "plant some flowers in a garden"
     },
     {
       "ja": "を練習する / を実行する",
-      "en": "practice"
+      "en": "practice",
+      "example": "practice speaking in English"
     },
     {
       "ja": "気にかける",
-      "en": "care"
+      "en": "care",
+      "example": "Who cares where you will go?"
     },
     {
       "ja": "を描写する",
-      "en": "describe"
+      "en": "describe",
+      "example": "describe what happened"
     },
     {
       "ja": "(費用が)かかる",
-      "en": "cost"
+      "en": "cost",
+      "example": "The table costs $100."
     },
     {
       "ja": "進路を変える / 変わる / を曲がる",
-      "en": "turn"
+      "en": "turn",
+      "example": "turn (to the) left"
     },
     {
       "ja": "に加わる / 参加する",
-      "en": "join"
+      "en": "join",
+      "example": "Why don't you join us?"
     },
     {
       "ja": "成長する / 増大する / を栽培する",
-      "en": "grow"
+      "en": "grow",
+      "example": "grow quickly"
     },
     {
       "ja": "を節約する / を蓄える / を救う",
-      "en": "save"
+      "en": "save",
+      "example": "save energy"
     },
     {
       "ja": "を勝ち取る / に勝つ",
-      "en": "win"
+      "en": "win",
+      "example": "win first prize"
     },
     {
       "ja": "を摘む / を選ぶ",
-      "en": "pick"
+      "en": "pick",
+      "example": "pick flowers in a garden"
     },
     {
       "ja": "を信じる",
-      "en": "believe"
+      "en": "believe",
+      "example": "believe the rumor"
     },
     {
       "ja": "を報道する / を報告する",
-      "en": "report"
+      "en": "report",
+      "example": "The accident was reported."
     },
     {
       "ja": "を忘れる",
-      "en": "forget"
+      "en": "forget",
+      "example": "forget a promise"
     },
     {
       "ja": "を傷つける / 痛む",
-      "en": "hurt"
+      "en": "hurt",
+      "example": "I hurt my arm during the game."
     },
     {
       "ja": "を借りる",
-      "en": "borrow"
+      "en": "borrow",
+      "example": "borrow books from a library"
     },
     {
       "ja": "を驚かせる / 驚く",
-      "en": "surprise"
+      "en": "surprise",
+      "example": "be surprised at the news"
     },
     {
       "ja": "ボランティアをする",
-      "en": "volunteer"
+      "en": "volunteer",
+      "example": "volunteer at a hospital"
     },
     {
       "ja": "を運ぶ / を持ち歩く",
-      "en": "carry"
+      "en": "carry",
+      "example": "carry the bag to my room"
     },
     {
       "ja": "を合わせる / を置く",
-      "en": "set"
+      "en": "set",
+      "example": "set an alarm clock"
     },
     {
       "ja": "を招待する",
-      "en": "invite"
+      "en": "invite",
+      "example": "invite a new friend for dinner"
     },
     {
       "ja": "(偶然)起こる / 偶然〜する",
-      "en": "happen"
+      "en": "happen",
+      "example": "What happened?"
     },
     {
       "ja": "を選ぶ / 選択する",
-      "en": "choose"
+      "en": "choose",
+      "example": "choose a good place"
     },
     {
       "ja": "を案内する / を指導する",
-      "en": "guide"
+      "en": "guide",
+      "example": "guide him around Tokyo"
     },
     {
       "ja": "到着する",
-      "en": "arrive"
+      "en": "arrive",
+      "example": "arrive at the airport"
     },
     {
       "ja": "AにBを申し出る / AにBを提供する",
-      "en": "offer"
+      "en": "offer",
+      "example": "offer him help"
     },
     {
       "ja": "を覚えている / 忘れずに〜する",
-      "en": "remember"
+      "en": "remember",
+      "example": "remember meeting her somewhere"
     },
     {
       "ja": "を中止する / を取り消す",
-      "en": "cancel"
+      "en": "cancel",
+      "example": "The game was canceled."
     },
     {
       "ja": "を修理する",
-      "en": "repair"
+      "en": "repair",
+      "example": "repair an old watch"
     },
     {
       "ja": "言い訳 / 弁解",
-      "en": "excuse"
+      "en": "excuse",
+      "example": "make a silly excuse"
     },
     {
       "ja": "インターネット",
-      "en": "Internet"
+      "en": "Internet",
+      "example": "on the Internet"
     },
     {
       "ja": "考え / 思いつき / アイデア",
-      "en": "idea"
+      "en": "idea",
+      "example": "come up with a good idea"
     },
     {
       "ja": "情報",
-      "en": "information"
+      "en": "information",
+      "example": "a piece of information"
     },
     {
       "ja": "あなた / おまえ / はちみつ",
-      "en": "honey"
+      "en": "honey",
+      "example": "Give me a hand, honey."
     },
     {
       "ja": "火 / 火災",
-      "en": "fire"
+      "en": "fire",
+      "example": "make a fire"
     },
     {
       "ja": "野菜",
-      "en": "vegetable"
+      "en": "vegetable",
+      "example": "grow vegetables"
     },
     {
       "ja": "状況 / 情勢",
-      "en": "situation"
+      "en": "situation",
+      "example": "describe the situation"
     },
     {
       "ja": "パッセージ / 通路 / 一節",
-      "en": "passage"
+      "en": "passage",
+      "example": "according to the passage"
     },
     {
       "ja": "出来事 / 行事",
-      "en": "event"
+      "en": "event",
+      "example": "world events"
     },
     {
       "ja": "奥さま / お嬢さま / 先生",
-      "en": "ma'am"
+      "en": "ma'am",
+      "example": "May I help you, ma'am?"
     },
     {
       "ja": "アボカド",
-      "en": "avocado"
+      "en": "avocado",
+      "example": "avocado seeds"
     },
     {
       "ja": "種類 / 型 / タイプ",
-      "en": "type"
+      "en": "type",
+      "example": "a different type of test"
     },
     {
       "ja": "パン屋",
-      "en": "bakery"
+      "en": "bakery",
+      "example": "open a new bakery"
     },
     {
       "ja": "将来 / 未来",
-      "en": "future"
+      "en": "future",
+      "example": "in the near future"
     },
     {
       "ja": "(健康のための)運動 / 練習 / 練習問題",
-      "en": "exercise"
+      "en": "exercise",
+      "example": "get some exercise"
     },
     {
       "ja": "びん / ボトル",
-      "en": "bottle"
+      "en": "bottle",
+      "example": "plastic bottles"
     },
     {
       "ja": "標識 / 合図 / 前兆",
-      "en": "sign"
+      "en": "sign",
+      "example": "traffic signs"
     },
     {
       "ja": "サービス / 奉仕",
-      "en": "service"
+      "en": "service",
+      "example": "offer childcare services"
     },
     {
       "ja": "(台所から出る)生ゴミ",
-      "en": "garbage"
+      "en": "garbage",
+      "example": "take out garbage"
     },
     {
       "ja": "(商店などの)顧客",
-      "en": "customer"
+      "en": "customer",
+      "example": "attract customers"
     },
     {
       "ja": "職業 / 商売",
-      "en": "business"
+      "en": "business",
+      "example": "take a business trip"
     },
     {
       "ja": "トラブル / 悩み(の種)",
-      "en": "trouble"
+      "en": "trouble",
+      "example": "cause a lot of trouble"
     },
     {
       "ja": "見学 / (周遊)旅行",
-      "en": "tour"
+      "en": "tour",
+      "example": "a campus tour"
     },
     {
       "ja": "競走 / 競争",
-      "en": "race"
+      "en": "race",
+      "example": "a bicycle race"
     },
     {
       "ja": "自然環境 / 環境",
-      "en": "environment"
+      "en": "environment",
+      "example": "protect the environment"
     },
     {
       "ja": "活動",
-      "en": "activity"
+      "en": "activity",
+      "example": "club activities"
     },
     {
       "ja": "他の / もう一方の",
-      "en": "other"
+      "en": "other",
+      "example": "a big difference between humans and other animals"
     },
     {
       "ja": "いろいろな / 違った",
-      "en": "different"
+      "en": "different",
+      "example": "grow many different kinds of vegetables"
     },
     {
       "ja": "重要な / 大切な",
-      "en": "important"
+      "en": "important",
+      "example": "teach children important skills for learning"
     },
     {
       "ja": "特別な",
-      "en": "special"
+      "en": "special",
+      "example": "for a special reason"
     },
     {
       "ja": "十分な",
-      "en": "enough"
+      "en": "enough",
+      "example": "enough food"
     },
     {
       "ja": "高価な",
-      "en": "expensive"
+      "en": "expensive",
+      "example": "an expensive dress"
     },
     {
       "ja": "困難な",
-      "en": "difficult"
+      "en": "difficult",
+      "example": "a difficult problem"
     },
     {
       "ja": "ほとんど〜ない / (a〜で)少数の〜",
-      "en": "few"
+      "en": "few",
+      "example": "fewer people than I expected"
     },
     {
       "ja": "別の / もう1つ[1人]の",
-      "en": "another"
+      "en": "another",
+      "example": "Show me another dress."
     },
     {
       "ja": "接近した / 親密な",
-      "en": "close"
+      "en": "close",
+      "example": "get close to the animal"
     },
     {
       "ja": "自分自身の",
-      "en": "own"
+      "en": "own",
+      "example": "Check everything with your own eyes."
     },
     {
       "ja": "地元の / 局所の",
-      "en": "local"
+      "en": "local",
+      "example": "local news"
     },
     {
       "ja": "おいしい",
-      "en": "delicious"
+      "en": "delicious",
+      "example": "a delicious meal"
     },
     {
       "ja": "外国の",
-      "en": "foreign"
+      "en": "foreign",
+      "example": "a foreign language"
     },
     {
       "ja": "しかしながら / どんなに〜でも",
-      "en": "however"
+      "en": "however",
+      "example": "He tried hard. However, he failed."
     },
     {
       "ja": "〜(で)さえ / さらに",
-      "en": "even"
+      "en": "even",
+      "example": "even today"
     },
     {
       "ja": "オンラインで",
-      "en": "online"
+      "en": "online",
+      "example": "reserve a room online"
     },
     {
       "ja": "屋外に[で] / 外に[で]",
-      "en": "outside"
+      "en": "outside",
+      "example": "hold a concert outside"
     },
     {
       "ja": "その代わりに",
-      "en": "instead"
+      "en": "instead",
+      "example": "use cloth bags instead"
     },
     {
       "ja": "(距離が)遠くに / (時間が)はるかに",
-      "en": "far"
+      "en": "far",
+      "example": "Is the station really that far?"
     },
     {
       "ja": "多分",
-      "en": "probably"
+      "en": "probably",
+      "example": "He will probably succeed."
     },
     {
       "ja": "でも / やっぱり",
-      "en": "though"
+      "en": "though",
+      "example": "I'd like a cup of coffee, though."
     },
     {
       "ja": "実際に / 本当のところは",
-      "en": "actually"
+      "en": "actually",
+      "example": "It actually happened."
     },
     {
       "ja": "後で / もっと遅く",
-      "en": "later"
+      "en": "later",
+      "example": "three years later"
     },
     {
       "ja": "(疑問文で)もう / (否定文で)まだ(〜ない)",
-      "en": "yet"
+      "en": "yet",
+      "example": "Have you eaten dinner yet?"
     },
     {
       "ja": "すぐに / 急いで",
-      "en": "quickly"
+      "en": "quickly",
+      "example": "answer quickly"
     },
     {
       "ja": "屋内に[で] / 内側に[で]",
-      "en": "inside"
+      "en": "inside",
+      "example": "stay inside"
     },
     {
       "ja": "とにかく",
-      "en": "anyway"
+      "en": "anyway",
+      "example": "Thanks anyway."
     },
     {
       "ja": "…している間に / …ではあるが",
-      "en": "while"
+      "en": "while",
+      "example": "while I am away"
     },
     {
       "ja": "の味がする / を味わう",
-      "en": "taste"
+      "en": "taste",
+      "example": "This soup tastes really good."
     },
     {
       "ja": "を修理する / を固定する",
-      "en": "fix"
+      "en": "fix",
+      "example": "fix a camera"
     },
     {
       "ja": "を開催する / を持つ",
-      "en": "hold"
+      "en": "hold",
+      "example": "hold a welcome party"
     },
     {
       "ja": "を集める",
-      "en": "collect"
+      "en": "collect",
+      "example": "collect cans"
     },
     {
       "ja": "にペンキを塗る / の絵を描く",
-      "en": "paint"
+      "en": "paint",
+      "example": "paint a fence"
     },
     {
       "ja": "(の)写しを取る / をまねる",
-      "en": "copy"
+      "en": "copy",
+      "example": "copy data"
     },
     {
       "ja": "を推測する",
-      "en": "guess"
+      "en": "guess",
+      "example": "guess his age"
     },
     {
       "ja": "を創造する",
-      "en": "create"
+      "en": "create",
+      "example": "create something new"
     },
     {
       "ja": "OがSするのを許す",
-      "en": "allow"
+      "en": "allow",
+      "example": "allow my daughter to stay out late"
     },
     {
       "ja": "帰る / 戻る / を返す",
-      "en": "return"
+      "en": "return",
+      "example": "return to Japan"
     },
     {
       "ja": "を提案する / を暗示する",
-      "en": "suggest"
+      "en": "suggest",
+      "example": "suggest studying together"
     },
     {
       "ja": "くつろぐ / をくつろがせる",
-      "en": "relax"
+      "en": "relax",
+      "example": "Sit back and relax."
     },
     {
       "ja": "を加える",
-      "en": "add"
+      "en": "add",
+      "example": "Is there anything to add?"
     },
     {
       "ja": "を予約する / を取っておく",
-      "en": "reserve"
+      "en": "reserve",
+      "example": "reserve a hotel room"
     },
     {
       "ja": "をデザイン[設計]する",
-      "en": "design"
+      "en": "design",
+      "example": "design a wedding dress"
     },
     {
       "ja": "についていく / に続く / に従う",
-      "en": "follow"
+      "en": "follow",
+      "example": "Follow me."
     },
     {
       "ja": "の心をとらえる / を引きつける",
-      "en": "attract"
+      "en": "attract",
+      "example": "attract young people"
     },
     {
       "ja": "に合格する / を手渡す / 通り過ぎる",
-      "en": "pass"
+      "en": "pass",
+      "example": "pass the test"
     },
     {
       "ja": "がいなくて寂しく思う / を損なう / に乗り遅れる",
-      "en": "miss"
+      "en": "miss",
+      "example": "I miss you."
     },
     {
       "ja": "を推薦する / を勧める",
-      "en": "recommend"
+      "en": "recommend",
+      "example": "recommend a good book"
     },
     {
       "ja": "(飲食物)を出す / に給仕する / に仕える",
-      "en": "serve"
+      "en": "serve",
+      "example": "serve good coffee"
     },
     {
       "ja": "を借りる / を貸す",
-      "en": "rent"
+      "en": "rent",
+      "example": "rent a house from him"
     },
     {
       "ja": "(wake up で)目を覚ます / を起こす",
-      "en": "wake"
+      "en": "wake",
+      "example": "Wake up now!"
     },
     {
       "ja": "(パンなど)を焼く",
-      "en": "bake"
+      "en": "bake",
+      "example": "bake cookies"
     },
     {
       "ja": "を準備する",
-      "en": "prepare"
+      "en": "prepare",
+      "example": "prepare food and water for an emergency"
     },
     {
       "ja": "に損傷[損害]を与える",
-      "en": "damage"
+      "en": "damage",
+      "example": "damage an expensive car"
     },
     {
       "ja": "を我慢する",
-      "en": "bear"
+      "en": "bear",
+      "example": "bear pain"
     },
     {
       "ja": "のようだ / のように見える[思える]",
-      "en": "seem"
+      "en": "seem",
+      "example": "He seems (to be) sick."
     },
     {
       "ja": "を説明する",
-      "en": "explain"
+      "en": "explain",
+      "example": "explain the rule to him"
     },
     {
       "ja": "を引き起こす",
-      "en": "cause"
+      "en": "cause",
+      "example": "cause trouble"
     },
     {
       "ja": "を満たす",
-      "en": "fill"
+      "en": "fill",
+      "example": "My room is filled with books."
     },
     {
       "ja": "を殺す / (時間)をつぶす",
-      "en": "kill"
+      "en": "kill",
+      "example": "be killed in the accident"
     },
     {
       "ja": "服を着る / に服を着せる",
-      "en": "dress"
+      "en": "dress",
+      "example": "dress well for work"
     },
     {
       "ja": "を投げる",
-      "en": "throw"
+      "en": "throw",
+      "example": "throw a ball to him"
     },
     {
       "ja": "に気づく",
-      "en": "notice"
+      "en": "notice",
+      "example": "notice a serious error"
     },
     {
       "ja": "結果 / 成果",
-      "en": "result"
+      "en": "result",
+      "example": "the result of the test"
     },
     {
       "ja": "(最)前部 / 正面",
-      "en": "front"
+      "en": "front",
+      "example": "sit in the front"
     },
     {
       "ja": "調理法 / レシピ",
-      "en": "recipe"
+      "en": "recipe",
+      "example": "my favorite recipe"
     },
     {
       "ja": "地域 / 区域 / 領域",
-      "en": "area"
+      "en": "area",
+      "example": "a business area"
     },
     {
       "ja": "訪問者",
-      "en": "visitor"
+      "en": "visitor",
+      "example": "visitors to a museum"
     },
     {
       "ja": "衣服",
-      "en": "clothes"
+      "en": "clothes",
+      "example": "put on[take off] clothes"
     },
     {
       "ja": "プラスチック",
-      "en": "plastic"
+      "en": "plastic",
+      "example": "a basket made of plastic"
     },
     {
       "ja": "機会",
-      "en": "chance"
+      "en": "chance",
+      "example": "the last chance to try it"
     },
     {
       "ja": "販売 / 特売",
-      "en": "sale"
+      "en": "sale",
+      "example": "a house for sale"
     },
     {
       "ja": "技術 / 熟練",
-      "en": "skill"
+      "en": "skill",
+      "example": "learn a useful skill"
     },
     {
       "ja": "発表 / 提示 / 贈呈",
-      "en": "presentation"
+      "en": "presentation",
+      "example": "make a presentation in class"
     },
     {
       "ja": "定期航空便 / フライト",
-      "en": "flight"
+      "en": "flight",
+      "example": "My flight was delayed."
     },
     {
       "ja": "車輪 / ハンドル",
-      "en": "wheel"
+      "en": "wheel",
+      "example": "a front wheel"
     },
     {
       "ja": "製品 / 産物",
-      "en": "product"
+      "en": "product",
+      "example": "industrial products"
     },
     {
       "ja": "食事",
-      "en": "meal"
+      "en": "meal",
+      "example": "prepare a meal"
     },
     {
       "ja": "種 / 種子",
-      "en": "seed"
+      "en": "seed",
+      "example": "have a large seed"
     },
     {
       "ja": "陸地 / 土地",
-      "en": "land"
+      "en": "land",
+      "example": "live on land"
     },
     {
       "ja": "薬 / 医学",
-      "en": "medicine"
+      "en": "medicine",
+      "example": "take some medicine"
     },
     {
       "ja": "(部屋・切符などの)予約",
-      "en": "reservation"
+      "en": "reservation",
+      "example": "Do you have a reservation?"
     },
     {
       "ja": "宇宙 / 余地",
-      "en": "space"
+      "en": "space",
+      "example": "space travel"
     },
     {
       "ja": "アパート",
-      "en": "apartment"
+      "en": "apartment",
+      "example": "move into a new apartment"
     },
     {
       "ja": "虫 / 昆虫",
-      "en": "insect"
+      "en": "insect",
+      "example": "an insect bite"
     },
     {
       "ja": "ショッピングモール",
-      "en": "mall"
+      "en": "mall",
+      "example": "go shopping at a mall"
     },
     {
       "ja": "スマートフォン",
-      "en": "smartphone"
+      "en": "smartphone",
+      "example": "download an app onto your smartphone"
     },
     {
       "ja": "成績 / 学年 / 等級",
-      "en": "grade"
+      "en": "grade",
+      "example": "get a good grade"
     },
     {
       "ja": "(the〜)警察",
-      "en": "police"
+      "en": "police",
+      "example": "call the police"
     },
     {
       "ja": "賞 / 賞品",
-      "en": "prize"
+      "en": "prize",
+      "example": "give a prize"
     },
     {
       "ja": "市場",
-      "en": "market"
+      "en": "market",
+      "example": "go to (the) market"
     },
     {
       "ja": "見本市 / 博覧会 / 品評会",
-      "en": "fair"
+      "en": "fair",
+      "example": "a book fair"
     },
     {
       "ja": "(新聞・雑誌などの)欄 / 区画 / 部門",
-      "en": "section"
+      "en": "section",
+      "example": "the sports section of the newspaper"
     },
     {
       "ja": "価格",
-      "en": "price"
+      "en": "price",
+      "example": "be sold at a high[low] price"
     },
     {
       "ja": "事実 / 実際にあったこと",
-      "en": "fact"
+      "en": "fact",
+      "example": "a well-known fact"
     },
     {
       "ja": "(企業などの)部 / 学部 / 売場",
-      "en": "department"
+      "en": "department",
+      "example": "the sales department"
     },
     {
       "ja": "規則 / 支配",
-      "en": "rule"
+      "en": "rule",
+      "example": "keep[break] the rules"
     },
     {
       "ja": "(しばしばN-)自然 / 性質",
-      "en": "nature"
+      "en": "nature",
+      "example": "live in harmony with nature"
     },
     {
       "ja": "島",
-      "en": "island"
+      "en": "island",
+      "example": "live on a small island"
     },
     {
       "ja": "(複数扱い)商品 / 品物",
-      "en": "goods"
+      "en": "goods",
+      "example": "camping goods"
     },
     {
       "ja": "消防隊員",
-      "en": "firefighter"
+      "en": "firefighter",
+      "example": "a brave firefighter"
     },
     {
       "ja": "(一般に)人 / 人間",
-      "en": "person"
+      "en": "person",
+      "example": "a very important person"
     },
     {
       "ja": "夫",
-      "en": "husband"
+      "en": "husband",
+      "example": "husband and wife"
     },
     {
       "ja": "品目 / 項目",
-      "en": "item"
+      "en": "item",
+      "example": "order a kitchen item"
     },
     {
       "ja": "隣人 / 近所の人",
-      "en": "neighbor"
+      "en": "neighbor",
+      "example": "My neighbors are very nice."
     },
     {
       "ja": "オーケストラ / 管弦楽団",
-      "en": "orchestra"
+      "en": "orchestra",
+      "example": "an orchestra concert"
     },
     {
       "ja": "門 / (空港などの)ゲート",
-      "en": "gate"
+      "en": "gate",
+      "example": "the front gate"
     },
     {
       "ja": "健康に良い / 健康な",
-      "en": "healthy"
+      "en": "healthy",
+      "example": "healthy food"
     },
     {
       "ja": "本当の",
-      "en": "true"
+      "en": "true",
+      "example": "true love"
     },
     {
       "ja": "(…ではないかと)心配して / 怖がって",
-      "en": "afraid"
+      "en": "afraid",
+      "example": "I'm afraid he will be late."
     },
     {
       "ja": "危険な",
-      "en": "dangerous"
+      "en": "dangerous",
+      "example": "a dangerous adventure"
     },
     {
       "ja": "野生の / 荒れ果てた",
-      "en": "wild"
+      "en": "wild",
+      "example": "wild animals"
     },
     {
       "ja": "安全な / 無事で",
-      "en": "safe"
+      "en": "safe",
+      "example": "hide it in a safe place"
     },
     {
       "ja": "過去の",
-      "en": "past"
+      "en": "past",
+      "example": "past failure"
     },
     {
       "ja": "入手[利用]できる / 手が空いている",
-      "en": "available"
+      "en": "available",
+      "example": "This shirt is available in all sizes."
     },
     {
       "ja": "成功した",
-      "en": "successful"
+      "en": "successful",
+      "example": "a successful businessperson"
     },
     {
       "ja": "完全な",
-      "en": "perfect"
+      "en": "perfect",
+      "example": "in perfect condition"
     },
     {
       "ja": "(程度・回数が)より少なく",
-      "en": "less"
+      "en": "less",
+      "example": "less busy than usual"
     },
     {
       "ja": "簡単に / 気楽に",
-      "en": "easily"
+      "en": "easily",
+      "example": "solve a problem easily"
     },
     {
       "ja": "その他に / 代わりに",
-      "en": "else"
+      "en": "else",
+      "example": "Anything else?"
     },
     {
       "ja": "海外で[へ / に]",
-      "en": "abroad"
+      "en": "abroad",
+      "example": "study abroad"
     },
     {
       "ja": "最近 / 近ごろ",
-      "en": "recently"
+      "en": "recently",
+      "example": "The singer has been popular recently."
     },
     {
       "ja": "今日では / 近ごろは",
-      "en": "nowadays"
+      "en": "nowadays",
+      "example": "Nowadays, computers are widely used."
     },
     {
       "ja": "どこかに[で / へ]",
-      "en": "somewhere"
+      "en": "somewhere",
+      "example": "He is hiding somewhere."
     },
     {
       "ja": "(時間的に)先へ / (空間的に)前へ[に]",
-      "en": "forward"
+      "en": "forward",
+      "example": "go forward to the future"
     },
     {
       "ja": "…だけれども",
-      "en": "although"
+      "en": "although",
+      "example": "Although I'm busy, I'll go."
     },
     {
       "ja": "〜なしで[の] / 〜しないで",
-      "en": "without"
+      "en": "without",
+      "example": "dogs without homes"
     },
     {
       "ja": "〜を通って / 〜を通じて / 〜中ずっと",
-      "en": "through"
+      "en": "through",
+      "example": "go through the tunnel"
     },
     {
       "ja": "交換する / 換える",
-      "en": "exchange"
+      "en": "exchange",
+      "example": "exchange ideas"
     },
     {
       "ja": "落とす / 落ちる / をやめる",
-      "en": "drop"
+      "en": "drop",
+      "example": "drop a camera"
     },
     {
       "ja": "登る",
-      "en": "climb"
+      "en": "climb",
+      "example": "climb a huge rock"
     },
     {
       "ja": "においがする / においをかぐ",
-      "en": "smell"
+      "en": "smell",
+      "example": "It smells good."
     },
     {
       "ja": "デートする / 付き合う",
-      "en": "date"
+      "en": "date",
+      "example": "decide to date her"
     },
     {
       "ja": "を紹介する / を導入する",
-      "en": "introduce"
+      "en": "introduce",
+      "example": "He introduced himself at the party."
     },
     {
       "ja": "を再利用する",
-      "en": "recycle"
+      "en": "recycle",
+      "example": "recycle plastic bottles"
     },
     {
       "ja": "を演じる / を実行する",
-      "en": "perform"
+      "en": "perform",
+      "example": "perform a play"
     },
     {
       "ja": "〜だといいのにと思う / を望む",
-      "en": "wish"
+      "en": "wish",
+      "example": "I wish you were here."
     },
     {
       "ja": "と結婚する",
-      "en": "marry"
+      "en": "marry",
+      "example": "Finally he married her."
     },
     {
       "ja": "を表現する",
-      "en": "express"
+      "en": "express",
+      "example": "express your idea"
     },
     {
       "ja": "を隠す / 隠れる",
-      "en": "hide"
+      "en": "hide",
+      "example": "hide behind the door"
     },
     {
       "ja": "を保護する",
-      "en": "protect"
+      "en": "protect",
+      "example": "protect children from danger"
     },
     {
       "ja": "を受け取る",
-      "en": "receive"
+      "en": "receive",
+      "example": "receive a letter from him"
     },
     {
       "ja": "を盗む",
-      "en": "steal"
+      "en": "steal",
+      "example": "steal money from a bank"
     },
     {
       "ja": "にインタビューする",
-      "en": "interview"
+      "en": "interview",
+      "example": "interview a famous soccer player"
     },
     {
       "ja": "に食べ物を与える",
-      "en": "feed"
+      "en": "feed",
+      "example": "feed a baby"
     },
     {
       "ja": "広がる / を広げる",
-      "en": "spread"
+      "en": "spread",
+      "example": "spread all over the country"
     },
     {
       "ja": "を配達する",
-      "en": "deliver"
+      "en": "deliver",
+      "example": "deliver newspapers"
     },
     {
       "ja": "捜す",
-      "en": "search"
+      "en": "search",
+      "example": "search for a missing dog"
     },
     {
       "ja": "を噛む / 噛みつく",
-      "en": "bite"
+      "en": "bite",
+      "example": "be bitten by a dog"
     },
     {
       "ja": "取引する / 売買する",
-      "en": "trade"
+      "en": "trade",
+      "example": "trade food for gold"
     },
     {
       "ja": "を発表する",
-      "en": "announce"
+      "en": "announce",
+      "example": "announce a new plan"
     },
     {
       "ja": "を生産する / をもたらす",
-      "en": "produce"
+      "en": "produce",
+      "example": "produce goods"
     },
     {
       "ja": "を共有する / 〜を分け合う",
-      "en": "share"
+      "en": "share",
+      "example": "share a room with him"
     },
     {
       "ja": "を描く / を引く",
-      "en": "draw"
+      "en": "draw",
+      "example": "draw a picture"
     },
     {
       "ja": "木材 / 林",
-      "en": "wood"
+      "en": "wood",
+      "example": "a house made of wood"
     },
     {
       "ja": "理由 / 訳",
-      "en": "reason"
+      "en": "reason",
+      "example": "a good reason"
     },
     {
       "ja": "経験 / 体験",
-      "en": "experience"
+      "en": "experience",
+      "example": "have no experience in teaching"
     },
     {
       "ja": "請求書 / 勘定",
-      "en": "bill"
+      "en": "bill",
+      "example": "pay the telephone bill"
     },
     {
       "ja": "割引 / 値引き",
-      "en": "discount"
+      "en": "discount",
+      "example": "get a discount"
     },
     {
       "ja": "形 / 用紙",
-      "en": "form"
+      "en": "form",
+      "example": "an application form"
     },
     {
       "ja": "所有者 / オーナー",
-      "en": "owner"
+      "en": "owner",
+      "example": "the owner of this restaurant"
     },
     {
       "ja": "片側 / 側面",
-      "en": "side"
+      "en": "side",
+      "example": "on the other side of the building"
     },
     {
       "ja": "地域 / 共同体 / コミュニティ",
-      "en": "community"
+      "en": "community",
+      "example": "a community center"
     },
     {
       "ja": "招待客 / 宿泊客",
-      "en": "guest"
+      "en": "guest",
+      "example": "a hotel guest"
     },
     {
       "ja": "演技 / 公演",
-      "en": "performance"
+      "en": "performance",
+      "example": "a perfect performance"
     },
     {
       "ja": "道具",
-      "en": "tool"
+      "en": "tool",
+      "example": "carpenter tools"
     },
     {
       "ja": "1世紀 / 100年(間)",
-      "en": "century"
+      "en": "century",
+      "example": "in the early 20th century"
     },
     {
       "ja": "デザート",
-      "en": "dessert"
+      "en": "dessert",
+      "example": "have[get, take, eat] (a) dessert"
     },
     {
       "ja": "詩",
-      "en": "poem"
+      "en": "poem",
+      "example": "write[compose] a poem"
     },
     {
       "ja": "政府",
-      "en": "government"
+      "en": "government",
+      "example": "the central government"
     },
     {
       "ja": "小説",
-      "en": "novel"
+      "en": "novel",
+      "example": "a historical novel"
     },
     {
       "ja": "教授",
-      "en": "professor"
+      "en": "professor",
+      "example": "Professor Robert Long"
     },
     {
       "ja": "計画 / プロジェクト",
-      "en": "project"
+      "en": "project",
+      "example": "a research project"
     },
     {
       "ja": "慈善 / 慈善団体",
-      "en": "charity"
+      "en": "charity",
+      "example": "a charity concert"
     },
     {
       "ja": "100万 / 〜百万",
-      "en": "million"
+      "en": "million",
+      "example": "a few million"
     },
     {
       "ja": "楽器 / 器具",
-      "en": "instrument"
+      "en": "instrument",
+      "example": "a musical instrument"
     },
     {
       "ja": "間違い",
-      "en": "mistake"
+      "en": "mistake",
+      "example": "make a mistake"
     },
     {
       "ja": "地球 / 大地",
-      "en": "earth"
+      "en": "earth",
+      "example": "live on the Earth"
     },
     {
       "ja": "住所 / 演説",
-      "en": "address"
+      "en": "address",
+      "example": "her present address"
     },
     {
       "ja": "同僚",
-      "en": "co-worker"
+      "en": "co-worker",
+      "example": "a co-worker at my office"
     },
     {
       "ja": "クリーニング屋",
-      "en": "cleaner"
+      "en": "cleaner",
+      "example": "take a suit to the cleaner's"
     },
     {
       "ja": "試合",
-      "en": "match"
+      "en": "match",
+      "example": "a tennis match"
     },
     {
       "ja": "ファン / 扇風機",
-      "en": "fan"
+      "en": "fan",
+      "example": "a big fan of the music band"
     },
     {
       "ja": "祖父 / 祖母",
-      "en": "grandparent"
+      "en": "grandparent",
+      "example": "I visited my grandparents."
     },
     {
       "ja": "大統領 / (会社の)社長",
-      "en": "president"
+      "en": "president",
+      "example": "President Kennedy"
     },
     {
       "ja": "壁紙",
-      "en": "wallpaper"
+      "en": "wallpaper",
+      "example": "colorful wallpaper"
     },
     {
       "ja": "健康",
-      "en": "health"
+      "en": "health",
+      "example": "be in good health"
     },
     {
       "ja": "ヨーロッパ",
-      "en": "Europe"
+      "en": "Europe",
+      "example": "travel across Europe"
     },
     {
       "ja": "技術 / テクノロジー",
-      "en": "technology"
+      "en": "technology",
+      "example": "information technology"
     },
     {
       "ja": "スーツ / 正装",
-      "en": "suit"
+      "en": "suit",
+      "example": "a man in a black suit"
     },
     {
       "ja": "メモ / ノート",
-      "en": "note"
+      "en": "note",
+      "example": "take notes in class"
     },
     {
       "ja": "得点 / 点数",
-      "en": "score"
+      "en": "score",
+      "example": "get a perfect score"
     },
     {
       "ja": "贈り物 / 才能",
-      "en": "gift"
+      "en": "gift",
+      "example": "have a special gift for music"
     },
     {
       "ja": "休息 / 残り",
-      "en": "rest"
+      "en": "rest",
+      "example": "Let's take a rest and have coffee."
     },
     {
       "ja": "眺め / 見解",
-      "en": "view"
+      "en": "view",
+      "example": "a beautiful view of the old city"
     },
     {
       "ja": "群衆",
-      "en": "crowd"
+      "en": "crowd",
+      "example": "a crowd of people"
     },
     {
       "ja": "ジャズ",
-      "en": "jazz"
+      "en": "jazz",
+      "example": "listen to jazz music"
     },
     {
       "ja": "方向 / 方角",
-      "en": "direction"
+      "en": "direction",
+      "example": "in all directions"
     },
     {
       "ja": "話題 / トピック",
-      "en": "topic"
+      "en": "topic",
+      "example": "today's main topic"
     },
     {
       "ja": "財布",
-      "en": "wallet"
+      "en": "wallet",
+      "example": "a thick wallet"
     },
     {
       "ja": "一片 / 一枚 / 1個",
-      "en": "piece"
+      "en": "piece",
+      "example": "be made of many different pieces of wood"
     },
     {
       "ja": "小包 / 荷物",
-      "en": "package"
+      "en": "package",
+      "example": "send[pick up] a package"
     },
     {
       "ja": "チームメート",
-      "en": "teammate"
+      "en": "teammate",
+      "example": "cheer up a teammate"
     },
     {
       "ja": "遊び場 / (競技の)グラウンド",
-      "en": "playground"
+      "en": "playground",
+      "example": "a safe playground for children"
     },
     {
       "ja": "惑星",
-      "en": "planet"
+      "en": "planet",
+      "example": "Planets move around the sun."
     },
     {
       "ja": "(美容)院 / 美容室",
-      "en": "salon"
+      "en": "salon",
+      "example": "a hair[beauty] salon"
     },
     {
       "ja": "事故",
-      "en": "accident"
+      "en": "accident",
+      "example": "cause a car accident"
     },
     {
       "ja": "俳優",
-      "en": "actor"
+      "en": "actor",
+      "example": "a movie actor"
     },
     {
       "ja": "伝統的な",
-      "en": "traditional"
+      "en": "traditional",
+      "example": "a traditional way of life"
     },
     {
       "ja": "ロシアの / ロシア人の",
-      "en": "Russian"
+      "en": "Russian",
+      "example": "traditional Russian culture"
     },
     {
       "ja": "人間の / 人類の",
-      "en": "human"
+      "en": "human",
+      "example": "a human body"
     },
     {
       "ja": "安い(⇔expensive)",
-      "en": "cheap"
+      "en": "cheap",
+      "example": "a cheap camera"
     },
     {
       "ja": "(2者のうち)どちらか一方の / どちらでも",
-      "en": "either"
+      "en": "either",
+      "example": "in either case"
     },
     {
       "ja": "プロの / 専門家の",
-      "en": "professional"
+      "en": "professional",
+      "example": "a professional baseball player"
     },
     {
       "ja": "似ている / 同様の",
-      "en": "similar"
+      "en": "similar",
+      "example": "in a similar way"
     },
     {
       "ja": "パートタイムの(⇔full-time)",
-      "en": "part-time"
+      "en": "part-time",
+      "example": "do a part-time job"
     },
     {
       "ja": "全体の",
-      "en": "whole"
+      "en": "whole",
+      "example": "the whole world"
     },
     {
       "ja": "冷凍の / 凍った",
-      "en": "frozen"
+      "en": "frozen",
+      "example": "buy frozen foods"
     },
     {
       "ja": "中心(部)の",
-      "en": "central"
+      "en": "central",
+      "example": "a central area"
     },
     {
       "ja": "(音が)大きい(⇔low) / (声が)大声の",
-      "en": "loud"
+      "en": "loud",
+      "example": "in a loud voice"
     },
     {
       "ja": "魔法の",
-      "en": "magic"
+      "en": "magic",
+      "example": "do a magic trick"
     },
     {
       "ja": "かなり / わりと",
-      "en": "pretty"
+      "en": "pretty",
+      "example": "It tastes pretty good."
     },
     {
       "ja": "確かに / もちろん",
-      "en": "certainly"
+      "en": "certainly",
+      "example": "Certainly, sir."
     },
     {
       "ja": "ついに / 最終的に",
-      "en": "finally"
+      "en": "finally",
+      "example": "Finally, they succeeded."
     },
     {
       "ja": "1人で / ひとりぼっちで",
-      "en": "alone"
+      "en": "alone",
+      "example": "live alone"
     },
     {
       "ja": "それゆえ / だから",
-      "en": "therefore"
+      "en": "therefore",
+      "example": "Therefore, I agree."
     },
     {
       "ja": "最近 / 近ごろ",
-      "en": "lately"
+      "en": "lately",
+      "example": "He has not been seen lately."
     },
     {
       "ja": "〜かもしれない / 〜してよいですか",
-      "en": "might"
+      "en": "might",
+      "example": "He might not show up."
     },
     {
       "ja": "を我慢する／立っている",
-      "en": "stand"
+      "en": "stand",
+      "example": "I can't stand it anymore."
     },
     {
       "ja": "に到達する",
-      "en": "reach"
+      "en": "reach",
+      "example": "reach the destination"
     },
     {
       "ja": "を約束する",
-      "en": "promise"
+      "en": "promise",
+      "example": "promise to take you to the movies"
     },
     {
       "ja": "を撮影する／を映画化する",
-      "en": "film"
+      "en": "film",
+      "example": "film a movie"
     },
     {
       "ja": "に(サイズが)びったり合う",
-      "en": "fit"
+      "en": "fit",
+      "example": "This shirt fits me well."
     },
     {
       "ja": "を祝う",
-      "en": "celebrate"
+      "en": "celebrate",
+      "example": "celebrate a wedding anniversary"
     },
     {
       "ja": "ストレッチをする／のびる",
-      "en": "stretch"
+      "en": "stretch",
+      "example": "Stretch before you swim."
     },
     {
       "ja": "を覆う",
-      "en": "cover"
+      "en": "cover",
+      "example": "be covered with snow"
     },
     {
       "ja": "を開発する／を発達させる",
-      "en": "develop"
+      "en": "develop",
+      "example": "develop a special system"
     },
     {
       "ja": "を解決する",
-      "en": "solve"
+      "en": "solve",
+      "example": "solve a difficult problem"
     },
     {
       "ja": "を発見する",
-      "en": "discover"
+      "en": "discover",
+      "example": "discover a new fact"
     },
     {
       "ja": "を続ける／続く",
-      "en": "continue"
+      "en": "continue",
+      "example": "continue to talk"
     },
     {
       "ja": "に直面する／の方を向く",
-      "en": "face"
+      "en": "face",
+      "example": "face reality"
     },
     {
       "ja": "を形作る／を形成する",
-      "en": "shape"
+      "en": "shape",
+      "example": "It is shaped like a ball."
     },
     {
       "ja": "を印刷する",
-      "en": "print"
+      "en": "print",
+      "example": "print out my report"
     },
     {
       "ja": "AにBを貸す",
-      "en": "lend"
+      "en": "lend",
+      "example": "lend him some money"
     },
     {
       "ja": "を悟る／を実現する",
-      "en": "realize"
+      "en": "realize",
+      "example": "realize the importance of life"
     },
     {
       "ja": "…かなと思う",
-      "en": "wonder"
+      "en": "wonder",
+      "example": "I wonder where he went."
     },
     {
       "ja": "死ぬ",
-      "en": "die"
+      "en": "die",
+      "example": "Many animals died of this disease."
     },
     {
       "ja": "を引く",
-      "en": "pull"
+      "en": "pull",
+      "example": "pull a rope"
     },
     {
       "ja": "を押す",
-      "en": "push"
+      "en": "push",
+      "example": "Don't push me."
     },
     {
       "ja": "を振る／揺れる",
-      "en": "shake"
+      "en": "shake",
+      "example": "shake one's head to say no"
     },
     {
       "ja": "賛成する／同意する",
-      "en": "agree"
+      "en": "agree",
+      "example": "agree with your idea"
     },
     {
       "ja": "を意味する",
-      "en": "mean"
+      "en": "mean",
+      "example": "What does it mean?"
     },
     {
       "ja": "を気にする(嫌がる)／に気をつける",
-      "en": "mind"
+      "en": "mind",
+      "example": "I don't mind."
     },
     {
       "ja": "を改良する／良くなる",
-      "en": "improve"
+      "en": "improve",
+      "example": "improve the quality of the product"
     },
     {
       "ja": "を含む",
-      "en": "include"
+      "en": "include",
+      "example": "Tax is included in the price."
     },
     {
       "ja": "に入る／に参加[出場]する",
-      "en": "enter"
+      "en": "enter",
+      "example": "enter a university"
     },
     {
       "ja": "意思を通じ合う",
-      "en": "communicate"
+      "en": "communicate",
+      "example": "communicate with foreign people"
     },
     {
       "ja": "観光客／旅行者",
-      "en": "tourist"
+      "en": "tourist",
+      "example": "a tourist information office"
     },
     {
       "ja": "中心／センター",
-      "en": "center"
+      "en": "center",
+      "example": "at the center of the city"
     },
     {
       "ja": "注目／注意",
-      "en": "attention"
+      "en": "attention",
+      "example": "attract attention"
     },
     {
       "ja": "カップル／2つ3つ／一対",
-      "en": "couple"
+      "en": "couple",
+      "example": "a married couple"
     },
     {
       "ja": "免許(証)",
-      "en": "license"
+      "en": "license",
+      "example": "a driver's license"
     },
     {
       "ja": "子供",
-      "en": "kid"
+      "en": "kid",
+      "example": "younger kids"
     },
     {
       "ja": "砂漠／荒れ野",
-      "en": "desert"
+      "en": "desert",
+      "example": "grow in a desert"
     },
     {
       "ja": "発明(品)",
-      "en": "invention"
+      "en": "invention",
+      "example": "introduce new inventions"
     },
     {
       "ja": "化学",
-      "en": "chemistry"
+      "en": "chemistry",
+      "example": "major in chemistry"
     },
     {
       "ja": "近所／地域",
-      "en": "neighborhood"
+      "en": "neighborhood",
+      "example": "in my neighborhood"
     },
     {
       "ja": "警官／役人",
-      "en": "officer"
+      "en": "officer",
+      "example": "a police officer"
     },
     {
       "ja": "瞬間／時点",
-      "en": "moment"
+      "en": "moment",
+      "example": "wait for that moment"
     },
     {
       "ja": "岩",
-      "en": "rock"
+      "en": "rock",
+      "example": "huge rock"
     },
     {
       "ja": "ショッピングカート／ワゴン／荷馬車",
-      "en": "cart"
+      "en": "cart",
+      "example": "a shopping cart"
     },
     {
       "ja": "(通例 the〜)芝生／草",
-      "en": "grass"
+      "en": "grass",
+      "example": "have a picnic on the grass"
     },
     {
       "ja": "交通(量)",
-      "en": "traffic"
+      "en": "traffic",
+      "example": "There is heavy traffic today."
     },
     {
       "ja": "(集合的に)スタッフ／職員",
-      "en": "staff"
+      "en": "staff",
+      "example": "medical staff"
     },
     {
       "ja": "ヘビ",
-      "en": "snake"
+      "en": "snake",
+      "example": "go to the zoo to see snakes"
     },
     {
       "ja": "食料雑貨／食料雑貨店",
-      "en": "grocery"
+      "en": "grocery",
+      "example": "buy some groceries"
     },
     {
       "ja": "料金／謝礼",
-      "en": "fee"
+      "en": "fee",
+      "example": "school fees"
     },
     {
       "ja": "(集合的に)衣服／衣類",
-      "en": "clothing"
+      "en": "clothing",
+      "example": "her favorite clothing store"
     },
     {
       "ja": "訓練／トレーニング",
-      "en": "training"
+      "en": "training",
+      "example": "begin hard training for a marathon"
     },
     {
       "ja": "ヨガ",
-      "en": "yoga"
+      "en": "yoga",
+      "example": "go to a yoga class"
     },
     {
       "ja": "トラック",
-      "en": "truck"
+      "en": "truck",
+      "example": "a food truck"
     },
     {
       "ja": "森林(地帯)／山林",
-      "en": "forest"
+      "en": "forest",
+      "example": "a forest fire"
     },
     {
       "ja": "味／風味／趣",
-      "en": "flavor"
+      "en": "flavor",
+      "example": "a bitter flavor"
     },
     {
       "ja": "重さ／体重",
-      "en": "weight"
+      "en": "weight",
+      "example": "gain weight"
     },
     {
       "ja": "(通例 the〜)地下鉄",
-      "en": "subway"
+      "en": "subway",
+      "example": "subway lines"
     },
     {
       "ja": "発見",
-      "en": "discovery"
+      "en": "discovery",
+      "example": "the discovery of a new planet"
     },
     {
       "ja": "オーブン／天火",
-      "en": "oven"
+      "en": "oven",
+      "example": "roast beef in the oven"
     },
     {
       "ja": "身分証明(書)",
-      "en": "ID"
+      "en": "ID",
+      "example": "a student ID card"
     },
     {
       "ja": "初心者／初学者",
-      "en": "beginner"
+      "en": "beginner",
+      "example": "a dance class for beginners"
     },
     {
       "ja": "せき",
-      "en": "cough"
+      "en": "cough",
+      "example": "have a bad cough"
     },
     {
       "ja": "(通例〜s)花火",
-      "en": "firework"
+      "en": "firework",
+      "example": "go to watch fireworks"
     },
     {
       "ja": "旗",
-      "en": "flag"
+      "en": "flag",
+      "example": "wave a flag"
     },
     {
       "ja": "家事",
-      "en": "housework"
+      "en": "housework",
+      "example": "do housework"
     },
     {
       "ja": "アリ",
-      "en": "ant"
+      "en": "ant",
+      "example": "eat insects like ants"
     },
     {
       "ja": "(通例 the〜)地面／土地",
-      "en": "ground"
+      "en": "ground",
+      "example": "lie on the ground"
     },
     {
       "ja": "予定(表)／スケジュール",
-      "en": "schedule"
+      "en": "schedule",
+      "example": "check the bus schedule"
     },
     {
       "ja": "騒音",
-      "en": "noise"
+      "en": "noise",
+      "example": "make a loud noise"
     },
     {
       "ja": "嵐／暴風雨",
-      "en": "storm"
+      "en": "storm",
+      "example": "be caught in a heavy storm"
     },
     {
       "ja": "棚／棚板",
-      "en": "shelf"
+      "en": "shelf",
+      "example": "take a book from the shelf"
     },
     {
       "ja": "エレベーター",
-      "en": "elevator"
+      "en": "elevator",
+      "example": "wait for an elevator"
     },
     {
       "ja": "太平洋(沿岸)の",
-      "en": "Pacific"
+      "en": "Pacific",
+      "example": "the Pacific Ocean"
     },
     {
       "ja": "注意深い",
-      "en": "careful"
+      "en": "careful",
+      "example": "Be careful not to catch a cold."
     },
     {
       "ja": "公共の／公立の",
-      "en": "public"
+      "en": "public",
+      "example": "a public phone"
     },
     {
       "ja": "英国の",
-      "en": "British"
+      "en": "British",
+      "example": "British children"
     },
     {
       "ja": "友好的な／人なつっこい",
-      "en": "friendly"
+      "en": "friendly",
+      "example": "a friendly relationship"
     },
     {
       "ja": "生まれた土地の／その土地固有の",
-      "en": "native"
+      "en": "native",
+      "example": "a native language"
     },
     {
       "ja": "優れた",
-      "en": "excellent"
+      "en": "excellent",
+      "example": "excellent service"
     },
     {
       "ja": "近くの",
-      "en": "nearby"
+      "en": "nearby",
+      "example": "a nearby shop"
     },
     {
       "ja": "巨大な",
-      "en": "huge"
+      "en": "huge",
+      "example": "a huge dinosaur"
     },
     {
       "ja": "主な",
-      "en": "main"
+      "en": "main",
+      "example": "a main street"
     },
     {
       "ja": "新鮮な／真新しい／生き生きとした",
-      "en": "fresh"
+      "en": "fresh",
+      "example": "fresh meat"
     },
     {
       "ja": "いつもの／普通の",
-      "en": "usual"
+      "en": "usual",
+      "example": "eat at the usual place"
     },
     {
       "ja": "退屈な",
-      "en": "boring"
+      "en": "boring",
+      "example": "a boring TV show"
     },
     {
       "ja": "色彩豊かな／色鮮やかな",
-      "en": "colorful"
+      "en": "colorful",
+      "example": "colorful flowers"
     },
     {
       "ja": "恐ろしい／怖い",
-      "en": "scary"
+      "en": "scary",
+      "example": "a scary story"
     },
     {
       "ja": "ぴりっとした／薬味の効いている",
-      "en": "spicy"
+      "en": "spicy",
+      "example": "I can't eat spicy food."
     },
     {
       "ja": "緊張している／神経質な",
-      "en": "nervous"
+      "en": "nervous",
+      "example": "get nervous before a contest"
     },
     {
       "ja": "便利な",
-      "en": "convenient"
+      "en": "convenient",
+      "example": "a convenient tool"
     },
     {
       "ja": "(範囲や幅が)広い",
-      "en": "wide"
+      "en": "wide",
+      "example": "a wide variety of goods"
     },
     {
       "ja": "初等教育の／初級の",
-      "en": "elementary"
+      "en": "elementary",
+      "example": "an elementary school teacher"
     },
     {
       "ja": "一度／かつて",
-      "en": "once"
+      "en": "once",
+      "example": "I have visited it once."
     },
     {
       "ja": "(否定文で)これ以上(〜ない)",
-      "en": "anymore"
+      "en": "anymore",
+      "example": "I can't walk anymore."
     },
     {
       "ja": "もう少しで(〜するところだ)／ほとんど",
-      "en": "almost"
+      "en": "almost",
+      "example": "They almost won the game."
     },
     {
       "ja": "注意して／気をつけて",
-      "en": "carefully"
+      "en": "carefully",
+      "example": "check the information carefully"
     },
     {
       "ja": "運良く",
-      "en": "luckily"
+      "en": "luckily",
+      "example": "Luckily, we won."
     },
     {
       "ja": "屋外で[に]",
-      "en": "outdoors"
+      "en": "outdoors",
+      "example": "play outdoors"
     },
     {
       "ja": "はっきりと／わかりやすく",
-      "en": "clearly"
+      "en": "clearly",
+      "example": "explain everything clearly"
     },
     {
       "ja": "〜を対戦相手として／〜に反対して",
-      "en": "against"
+      "en": "against",
+      "example": "compete against each other"
     },
     {
       "ja": "をつなぐ",
-      "en": "connect"
+      "en": "connect",
+      "example": "connect the East with the West"
     },
     {
       "ja": "(be supposed to doで)〜することになっている",
-      "en": "suppose"
+      "en": "suppose",
+      "example": "be supposed to meet him at the library"
     },
     {
       "ja": "落ちる／失敗する",
-      "en": "fall"
+      "en": "fall",
+      "example": "fall in an exam"
     },
     {
       "ja": "を展示する",
-      "en": "display"
+      "en": "display",
+      "example": "display goods in the window"
     },
     {
       "ja": "と競争する",
-      "en": "compete"
+      "en": "compete",
+      "example": "compete with each other"
     },
     {
       "ja": "を探検する",
-      "en": "explore"
+      "en": "explore",
+      "example": "explore a desert island"
     },
     {
       "ja": "を上げる／を育てる",
-      "en": "raise"
+      "en": "raise",
+      "example": "raise money to start business"
     },
     {
       "ja": "に連絡する",
-      "en": "contact"
+      "en": "contact",
+      "example": "contact you to discuss details"
     },
     {
       "ja": "に出席する",
-      "en": "attend"
+      "en": "attend",
+      "example": "attend a meeting"
     },
     {
       "ja": "を取り除く",
-      "en": "remove"
+      "en": "remove",
+      "example": "remove a cover"
     },
     {
       "ja": "を完成させる",
-      "en": "complete"
+      "en": "complete",
+      "example": "complete the race"
     },
     {
       "ja": "を得る",
-      "en": "gain"
+      "en": "gain",
+      "example": "gain popularity"
     },
     {
       "ja": "バランスをとる",
-      "en": "balance"
+      "en": "balance",
+      "example": "balance work with pay"
     },
     {
       "ja": "を飾る",
-      "en": "decorate"
+      "en": "decorate",
+      "example": "decorate a room with flowers"
     },
     {
       "ja": "を集める",
-      "en": "gather"
+      "en": "gather",
+      "example": "gather for a party"
     },
     {
       "ja": "(人)を悩ます",
-      "en": "bother"
+      "en": "bother",
+      "example": "I'm sorry to bother you."
     },
     {
       "ja": "引退する",
-      "en": "retire"
+      "en": "retire",
+      "example": "retire from work"
     },
     {
       "ja": "を嫌う",
-      "en": "hate"
+      "en": "hate",
+      "example": "hate scary movies"
     },
     {
       "ja": "を抱きしめる",
-      "en": "hug"
+      "en": "hug",
+      "example": "hug a child hard"
     },
     {
       "ja": "を支持する",
-      "en": "support"
+      "en": "support",
+      "example": "support a local team"
     },
     {
       "ja": "触れる／を感動させる",
-      "en": "touch"
+      "en": "touch",
+      "example": "Don't touch the pictures."
     },
     {
       "ja": "をこわがらせる",
-      "en": "scare"
+      "en": "scare",
+      "example": "be scared of sharks"
     },
     {
       "ja": "を雇う",
-      "en": "hire"
+      "en": "hire",
+      "example": "hire him as a tutor"
     },
     {
       "ja": "を期待する",
-      "en": "expect"
+      "en": "expect",
+      "example": "expected to do"
     },
     {
       "ja": "を出版する",
-      "en": "publish"
+      "en": "publish",
+      "example": "publish a magazine"
     },
     {
       "ja": "を攻撃する",
-      "en": "attack"
+      "en": "attack",
+      "example": "attack an enemy"
     },
     {
       "ja": "を測定する",
-      "en": "measure"
+      "en": "measure",
+      "example": "measure time correctly"
     },
     {
       "ja": "について話し合う",
-      "en": "discuss"
+      "en": "discuss",
+      "example": "discuss the matter"
     },
     {
       "ja": "試験",
-      "en": "examination"
+      "en": "examination",
+      "example": "study for entrance examinations"
     },
     {
       "ja": "研究",
-      "en": "research"
+      "en": "research",
+      "example": "do careful research"
     },
     {
       "ja": "量",
-      "en": "amount"
+      "en": "amount",
+      "example": "a large amount of money"
     },
     {
       "ja": "発表／アナウンス",
-      "en": "announcement"
+      "en": "announcement",
+      "example": "make an announcement"
     },
     {
       "ja": "画面／スクリーン",
-      "en": "screen"
+      "en": "screen",
+      "example": "a computer screen"
     },
     {
       "ja": "アドバイス／助言",
-      "en": "advice"
+      "en": "advice",
+      "example": "take his advice"
     },
     {
       "ja": "距離",
-      "en": "distance"
+      "en": "distance",
+      "example": "the distance from here to Tokyo"
     },
     {
       "ja": "買い物客",
-      "en": "shopper"
+      "en": "shopper",
+      "example": "Welcome to our store, shoppers."
     },
     {
       "ja": "(映画などの)監督／管理者",
-      "en": "director"
+      "en": "director",
+      "example": "an assistant director"
     },
     {
       "ja": "技術／技法",
-      "en": "technique"
+      "en": "technique",
+      "example": "learn a new technique"
     },
     {
       "ja": "平均",
-      "en": "average"
+      "en": "average",
+      "example": "the average for the class"
     },
     {
       "ja": "美術館／画廊",
-      "en": "gallery"
+      "en": "gallery",
+      "example": "an art gallery"
     },
     {
       "ja": "便利",
-      "en": "convenience"
+      "en": "convenience",
+      "example": "a convenience store"
     },
     {
       "ja": "申し込み／適用",
-      "en": "application"
+      "en": "application",
+      "example": "fill out an application form"
     },
     {
       "ja": "(ふつうS-)州／国家",
-      "en": "state"
+      "en": "state",
+      "example": "the State of Massachusetts"
     },
     {
       "ja": "娯楽／楽しみ",
-      "en": "amusement"
+      "en": "amusement",
+      "example": "an amusement park"
     },
     {
       "ja": "視力／見ること／光景",
-      "en": "sight"
+      "en": "sight",
+      "example": "have good sight"
     },
     {
       "ja": "問題／(〜s)困難／物質",
-      "en": "matter"
+      "en": "matter",
+      "example": "a serious matter"
     },
     {
       "ja": "ソース",
-      "en": "sauce"
+      "en": "sauce",
+      "example": "put sauce on the steak"
     },
     {
       "ja": "(the〜)底／下部",
-      "en": "bottom"
+      "en": "bottom",
+      "example": "the bottom of the sea"
     },
     {
       "ja": "角／隅",
-      "en": "corner"
+      "en": "corner",
+      "example": "a shop at the corner"
     },
     {
       "ja": "校長",
-      "en": "principal"
+      "en": "principal",
+      "example": "the principal's office"
     },
     {
       "ja": "ホームステイ",
-      "en": "homestay"
+      "en": "homestay",
+      "example": "go to Hawaii on a homestay"
     },
     {
       "ja": "クラゲ",
-      "en": "jellyfish"
+      "en": "jellyfish",
+      "example": "the largest jellyfish in the world"
     },
     {
       "ja": "パーセント",
-      "en": "percent"
+      "en": "percent",
+      "example": "30 percent of the citizens"
     },
     {
       "ja": "ライフスタイル／(個人の)生き方",
-      "en": "lifestyle"
+      "en": "lifestyle",
+      "example": "enjoy a healthy lifestyle"
     },
     {
       "ja": "職業／仕事／キャリア",
-      "en": "career"
+      "en": "career",
+      "example": "think about one's future career"
     },
     {
       "ja": "目標／ゴール",
-      "en": "goal"
+      "en": "goal",
+      "example": "set a high goal"
     },
     {
       "ja": "シェフ／料理人",
-      "en": "chef"
+      "en": "chef",
+      "example": "a French chef"
     },
     {
       "ja": "ファッション／流行",
-      "en": "fashion"
+      "en": "fashion",
+      "example": "a fashion magazine"
     },
     {
       "ja": "親戚",
-      "en": "relative"
+      "en": "relative",
+      "example": "a blood relative"
     },
     {
       "ja": "クレジット／信用",
-      "en": "credit"
+      "en": "credit",
+      "example": "pay by credit card"
     },
     {
       "ja": "(挑戦に値する)課題／難題／挑戦",
-      "en": "challenge"
+      "en": "challenge",
+      "example": "face a challenge"
     },
     {
       "ja": "幸運／運",
-      "en": "luck"
+      "en": "luck",
+      "example": "Good luck."
     },
     {
       "ja": "裏庭",
-      "en": "backyard"
+      "en": "backyard",
+      "example": "plant a tree in the backyard"
     },
     {
       "ja": "緊急事態",
-      "en": "emergency"
+      "en": "emergency",
+      "example": "for an emergency"
     },
     {
       "ja": "親切な行為／好意",
-      "en": "favor"
+      "en": "favor",
+      "example": "May I ask you a favor?"
     },
     {
       "ja": "(the〜)国際オリンピック大会",
-      "en": "Olympics"
+      "en": "Olympics",
+      "example": "participate in the Olympics"
     },
     {
       "ja": "熱",
-      "en": "fever"
+      "en": "fever",
+      "example": "have a slight fever"
     },
     {
       "ja": "(大学・高校などの)キャンパス／構内",
-      "en": "campus"
+      "en": "campus",
+      "example": "a campus tour"
     },
     {
       "ja": "写真家／カメラマン",
-      "en": "photographer"
+      "en": "photographer",
+      "example": "a professional photographer"
     },
     {
       "ja": "棒[板]状のもの／バー",
-      "en": "bar"
+      "en": "bar",
+      "example": "a bar of soap"
     },
     {
       "ja": "洗濯物／洗濯",
-      "en": "laundry"
+      "en": "laundry",
+      "example": "put the laundry into the washing machine"
     },
     {
       "ja": "冷蔵庫",
-      "en": "refrigerator"
+      "en": "refrigerator",
+      "example": "keep fresh food in the refrigerator"
     },
     {
       "ja": "現代の／近代の",
-      "en": "modern"
+      "en": "modern",
+      "example": "modern times"
     },
     {
       "ja": "共通の／普通の",
-      "en": "common"
+      "en": "common",
+      "example": "a common language"
     },
     {
       "ja": "追加の／余分の",
-      "en": "extra"
+      "en": "extra",
+      "example": "an extra charge"
     },
     {
       "ja": "全国的な／国民の／国立の",
-      "en": "national"
+      "en": "national",
+      "example": "a national contest"
     },
     {
       "ja": "本当の／真の／実在する",
-      "en": "real"
+      "en": "real",
+      "example": "the real reason"
     },
     {
       "ja": "快適な",
-      "en": "comfortable"
+      "en": "comfortable",
+      "example": "a comfortable seat"
     },
     {
       "ja": "可能な／あり得る",
-      "en": "possible"
+      "en": "possible",
+      "example": "If possible, I want to travel abroad."
     },
     {
       "ja": "最近の",
-      "en": "recent"
+      "en": "recent",
+      "example": "in recent years"
     },
     {
       "ja": "最も少ない／最も小さい",
-      "en": "least"
+      "en": "least",
+      "example": "live on the least amount of money"
     },
     {
       "ja": "普通の／標準の",
-      "en": "normal"
+      "en": "normal",
+      "example": "in a normal way"
     },
     {
       "ja": "国際的な",
-      "en": "international"
+      "en": "international",
+      "example": "an international organization"
     },
     {
       "ja": "眠って",
-      "en": "asleep"
+      "en": "asleep",
+      "example": "be fast asleep"
     },
     {
       "ja": "活動的な／積極的な",
-      "en": "active"
+      "en": "active",
+      "example": "an active lifestyle"
     },
     {
       "ja": "寂しい",
-      "en": "lonely"
+      "en": "lonely",
+      "example": "live a lonely life"
     },
     {
       "ja": "通常の／規則正しい",
-      "en": "regular"
+      "en": "regular",
+      "example": "regular business hours"
     },
     {
       "ja": "明るい／利口な",
-      "en": "bright"
+      "en": "bright",
+      "example": "a bright future"
     },
     {
       "ja": "正しい／適切な",
-      "en": "correct"
+      "en": "correct",
+      "example": "the correct answer"
     },
     {
       "ja": "くつろがせる／リラックスさせる",
-      "en": "relaxing"
+      "en": "relaxing",
+      "example": "Gardening is relaxing."
     },
     {
       "ja": "残念ながら／不運にも",
-      "en": "unfortunately"
+      "en": "unfortunately",
+      "example": "Unfortunately, I failed."
     },
     {
       "ja": "(町の)中心部へ[で]／商業地区へ[で]",
-      "en": "downtown"
+      "en": "downtown",
+      "example": "go downtown"
     },
     {
       "ja": "主として／大部分は",
-      "en": "mostly"
+      "en": "mostly",
+      "example": "I work mostly at night."
     },
     {
       "ja": "ほとんど",
-      "en": "nearly"
+      "en": "nearly",
+      "example": "earn nearly $1,000 a day"
     },
     {
       "ja": "(程度が)非常に／激しく／重そうに",
-      "en": "heavily"
+      "en": "heavily",
+      "example": "It rained heavily."
     },
     {
       "ja": "いつでも／常に",
-      "en": "anytime"
+      "en": "anytime",
+      "example": "You can ask questions anytime."
     },
     {
       "ja": "〜を除いては／〜の他は",
-      "en": "except"
+      "en": "except",
+      "example": "Everyone except him was invited."
     },
     {
       "ja": "〜の後ろに",
-      "en": "behind"
+      "en": "behind",
+      "example": "Please stay behind the line."
     },
     {
       "ja": "どちらも〜ない",
-      "en": "neither"
+      "en": "neither",
+      "example": "Neither of them agreed."
     },
     {
       "ja": "1つも[誰も]〜ない",
-      "en": "none"
+      "en": "none",
+      "example": "None of us knew him."
     },
     {
       "ja": "を横たえる／を敷く",
-      "en": "lay"
+      "en": "lay",
+      "example": "lay the patient down on the bed"
     },
     {
       "ja": "を邪魔する／をふさぐ",
-      "en": "block"
+      "en": "block",
+      "example": "block the light"
     },
     {
       "ja": "探し求める／を狩る",
-      "en": "hunt"
+      "en": "hunt",
+      "example": "hunt for jobs"
     },
     {
       "ja": "(肉・魚など)を焼き網で焼く",
-      "en": "grill"
+      "en": "grill",
+      "example": "grill a steak"
     },
     {
       "ja": "を数える",
-      "en": "count"
+      "en": "count",
+      "example": "count the change"
     },
     {
       "ja": "を守る／を監視する",
-      "en": "guard"
+      "en": "guard",
+      "example": "guard the border"
     },
     {
       "ja": "を持ち上げる",
-      "en": "lift"
+      "en": "lift",
+      "example": "lift a heavy box"
     },
     {
       "ja": "を打つ／にぶつかる",
-      "en": "hit"
+      "en": "hit",
+      "example": "hit a home run"
     },
     {
       "ja": "を注ぐ／(雨が)激しく降る",
-      "en": "pour"
+      "en": "pour",
+      "example": "pour a cup of tea"
     },
     {
       "ja": "を混同する",
-      "en": "confuse"
+      "en": "confuse",
+      "example": "confuse me with my brother"
     },
     {
       "ja": "を押す／にアイロンをかける",
-      "en": "press"
+      "en": "press",
+      "example": "press a button"
     },
     {
       "ja": "を放送する",
-      "en": "broadcast"
+      "en": "broadcast",
+      "example": "broadcast a news program"
     },
     {
       "ja": "うそをつく",
-      "en": "lie"
+      "en": "lie",
+      "example": "Don't lie to me."
     },
     {
       "ja": "を復習する／をよく調べる",
-      "en": "review"
+      "en": "review",
+      "example": "review a lesson"
     },
     {
       "ja": "をやめる",
-      "en": "quit"
+      "en": "quit",
+      "example": "quit smoking"
     },
     {
       "ja": "に思い出させる",
-      "en": "remind"
+      "en": "remind",
+      "example": "remind me of my late grandfather"
     },
     {
       "ja": "を分ける／を分離する",
-      "en": "separate"
+      "en": "separate",
+      "example": "separate garbage"
     },
     {
       "ja": "を(布などで)ふく",
-      "en": "wipe"
+      "en": "wipe",
+      "example": "wipe the glasses clean"
     },
     {
       "ja": "を救助する",
-      "en": "rescue"
+      "en": "rescue",
+      "example": "rescue children"
     },
     {
       "ja": "を翻訳する",
-      "en": "translate"
+      "en": "translate",
+      "example": "translate a novel into English"
     },
     {
       "ja": "戦う",
-      "en": "fight"
+      "en": "fight",
+      "example": "fight against an enemy"
     },
     {
       "ja": "招待",
-      "en": "invitation"
+      "en": "invitation",
+      "example": "a letter of invitation"
     },
     {
       "ja": "ゴミ／くず",
-      "en": "trash"
+      "en": "trash",
+      "example": "throw away trash"
     },
     {
       "ja": "成功",
-      "en": "success"
+      "en": "success",
+      "example": "have a great success"
     },
     {
       "ja": "安全",
-      "en": "safety"
+      "en": "safety",
+      "example": "do a safety check"
     },
     {
       "ja": "伝統",
-      "en": "tradition"
+      "en": "tradition",
+      "example": "hand down traditions from generation to generation"
     },
     {
       "ja": "トーナメント／勝ち抜き試合",
-      "en": "tournament"
+      "en": "tournament",
+      "example": "hold a tennis tournament"
     },
     {
       "ja": "小さな点／斑点／場所",
-      "en": "spot"
+      "en": "spot",
+      "example": "red spots on the cheek"
     },
     {
       "ja": "題名",
-      "en": "title"
+      "en": "title",
+      "example": "the title of the song"
     },
     {
       "ja": "SF／空想科学小説",
-      "en": "science fiction"
+      "en": "science fiction",
+      "example": "a science fiction movie"
     },
     {
       "ja": "平日",
-      "en": "weekday"
+      "en": "weekday",
+      "example": "on weekdays"
     },
     {
       "ja": "クモ",
-      "en": "spider"
+      "en": "spider",
+      "example": "be scared of spiders"
     },
     {
       "ja": "ソーセージ",
-      "en": "sausage"
+      "en": "sausage",
+      "example": "spicy sausages"
     },
     {
       "ja": "シーフード",
-      "en": "seafood"
+      "en": "seafood",
+      "example": "a seafood restaurant"
     },
     {
       "ja": "男性の恋人",
-      "en": "boyfriend"
+      "en": "boyfriend",
+      "example": "She introduced her boyfriend to her family."
     },
     {
       "ja": "ダイバー／潜水士",
-      "en": "diver"
+      "en": "diver",
+      "example": "take a lot of pictures of famous divers"
     },
     {
       "ja": "手品／いたずら／策略",
-      "en": "trick"
+      "en": "trick",
+      "example": "perform a new magic trick"
     },
     {
       "ja": "思い出／記憶力",
-      "en": "memory"
+      "en": "memory",
+      "example": "memories of one's childhood"
     },
     {
       "ja": "記事",
-      "en": "article"
+      "en": "article",
+      "example": "a newspaper article"
     },
     {
       "ja": "会員であること／会員の地位[資格]",
-      "en": "membership"
+      "en": "membership",
+      "example": "cancel one's membership at the club"
     },
     {
       "ja": "工場",
-      "en": "factory"
+      "en": "factory",
+      "example": "work in a chocolate factory"
     },
     {
       "ja": "割引券／クーポン",
-      "en": "coupon"
+      "en": "coupon",
+      "example": "a discount coupon for coffee"
     },
     {
       "ja": "コーチ",
-      "en": "coach"
+      "en": "coach",
+      "example": "my tennis coach"
     },
     {
       "ja": "電池／バッテリー",
-      "en": "battery"
+      "en": "battery",
+      "example": "buy a new battery"
     },
     {
       "ja": "興味",
-      "en": "interest"
+      "en": "interest",
+      "example": "have a great interest in science"
     },
     {
       "ja": "膝",
-      "en": "knee"
+      "en": "knee",
+      "example": "My knee has been hurting lately."
     },
     {
       "ja": "登場人物／特徴／性格",
-      "en": "character"
+      "en": "character",
+      "example": "the main character"
     },
     {
       "ja": "詳細／細部",
-      "en": "detail"
+      "en": "detail",
+      "example": "details of the meeting"
     },
     {
       "ja": "努力／苦労",
-      "en": "effort"
+      "en": "effort",
+      "example": "take a lot of time and effort"
     },
     {
       "ja": "気候",
-      "en": "climate"
+      "en": "climate",
+      "example": "a mild climate"
     },
     {
       "ja": "真ん中",
-      "en": "middle"
+      "en": "middle",
+      "example": "in the middle of the night"
     },
     {
       "ja": "目的",
-      "en": "purpose"
+      "en": "purpose",
+      "example": "for the purpose of sightseeing"
     },
     {
       "ja": "危険",
-      "en": "danger"
+      "en": "danger",
+      "example": "be in danger"
     },
     {
       "ja": "知識",
-      "en": "knowledge"
+      "en": "knowledge",
+      "example": "have enough knowledge about music"
     },
     {
       "ja": "ブランド／銘柄",
-      "en": "brand"
+      "en": "brand",
+      "example": "build a new brand"
     },
     {
       "ja": "重要性",
-      "en": "importance"
+      "en": "importance",
+      "example": "the importance of health"
     },
     {
       "ja": "指示／訓練",
-      "en": "instruction"
+      "en": "instruction",
+      "example": "give instructions"
     },
     {
       "ja": "網状組織／ネットワーク",
-      "en": "network"
+      "en": "network",
+      "example": "an information network"
     },
     {
       "ja": "選手権／選手権大会",
-      "en": "championship"
+      "en": "championship",
+      "example": "the world championship"
     },
     {
       "ja": "クローゼット／物置",
-      "en": "closet"
+      "en": "closet",
+      "example": "hang one's jackets in the closet"
     },
     {
       "ja": "観衆／聴衆",
-      "en": "audience"
+      "en": "audience",
+      "example": "There was a large audience at the concert."
     },
     {
       "ja": "現金",
-      "en": "cash"
+      "en": "cash",
+      "example": "pay in cash"
     },
     {
       "ja": "写真撮影／写真術",
-      "en": "photography"
+      "en": "photography",
+      "example": "My hobby is photography."
     },
     {
       "ja": "ヘッドホン",
-      "en": "headphone"
+      "en": "headphone",
+      "example": "Please use headphones while listening to music."
     },
     {
       "ja": "旅行",
-      "en": "journey"
+      "en": "journey",
+      "example": "take a long journey"
     },
     {
       "ja": "討論",
-      "en": "debate"
+      "en": "debate",
+      "example": "a heated debate on the issue"
     },
     {
       "ja": "暖房装置／加熱器",
-      "en": "heater"
+      "en": "heater",
+      "example": "a gas heater"
     },
     {
       "ja": "歯科医",
-      "en": "dentist"
+      "en": "dentist",
+      "example": "go to the dentist('s)"
     },
     {
       "ja": "プラットホーム／演壇",
-      "en": "platform"
+      "en": "platform",
+      "example": "leave from Platform 3"
     },
     {
       "ja": "小麦粉",
-      "en": "flour"
+      "en": "flour",
+      "example": "different types of flour"
     },
     {
       "ja": "英雄／(男性の)主人公",
-      "en": "hero"
+      "en": "hero",
+      "example": "admire a hero"
     },
     {
       "ja": "ロブスター",
-      "en": "lobster"
+      "en": "lobster",
+      "example": "eat lobster"
     },
     {
       "ja": "化粧",
-      "en": "makeup"
+      "en": "makeup",
+      "example": "wear less makeup"
     },
     {
       "ja": "木の実／ナッツ",
-      "en": "nut"
+      "en": "nut",
+      "example": "gather nuts"
     },
     {
       "ja": "小道／進路",
-      "en": "path"
+      "en": "path",
+      "example": "follow a narrow path"
     },
     {
       "ja": "いくつかの",
-      "en": "several"
+      "en": "several",
+      "example": "several people"
     },
     {
       "ja": "貴重な／高価な",
-      "en": "valuable"
+      "en": "valuable",
+      "example": "valuable information"
     },
     {
       "ja": "おびえた／怖がっている",
-      "en": "scared"
+      "en": "scared",
+      "example": "scared children"
     },
     {
       "ja": "古代の",
-      "en": "ancient"
+      "en": "ancient",
+      "example": "an ancient civilization"
     },
     {
       "ja": "電子の",
-      "en": "electronic"
+      "en": "electronic",
+      "example": "an electronic dictionary"
     },
     {
       "ja": "年輩の／初老の",
-      "en": "elderly"
+      "en": "elderly",
+      "example": "be kind to elderly people"
     },
     {
       "ja": "ある／確信して",
-      "en": "certain"
+      "en": "certain",
+      "example": "a certain group"
     },
     {
       "ja": "有害な",
-      "en": "harmful"
+      "en": "harmful",
+      "example": "harmful insects"
     },
     {
       "ja": "電気を使う／電気の",
-      "en": "electric"
+      "en": "electric",
+      "example": "an electric car"
     },
     {
       "ja": "女性の／雌の",
-      "en": "female"
+      "en": "female",
+      "example": "a female student"
     },
     {
       "ja": "日常の／毎日の",
-      "en": "daily"
+      "en": "daily",
+      "example": "my daily life"
     },
     {
       "ja": "かわいい",
-      "en": "cute"
+      "en": "cute",
+      "example": "a cute baby"
     },
     {
       "ja": "助けになる／有用な",
-      "en": "helpful"
+      "en": "helpful",
+      "example": "He is always helpful to me."
     },
     {
       "ja": "個人的な／私立の",
-      "en": "private"
+      "en": "private",
+      "example": "a private lesson"
     },
     {
       "ja": "基本的な",
-      "en": "basic"
+      "en": "basic",
+      "example": "basic human rights"
     },
     {
       "ja": "大西洋(上)の",
-      "en": "Atlantic"
+      "en": "Atlantic",
+      "example": "the Atlantic Ocean"
     },
     {
       "ja": "男性の／雄の",
-      "en": "male"
+      "en": "male",
+      "example": "a male student"
     },
     {
       "ja": "(学問などが)上級の／進歩した",
-      "en": "advanced"
+      "en": "advanced",
+      "example": "advanced English class"
     },
     {
       "ja": "追加の",
-      "en": "additional"
+      "en": "additional",
+      "example": "additional information"
     },
     {
       "ja": "特に",
-      "en": "especially"
+      "en": "especially",
+      "example": "be crowded especially in summer"
     },
     {
       "ja": "立派に／上手に／うまく",
-      "en": "nicely"
+      "en": "nicely",
+      "example": "dress nicely"
     },
     {
       "ja": "屋内で[に]",
-      "en": "indoors"
+      "en": "indoors",
+      "example": "stay indoors"
     },
     {
       "ja": "後で",
-      "en": "afterward"
+      "en": "afterward",
+      "example": "tell him the truth afterward"
     },
     {
       "ja": "深く／非常に",
-      "en": "deeply"
+      "en": "deeply",
+      "example": "be deeply moved"
     },
     {
       "ja": "…するときはいつでも／いつ…しようとも",
-      "en": "whenever"
+      "en": "whenever",
+      "example": "whenever you need some help"
     },
     {
       "ja": "を管理する／を支配する／を掌握する",
-      "en": "control"
+      "en": "control",
+      "example": "control the quality"
     },
     {
       "ja": "所属する／属する",
-      "en": "belong"
+      "en": "belong",
+      "example": "belong to the tennis club"
     },
     {
       "ja": "を破壊する",
-      "en": "destroy"
+      "en": "destroy",
+      "example": "destroy a building completely"
     },
     {
       "ja": "を受け入れる／を受け取る",
-      "en": "accept"
+      "en": "accept",
+      "example": "accept an offer"
     },
     {
       "ja": "失望する／を失望させる",
-      "en": "disappoint"
+      "en": "disappoint",
+      "example": "be disappointed with the result"
     },
     {
       "ja": "にあいさつする",
-      "en": "greet"
+      "en": "greet",
+      "example": "We greeted each other."
     },
     {
       "ja": "を邪魔する／を妨害する",
-      "en": "disturb"
+      "en": "disturb",
+      "example": "Sorry to disturb you."
     },
     {
       "ja": "に忠告する",
-      "en": "advise"
+      "en": "advise",
+      "example": "advise him to get up early"
     },
     {
       "ja": "呼吸する",
-      "en": "breathe"
+      "en": "breathe",
+      "example": "breathe in deeply"
     },
     {
       "ja": "結びつける",
-      "en": "combine"
+      "en": "combine",
+      "example": "combine theory with practice"
     },
     {
       "ja": "衝突する",
-      "en": "crash"
+      "en": "crash",
+      "example": "crash into a truck"
     },
     {
       "ja": "(金銭などを)稼ぐ／(名声などを)得る",
-      "en": "earn"
+      "en": "earn",
+      "example": "earn money"
     },
     {
       "ja": "をつるす／を掛ける",
-      "en": "hang"
+      "en": "hang",
+      "example": "hang a lamp above the table"
     },
     {
       "ja": "(に)歓声を上げる／を励ます",
-      "en": "cheer"
+      "en": "cheer",
+      "example": "The audience cheered."
     },
     {
       "ja": "逃げる",
-      "en": "escape"
+      "en": "escape",
+      "example": "escape from school"
     },
     {
       "ja": "を浪費する",
-      "en": "waste"
+      "en": "waste",
+      "example": "waste time doing nothing"
     },
     {
       "ja": "を導く／(必然的に)つながる",
-      "en": "lead"
+      "en": "lead",
+      "example": "lead a team to victory"
     },
     {
       "ja": "を取り換える",
-      "en": "replace"
+      "en": "replace",
+      "example": "replace an old cover with a new one"
     },
     {
       "ja": "を必要とする",
-      "en": "require"
+      "en": "require",
+      "example": "require time and money"
     },
     {
       "ja": "を発明する",
-      "en": "invent"
+      "en": "invent",
+      "example": "invent a new machine"
     },
     {
       "ja": "を主催する／を組織する",
-      "en": "organize"
+      "en": "organize",
+      "example": "organize a meeting"
     },
     {
       "ja": "を詰め込む／を荷造りする",
-      "en": "pack"
+      "en": "pack",
+      "example": "pack my clothes into this bag"
     },
     {
       "ja": "動揺する／を動転させる",
-      "en": "upset"
+      "en": "upset",
+      "example": "be upset about the result"
     },
     {
       "ja": "を尊敬する／を尊重する",
-      "en": "respect"
+      "en": "respect",
+      "example": "respect him deeply"
     },
     {
       "ja": "を選ぶ",
-      "en": "select"
+      "en": "select",
+      "example": "select the best player"
     },
     {
       "ja": "句／成句",
-      "en": "phrase"
+      "en": "phrase",
+      "example": "basic English words and phrases"
     },
     {
       "ja": "感覚／意味",
-      "en": "sense"
+      "en": "sense",
+      "example": "a sense of humor"
     },
     {
       "ja": "(通例〜s)階段",
-      "en": "stair"
+      "en": "stair",
+      "example": "go up the stairs"
     },
     {
       "ja": "スカーフ／マフラー",
-      "en": "scarf"
+      "en": "scarf",
+      "example": "my scarf and gloves"
     },
     {
       "ja": "危険／恐れ",
-      "en": "risk"
+      "en": "risk",
+      "example": "Pandas are now at risk."
     },
     {
       "ja": "ティーンエイジャー",
-      "en": "teenager"
+      "en": "teenager",
+      "example": "an event for teenagers"
     },
     {
       "ja": "強さ／力／長所",
-      "en": "strength"
+      "en": "strength",
+      "example": "mental strength"
     },
     {
       "ja": "学期",
-      "en": "semester"
+      "en": "semester",
+      "example": "the fall semester and the spring semester"
     },
     {
       "ja": "チームワーク／協力",
-      "en": "teamwork"
+      "en": "teamwork",
+      "example": "the importance of teamwork"
     },
     {
       "ja": "秘密／(通例 the〜)秘訣",
-      "en": "secret"
+      "en": "secret",
+      "example": "Let's keep it a secret."
     },
     {
       "ja": "日光／日の当たる場所",
-      "en": "sunshine"
+      "en": "sunshine",
+      "example": "My room gets lots of sunshine."
     },
     {
       "ja": "静寂／沈黙",
-      "en": "silence"
+      "en": "silence",
+      "example": "break the silence"
     },
     {
       "ja": "価値",
-      "en": "value"
+      "en": "value",
+      "example": "cultural values"
     },
     {
       "ja": "従業員",
-      "en": "employee"
+      "en": "employee",
+      "example": "fire an employee"
     },
     {
       "ja": "専門家",
-      "en": "expert"
+      "en": "expert",
+      "example": "according to experts"
     },
     {
       "ja": "エネルギー／精力",
-      "en": "energy"
+      "en": "energy",
+      "example": "the energy problem"
     },
     {
       "ja": "大人",
-      "en": "adult"
+      "en": "adult",
+      "example": "both adults and children"
     },
     {
       "ja": "作家／著者",
-      "en": "author"
+      "en": "author",
+      "example": "my favorite author"
     },
     {
       "ja": "運動選手",
-      "en": "athlete"
+      "en": "athlete",
+      "example": "an Olympic athlete"
     },
     {
       "ja": "エジプト",
-      "en": "Egypt"
+      "en": "Egypt",
+      "example": "travel to Egypt"
     },
     {
       "ja": "上司／ボス",
-      "en": "boss"
+      "en": "boss",
+      "example": "my former boss"
     },
     {
       "ja": "(集合的に)用具／設備／装置",
-      "en": "equipment"
+      "en": "equipment",
+      "example": "fishing equipment"
     },
     {
       "ja": "有利な点／利益",
-      "en": "advantage"
+      "en": "advantage",
+      "example": "one advantage of dogs over cats"
     },
     {
       "ja": "航空会社",
-      "en": "airline"
+      "en": "airline",
+      "example": "fly with the airline"
     },
     {
       "ja": "エンジン",
-      "en": "engine"
+      "en": "engine",
+      "example": "a car engine"
     },
     {
       "ja": "能力",
-      "en": "ability"
+      "en": "ability",
+      "example": "an ability to speak English"
     },
     {
       "ja": "通路",
-      "en": "aisle"
+      "en": "aisle",
+      "example": "go to Aisle 7"
     },
     {
       "ja": "入り口／入学",
-      "en": "entrance"
+      "en": "entrance",
+      "example": "the main entrance"
     },
     {
       "ja": "会話／話すこと",
-      "en": "conversation"
+      "en": "conversation",
+      "example": "a telephone conversation"
     },
     {
       "ja": "(社会的な)慣習／(個人の)習慣",
-      "en": "custom"
+      "en": "custom",
+      "example": "a traditional custom"
     },
     {
       "ja": "ボタン",
-      "en": "button"
+      "en": "button",
+      "example": "push a button"
     },
     {
       "ja": "(a〜)選択権／選択",
-      "en": "choice"
+      "en": "choice",
+      "example": "have no choice but to study"
     },
     {
       "ja": "カウンター",
-      "en": "counter"
+      "en": "counter",
+      "example": "a kitchen counter"
     },
     {
       "ja": "討論／話し合い",
-      "en": "discussion"
+      "en": "discussion",
+      "example": "an online discussion"
     },
     {
       "ja": "冒険",
-      "en": "adventure"
+      "en": "adventure",
+      "example": "an exciting adventure"
     },
     {
       "ja": "(毎年巡ってくる)記念日",
-      "en": "anniversary"
+      "en": "anniversary",
+      "example": "our fifth wedding anniversary"
     },
     {
       "ja": "大通り",
-      "en": "avenue"
+      "en": "avenue",
+      "example": "a store on the main avenue"
     },
     {
       "ja": "探検家",
-      "en": "explorer"
+      "en": "explorer",
+      "example": "be famous as an explorer"
     },
     {
       "ja": "(学生の課される)レポート／作文",
-      "en": "essay"
+      "en": "essay",
+      "example": "write an essay on the same topic"
     },
     {
       "ja": "フィットネス／健康",
-      "en": "fitness"
+      "en": "fitness",
+      "example": "join a fitness club"
     },
     {
       "ja": "水族館／水槽",
-      "en": "aquarium"
+      "en": "aquarium",
+      "example": "visit an aquarium"
     },
     {
       "ja": "頭痛",
-      "en": "headache"
+      "en": "headache",
+      "example": "have a bad headache"
     },
     {
       "ja": "(テレビの)チャンネル／海峡",
-      "en": "channel"
+      "en": "channel",
+      "example": "What's on Channel 5?"
     },
     {
       "ja": "(作物の)収穫",
-      "en": "harvest"
+      "en": "harvest",
+      "example": "celebrate a good harvest"
     },
     {
       "ja": "ボーナス／特別手当",
-      "en": "bonus"
+      "en": "bonus",
+      "example": "get a large bonus"
     },
     {
       "ja": "電子工学／電子産業",
-      "en": "electronics"
+      "en": "electronics",
+      "example": "an electronics store"
     },
     {
       "ja": "ファイル／書類ケース",
-      "en": "file"
+      "en": "file",
+      "example": "look for some files on the computer"
     },
     {
       "ja": "ハーブ／香草／薬草",
-      "en": "herb"
+      "en": "herb",
+      "example": "lots of herbs and spices"
     },
     {
       "ja": "重大な／真剣な",
-      "en": "serious"
+      "en": "serious",
+      "example": "a serious illness"
     },
     {
       "ja": "裕福な／豊富な",
-      "en": "wealthy"
+      "en": "wealthy",
+      "example": "wealthy people"
     },
     {
       "ja": "ひどく悪い／恐ろしい",
-      "en": "terrible"
+      "en": "terrible",
+      "example": "terrible pain"
     },
     {
       "ja": "静かな",
-      "en": "quiet"
+      "en": "quiet",
+      "example": "Be quiet!"
     },
     {
       "ja": "丸い",
-      "en": "round"
+      "en": "round",
+      "example": "a round shape"
     },
     {
       "ja": "混雑した",
-      "en": "crowded"
+      "en": "crowded",
+      "example": "a crowded train"
     },
     {
       "ja": "驚くべき／びっくりするほど良い",
-      "en": "amazing"
+      "en": "amazing",
+      "example": "an amazing talent"
     },
     {
       "ja": "2人用の／2倍の",
-      "en": "double"
+      "en": "double",
+      "example": "a double room"
     },
     {
       "ja": "歯の／歯科の",
-      "en": "dental"
+      "en": "dental",
+      "example": "a dental clinic"
     },
     {
       "ja": "クラシックの／古典の",
-      "en": "classical"
+      "en": "classical",
+      "example": "a classical music concert"
     },
     {
       "ja": "目を覚まして",
-      "en": "awake"
+      "en": "awake",
+      "example": "Are you awake?"
     },
     {
       "ja": "平等な／等しい",
-      "en": "equal"
+      "en": "equal",
+      "example": "equal rights"
     },
     {
       "ja": "生きている",
-      "en": "alive"
+      "en": "alive",
+      "example": "Is he still alive?"
     },
     {
       "ja": "音声の",
-      "en": "audio"
+      "en": "audio",
+      "example": "listen to an audio guide"
     },
     {
       "ja": "真新しい／新品の",
-      "en": "brand-new"
+      "en": "brand-new",
+      "example": "a brand-new house"
     },
     {
       "ja": "キリスト教の",
-      "en": "Christian"
+      "en": "Christian",
+      "example": "a Christian holiday"
     },
     {
       "ja": "巨大な",
-      "en": "giant"
+      "en": "giant",
+      "example": "a giant tree"
     },
     {
       "ja": "かなり／むしろ",
-      "en": "rather"
+      "en": "rather",
+      "example": "This problem is rather difficult."
     },
     {
       "ja": "2回／2度",
-      "en": "twice"
+      "en": "twice",
+      "example": "twice a week"
     },
     {
       "ja": "とても／かなり／全く",
-      "en": "quite"
+      "en": "quite",
+      "example": "He owns quite a big house."
     },
     {
       "ja": "(未来の)いつか／(過去の)あるとき",
-      "en": "sometime"
+      "en": "sometime",
+      "example": "sometime in the future"
     },
     {
       "ja": "前方に[へ]／前もって",
-      "en": "ahead"
+      "en": "ahead",
+      "example": "walk ahead of me"
     },
     {
       "ja": "完全に",
-      "en": "completely"
+      "en": "completely",
+      "example": "be completely destroyed"
     },
     {
       "ja": "正確に／まさに",
-      "en": "exactly"
+      "en": "exactly",
+      "example": "exactly at three"
     },
     {
       "ja": "永久に",
-      "en": "forever"
+      "en": "forever",
+      "example": "live forever"
     },
     {
       "ja": "〜するものは何でも／たとえ何を〜しても",
-      "en": "whatever"
+      "en": "whatever",
+      "example": "whatever you want to buy"
     },
     {
       "ja": "〜する人は誰でも／誰が〜でも",
-      "en": "whoever"
+      "en": "whoever",
+      "example": "whoever comes to my birthday party"
     },
     {
       "ja": "を信用[信頼]する",
-      "en": "trust"
+      "en": "trust",
+      "example": "You can trust me."
     },
     {
       "ja": "に警告する",
-      "en": "warn"
+      "en": "warn",
+      "example": "warn her of the danger"
     },
     {
       "ja": "の重さがある／の重さを量る",
-      "en": "weigh"
+      "en": "weigh",
+      "example": "weigh 50 kilograms"
     },
     {
       "ja": "を判断する／裁く",
-      "en": "judge"
+      "en": "judge",
+      "example": "judge a market"
     },
     {
       "ja": "鳴る／を鳴らす",
-      "en": "ring"
+      "en": "ring",
+      "example": "The bell is ringing."
     },
     {
       "ja": "を暗記する／を記憶する",
-      "en": "memorize"
+      "en": "memorize",
+      "example": "memorize a poem"
     },
     {
       "ja": "返事をする／答える",
-      "en": "reply"
+      "en": "reply",
+      "example": "reply to his letter"
     },
     {
       "ja": "航海する",
-      "en": "sail"
+      "en": "sail",
+      "example": "sail from here to Kobe"
     },
     {
       "ja": "手を振る／(旗など)を振る",
-      "en": "wave"
+      "en": "wave",
+      "example": "wave to his fans"
     },
     {
       "ja": "を想像する",
-      "en": "imagine"
+      "en": "imagine",
+      "example": "imagine space travel"
     },
     {
       "ja": "を撃つ／をシュートする",
-      "en": "shoot"
+      "en": "shoot",
+      "example": "He shot her and ran away."
     },
     {
       "ja": "を抜かす／跳ねる",
-      "en": "skip"
+      "en": "skip",
+      "example": "skip breakfast"
     },
     {
       "ja": "をつづる",
-      "en": "spell"
+      "en": "spell",
+      "example": "How do you spell your name?"
     },
     {
       "ja": "を揺らす／揺れる",
-      "en": "swing"
+      "en": "swing",
+      "example": "swing one's arms back and forth"
     },
     {
       "ja": "を包む／を巻きつける",
-      "en": "wrap"
+      "en": "wrap",
+      "example": "wrap a present"
     },
     {
       "ja": "を無視する",
-      "en": "ignore"
+      "en": "ignore",
+      "example": "ignore me completely"
     },
     {
       "ja": "を貼りつける",
-      "en": "paste"
+      "en": "paste",
+      "example": "copy and paste text"
     },
     {
       "ja": "ノックする／たたく／ぶつける",
-      "en": "knock"
+      "en": "knock",
+      "example": "knock on a door"
     },
     {
       "ja": "を励ます",
-      "en": "encourage"
+      "en": "encourage",
+      "example": "encourage him to keep studying"
     },
     {
       "ja": "減少する／を減少させる",
-      "en": "decrease"
+      "en": "decrease",
+      "example": "decrease gradually"
     },
     {
       "ja": "にアクセスする／に近づく",
-      "en": "access"
+      "en": "access",
+      "example": "access the Internet"
     },
     {
       "ja": "を避ける",
-      "en": "avoid"
+      "en": "avoid",
+      "example": "avoid meeting him"
     },
     {
       "ja": "心配している／に関係する",
-      "en": "concern"
+      "en": "concern",
+      "example": "be concerned about children"
     },
     {
       "ja": "を含む／を収容できる",
-      "en": "contain"
+      "en": "contain",
+      "example": "Lemons contain lots of vitamin C."
     },
     {
       "ja": "を何とかやり遂げる／を経営する",
-      "en": "manage"
+      "en": "manage",
+      "example": "manage to save money"
     },
     {
       "ja": "に接近する／取り組み方",
-      "en": "approach"
+      "en": "approach",
+      "example": "approach the Earth"
     },
     {
       "ja": "を負かす／を打つ",
-      "en": "beat"
+      "en": "beat",
+      "example": "beat a local team"
     },
     {
       "ja": "頼る／依存する",
-      "en": "depend"
+      "en": "depend",
+      "example": "depend on one's parents for money"
     },
     {
       "ja": "姿を消す",
-      "en": "disappear"
+      "en": "disappear",
+      "example": "disappear suddenly"
     },
     {
       "ja": "を演じる／行動する",
-      "en": "act"
+      "en": "act",
+      "example": "act in a play"
     },
     {
       "ja": "城",
-      "en": "castle"
+      "en": "castle",
+      "example": "a famous castle"
     },
     {
       "ja": "サケ／サケの肉",
-      "en": "salmon"
+      "en": "salmon",
+      "example": "smoked salmon"
     },
     {
       "ja": "方法",
-      "en": "method"
+      "en": "method",
+      "example": "a teaching method"
     },
     {
       "ja": "用地／ウェブサイト",
-      "en": "site"
+      "en": "site",
+      "example": "a camping site"
     },
     {
       "ja": "タブレット(コンピュータ)／錠剤",
-      "en": "tablet"
+      "en": "tablet",
+      "example": "a tablet computer"
     },
     {
       "ja": "意見",
-      "en": "opinion"
+      "en": "opinion",
+      "example": "in my opinion"
     },
     {
       "ja": "(具体的な)例／実例",
-      "en": "instance"
+      "en": "instance",
+      "example": "an instance of his success"
     },
     {
       "ja": "(技能を教える)指導者",
-      "en": "instructor"
+      "en": "instructor",
+      "example": "a yoga instructor"
     },
     {
       "ja": "(紙などを)巻いたもの／ロールパン",
-      "en": "roll"
+      "en": "roll",
+      "example": "egg rolls"
     },
     {
       "ja": "場面／眺め",
-      "en": "scene"
+      "en": "scene",
+      "example": "a movie with many scary scenes in it"
     },
     {
       "ja": "やり方／様式／型",
-      "en": "style"
+      "en": "style",
+      "example": "That's not my style."
     },
     {
       "ja": "政策／方針",
-      "en": "policy"
+      "en": "policy",
+      "example": "foreign policy"
     },
     {
       "ja": "突進／殺到",
-      "en": "rush"
+      "en": "rush",
+      "example": "during rush hours"
     },
     {
       "ja": "試供品／見本",
-      "en": "sample"
+      "en": "sample",
+      "example": "a free cheese sample"
     },
     {
       "ja": "パートナー／配偶者",
-      "en": "partner"
+      "en": "partner",
+      "example": "a partner for life"
     },
     {
       "ja": "キーボード",
-      "en": "keyboard"
+      "en": "keyboard",
+      "example": "type on a keyboard"
     },
     {
       "ja": "家庭教師／個人教師",
-      "en": "tutor"
+      "en": "tutor",
+      "example": "study English with a tutor"
     },
     {
       "ja": "位置／地位",
-      "en": "position"
+      "en": "position",
+      "example": "change the position of the shelf"
     },
     {
       "ja": "パズル／難問",
-      "en": "puzzle"
+      "en": "puzzle",
+      "example": "solve a crossword puzzle"
     },
     {
       "ja": "国家／(the〜)国民",
-      "en": "nation"
+      "en": "nation",
+      "example": "the United Nations"
     },
     {
       "ja": "(集合的に)風景",
-      "en": "scenery"
+      "en": "scenery",
+      "example": "be moved by beautiful scenery"
     },
     {
       "ja": "主要[幹線]道路",
-      "en": "highway"
+      "en": "highway",
+      "example": "drive on the highway"
     },
     {
       "ja": "ライム／ライムの実",
-      "en": "lime"
+      "en": "lime",
+      "example": "lime juice"
     },
     {
       "ja": "反対／反対意見",
-      "en": "objection"
+      "en": "objection",
+      "example": "Any objections?"
     },
     {
       "ja": "ケチャップ",
-      "en": "ketchup"
+      "en": "ketchup",
+      "example": "put some ketchup on a hot dog"
     },
     {
       "ja": "虹",
-      "en": "rainbow"
+      "en": "rainbow",
+      "example": "a beautiful rainbow across the sky"
     },
     {
       "ja": "想像(力)",
-      "en": "imagination"
+      "en": "imagination",
+      "example": "have a good imagination"
     },
     {
       "ja": "子犬",
-      "en": "puppy"
+      "en": "puppy",
+      "example": "a cute puppy"
     },
     {
       "ja": "列／横列",
-      "en": "row"
+      "en": "row",
+      "example": "sit in the first row"
     },
     {
       "ja": "(動物の)角／警笛",
-      "en": "horn"
+      "en": "horn",
+      "example": "the horns of a rhinoceros"
     },
     {
       "ja": "印象／感銘",
-      "en": "impression"
+      "en": "impression",
+      "example": "What was your first impression?"
     },
     {
       "ja": "革",
-      "en": "leather"
+      "en": "leather",
+      "example": "a bag made of leather"
     },
     {
       "ja": "(海岸・プールの)監視[救助]員",
-      "en": "lifeguard"
+      "en": "lifeguard",
+      "example": "my job as a lifeguard"
     },
     {
       "ja": "宮殿／大邸宅",
-      "en": "palace"
+      "en": "palace",
+      "example": "a famous palace garden"
     },
     {
       "ja": "写真複写／コピー",
-      "en": "photocopy"
+      "en": "photocopy",
+      "example": "use a photocopy machine"
     },
     {
       "ja": "棒／さお",
-      "en": "pole"
+      "en": "pole",
+      "example": "a long wooden pole"
     },
     {
       "ja": "政治家",
-      "en": "politician"
+      "en": "politician",
+      "example": "a politician respected by everyone"
     },
     {
       "ja": "住居／居住",
-      "en": "residence"
+      "en": "residence",
+      "example": "Hello, this is the Brown residence."
     },
     {
       "ja": "スパイス／(集合的に)香辛料",
-      "en": "spice"
+      "en": "spice",
+      "example": "add spices to the food"
     },
     {
       "ja": "合計／全体",
-      "en": "total"
+      "en": "total",
+      "example": "Your total is $56."
     },
     {
       "ja": "ボーナス／特別手当",
-      "en": "bonus"
+      "en": "bonus",
+      "example": "get a large bonus"
     },
     {
       "ja": "電子工学／電子産業",
-      "en": "electronics"
+      "en": "electronics",
+      "example": "an electronics store"
     },
     {
       "ja": "ファイル／書類ケース",
-      "en": "file"
+      "en": "file",
+      "example": "look for some files on the computer"
     },
     {
       "ja": "ハーブ／香草／薬草",
-      "en": "herb"
+      "en": "herb",
+      "example": "lots of herbs and spices"
     },
     {
       "ja": "版／バージョン",
-      "en": "version"
+      "en": "version",
+      "example": "the second version"
     },
     {
       "ja": "おい",
-      "en": "nephew"
+      "en": "nephew",
+      "example": "My nephew likes avocados."
     },
     {
       "ja": "像／彫像",
-      "en": "statue"
+      "en": "statue",
+      "example": "the Statue of Liberty"
     },
     {
       "ja": "兵士／(陸軍の)軍人",
-      "en": "soldier"
+      "en": "soldier",
+      "example": "train soldiers"
     },
     {
       "ja": "忍耐強い",
-      "en": "patient"
+      "en": "patient",
+      "example": "be patient with others"
     },
     {
       "ja": "さまざまな",
-      "en": "various"
+      "en": "various",
+      "example": "for various reasons"
     },
     {
       "ja": "ノートパソコンの／ラップトップの",
-      "en": "laptop"
+      "en": "laptop",
+      "example": "a laptop computer"
     },
     {
       "ja": "乱暴な／激しい",
-      "en": "violent"
+      "en": "violent",
+      "example": "violent crimes"
     },
     {
       "ja": "騒々しい",
-      "en": "noisy"
+      "en": "noisy",
+      "example": "noisy neighbors"
     },
     {
       "ja": "個人の／私的な",
-      "en": "personal"
+      "en": "personal",
+      "example": "personal information"
     },
     {
       "ja": "独特の／唯一の",
-      "en": "unique"
+      "en": "unique",
+      "example": "unique culture"
     },
     {
       "ja": "きつい",
-      "en": "tight"
+      "en": "tight",
+      "example": "a tight shirt"
     },
     {
       "ja": "男女混合の／混じり合った",
-      "en": "mixed"
+      "en": "mixed",
+      "example": "mixed doubles"
     },
     {
       "ja": "典型的な",
-      "en": "typical"
+      "en": "typical",
+      "example": "a typical example"
     },
     {
       "ja": "自立した／独立した",
-      "en": "independent"
+      "en": "independent",
+      "example": "an independent person"
     },
     {
       "ja": "(座席などが)禁煙の",
-      "en": "nonsmoking"
+      "en": "nonsmoking",
+      "example": "request a nonsmoking table"
     },
     {
       "ja": "木製の",
-      "en": "wooden"
+      "en": "wooden",
+      "example": "a wooden box"
     },
     {
       "ja": "狭い",
-      "en": "narrow"
+      "en": "narrow",
+      "example": "a narrow street"
     },
     {
       "ja": "欠席の／不在の",
-      "en": "absent"
+      "en": "absent",
+      "example": "be absent from school"
     },
     {
       "ja": "心から",
-      "en": "sincerely"
+      "en": "sincerely",
+      "example": "sincerely wish for peace"
     },
     {
       "ja": "最初は／もともと",
-      "en": "originally"
+      "en": "originally",
+      "example": "as originally planned"
     },
     {
       "ja": "突然",
-      "en": "suddenly"
+      "en": "suddenly",
+      "example": "It suddenly began to snow."
     },
     {
       "ja": "下手に／まずく",
-      "en": "poorly"
+      "en": "poorly",
+      "example": "do poorly on the test"
     },
     {
       "ja": "まっすぐに",
-      "en": "straight"
+      "en": "straight",
+      "example": "go straight home"
     },
     {
       "ja": "階上へ[で]／2階へ[で]",
-      "en": "upstairs"
+      "en": "upstairs",
+      "example": "Your room is upstairs."
     },
     {
       "ja": "願わくば／うまくいけば",
-      "en": "hopefully"
+      "en": "hopefully",
+      "example": "Hopefully, he will succeed."
     },
     {
       "ja": "身体的に／物理的に",
-      "en": "physically"
+      "en": "physically",
+      "example": "both physically and mentally"
     },
     {
       "ja": "(否定文で)どこにも(〜ない)／どこかに[へ、で]",
-      "en": "anywhere"
+      "en": "anywhere",
+      "example": "I can't find it anywhere."
     },
     {
       "ja": "〜を越えて／〜の向こうに",
-      "en": "beyond"
+      "en": "beyond",
+      "example": "success beyond our expectations"
     },
     {
       "ja": "〜より下に",
-      "en": "below"
+      "en": "below",
+      "example": "below the horizon"
     },
     {
       "ja": "おしゃべりする／雑談する",
-      "en": "chat"
+      "en": "chat",
+      "example": "chat with friends"
     },
     {
       "ja": "を宣伝する",
-      "en": "advertise"
+      "en": "advertise",
+      "example": "advertise a new product"
     },
     {
       "ja": "を感謝する",
-      "en": "appreciate"
+      "en": "appreciate",
+      "example": "I appreciate your help."
     },
     {
       "ja": "を展示する",
-      "en": "exhibit"
+      "en": "exhibit",
+      "example": "exhibit his artwork"
     },
     {
       "ja": "を取り決める／準備をする",
-      "en": "arrange"
+      "en": "arrange",
+      "example": "arrange a meeting"
     },
     {
       "ja": "凍る／を凍らせる",
-      "en": "freeze"
+      "en": "freeze",
+      "example": "The water pipes froze."
     },
     {
       "ja": "(データなど)をダウンロードする",
-      "en": "download"
+      "en": "download",
+      "example": "download music to a smartphone"
     },
     {
       "ja": "を扱う／に手を触れる",
-      "en": "handle"
+      "en": "handle",
+      "example": "handle a glass carefully"
     },
     {
       "ja": "謝る",
-      "en": "apologize"
+      "en": "apologize",
+      "example": "apologize to him for being late"
     },
     {
       "ja": "自転車で走る／循環する",
-      "en": "cycle"
+      "en": "cycle",
+      "example": "cycle to work"
     },
     {
       "ja": "を嫌う",
-      "en": "dislike"
+      "en": "dislike",
+      "example": "dislike hearing excuses"
     },
     {
       "ja": "存在する",
-      "en": "exist"
+      "en": "exist",
+      "example": "It doesn't actually exist."
     },
     {
       "ja": "漂う／浮かぶ／を浮かべる",
-      "en": "float"
+      "en": "float",
+      "example": "Clouds are floating away."
     },
     {
       "ja": "流れる",
-      "en": "flow"
+      "en": "flow",
+      "example": "The river flows through the town."
     },
     {
       "ja": "を逮捕する",
-      "en": "arrest"
+      "en": "arrest",
+      "example": "arrest him for murder"
     },
     {
       "ja": "(犬などが)ほえる",
-      "en": "bark"
+      "en": "bark",
+      "example": "bark at a stranger"
     },
     {
       "ja": "を掘る",
-      "en": "dig"
+      "en": "dig",
+      "example": "dig a hole"
     },
     {
       "ja": "を分ける",
-      "en": "divide"
+      "en": "divide",
+      "example": "divide the cake into four"
     },
     {
       "ja": "ぴかっと光る／をぱっと照らす",
-      "en": "flash"
+      "en": "flash",
+      "example": "Lightning suddenly flashed."
     },
     {
       "ja": "(子供の)世話をする",
-      "en": "babysit"
+      "en": "babysit",
+      "example": "babysit my brother"
     },
     {
       "ja": "Aに〜することを強いる",
-      "en": "force"
+      "en": "force",
+      "example": "force me to go to piano lessons"
     },
     {
       "ja": "増加する／を増やす",
-      "en": "increase"
+      "en": "increase",
+      "example": "increase dramatically"
     },
     {
       "ja": "を減らす／減る",
-      "en": "reduce"
+      "en": "reduce",
+      "example": "reduce food waste"
     },
     {
       "ja": "を防ぐ／を妨げる",
-      "en": "prevent"
+      "en": "prevent",
+      "example": "prevent accidents"
     },
     {
       "ja": "を下げる",
-      "en": "lower"
+      "en": "lower",
+      "example": "lower the cost"
     },
     {
       "ja": "(太陽などが)昇る／(価格・温度などが)上がる",
-      "en": "rise"
+      "en": "rise",
+      "example": "The sun rises in the east."
     },
     {
       "ja": "を制限する",
-      "en": "limit"
+      "en": "limit",
+      "example": "limit the number to ten"
     },
     {
       "ja": "をそれとわかる／を認識する",
-      "en": "recognize"
+      "en": "recognize",
+      "example": "recognize her at once"
     },
     {
       "ja": "のままである／残る",
-      "en": "remain"
+      "en": "remain",
+      "example": "She remained silent."
     },
     {
       "ja": "昇進する／を促進する",
-      "en": "promote"
+      "en": "promote",
+      "example": "be promoted to hotel manager"
     },
     {
       "ja": "を要請する",
-      "en": "request"
+      "en": "request",
+      "example": "request information"
     },
     {
       "ja": "を観察する／(法律・習慣など)を守る",
-      "en": "observe"
+      "en": "observe",
+      "example": "observe ants carefully"
     },
     {
       "ja": "を克服する／に打ち勝つ",
-      "en": "overcome"
+      "en": "overcome",
+      "example": "overcome difficulties"
     },
     {
       "ja": "宇宙飛行士",
-      "en": "astronaut"
+      "en": "astronaut",
+      "example": "want to be an astronaut"
     },
     {
       "ja": "病気",
-      "en": "disease"
+      "en": "disease",
+      "example": "cure a disease"
     },
     {
       "ja": "化学製品／化学薬品",
-      "en": "chemical"
+      "en": "chemical",
+      "example": "harmful chemicals"
     },
     {
       "ja": "教育",
-      "en": "education"
+      "en": "education",
+      "example": "a college education"
     },
     {
       "ja": "生物学",
-      "en": "biology"
+      "en": "biology",
+      "example": "my biology assignment"
     },
     {
       "ja": "バレエ",
-      "en": "ballet"
+      "en": "ballet",
+      "example": "a ballet dancer"
     },
     {
       "ja": "世代",
-      "en": "generation"
+      "en": "generation",
+      "example": "younger generations"
     },
     {
       "ja": "毛布",
-      "en": "blanket"
+      "en": "blanket",
+      "example": "put a blanket over her"
     },
     {
       "ja": "ガソリン",
-      "en": "gasoline"
+      "en": "gasoline",
+      "example": "pay for gasoline"
     },
     {
       "ja": "診療所",
-      "en": "clinic"
+      "en": "clinic",
+      "example": "a dental clinic"
     },
     {
       "ja": "店員／事務員",
-      "en": "clerk"
+      "en": "clerk",
+      "example": "a store clerk"
     },
     {
       "ja": "エンジニア／技術者",
-      "en": "engineer"
+      "en": "engineer",
+      "example": "a systems engineer"
     },
     {
       "ja": "搭乗／乗船／乗車",
-      "en": "boarding"
+      "en": "boarding",
+      "example": "a boarding pass"
     },
     {
       "ja": "文書／書類",
-      "en": "document"
+      "en": "document",
+      "example": "sign a document"
     },
     {
       "ja": "感情",
-      "en": "emotion"
+      "en": "emotion",
+      "example": "control one's emotions"
     },
     {
       "ja": "(〜s)祝辞／祝いの言葉",
-      "en": "congratulation"
+      "en": "congratulation",
+      "example": "Congratulations to you on your success!"
     },
     {
       "ja": "儀式",
-      "en": "ceremony"
+      "en": "ceremony",
+      "example": "a graduation ceremony"
     },
     {
       "ja": "10億／(〜sで)数十億",
-      "en": "billion"
+      "en": "billion",
+      "example": "eight billion people"
     },
     {
       "ja": "助手／補佐",
-      "en": "assistant"
+      "en": "assistant",
+      "example": "an assistant driver"
     },
     {
       "ja": "習慣",
-      "en": "habit"
+      "en": "habit",
+      "example": "break a bad habit"
     },
     {
       "ja": "漁師／釣り人",
-      "en": "fisherman"
+      "en": "fisherman",
+      "example": "local fishermen"
     },
     {
       "ja": "雰囲気／(the〜)大気",
-      "en": "atmosphere"
+      "en": "atmosphere",
+      "example": "a friendly atmosphere"
     },
     {
       "ja": "コマーシャル",
-      "en": "commercial"
+      "en": "commercial",
+      "example": "a TV commercial"
     },
     {
       "ja": "デザイナー／設計者",
-      "en": "designer"
+      "en": "designer",
+      "example": "a shoe designer"
     },
     {
       "ja": "封筒",
-      "en": "envelope"
+      "en": "envelope",
+      "example": "put a stamp on the envelope"
     },
     {
       "ja": "人物／形／数字／図",
-      "en": "figure"
+      "en": "figure",
+      "example": "a public figure"
     },
     {
       "ja": "美／美人",
-      "en": "beauty"
+      "en": "beauty",
+      "example": "natural beauty"
     },
     {
       "ja": "枝／支流／支店",
-      "en": "branch"
+      "en": "branch",
+      "example": "A bird is singing on a branch."
     },
     {
       "ja": "ダイエット／日常の食事",
-      "en": "diet"
+      "en": "diet",
+      "example": "be on a diet"
     },
     {
       "ja": "縁／刃",
-      "en": "edge"
+      "en": "edge",
+      "example": "the edge of a table"
     },
     {
       "ja": "敵",
-      "en": "enemy"
+      "en": "enemy",
+      "example": "get caught by the enemy"
     },
     {
       "ja": "卒業／卒業式",
-      "en": "graduation"
+      "en": "graduation",
+      "example": "soon after graduation"
     },
     {
       "ja": "計算機",
-      "en": "calculator"
+      "en": "calculator",
+      "example": "solve a problem with a calculator"
     },
     {
       "ja": "態度",
-      "en": "attitude"
+      "en": "attitude",
+      "example": "a bad attitude toward teachers"
     },
     {
       "ja": "災害／不幸",
-      "en": "disaster"
+      "en": "disaster",
+      "example": "a natural disaster"
     },
     {
       "ja": "予報",
-      "en": "forecast"
+      "en": "forecast",
+      "example": "the weather forecast"
     },
     {
       "ja": "(集合的に)家具",
-      "en": "furniture"
+      "en": "furniture",
+      "example": "two pieces of furniture"
     },
     {
       "ja": "角度／観点",
-      "en": "angle"
+      "en": "angle",
+      "example": "think from a different angle"
     },
     {
       "ja": "カブトムシ(の類)",
-      "en": "beetle"
+      "en": "beetle",
+      "example": "collect beetles and butterflies"
     },
     {
       "ja": "本棚",
-      "en": "bookshelf"
+      "en": "bookshelf",
+      "example": "take a book from the bookshelf"
     },
     {
       "ja": "論評／コメント",
-      "en": "comment"
+      "en": "comment",
+      "example": "make a comment on the idea"
     },
     {
       "ja": "幸福／幸せ",
-      "en": "happiness"
+      "en": "happiness",
+      "example": "pray for your happiness"
     },
     {
       "ja": "国籍",
-      "en": "nationality"
+      "en": "nationality",
+      "example": "What is your nationality?"
     },
     {
       "ja": "太った／厚い",
-      "en": "fat"
+      "en": "fat",
+      "example": "a big fat dog"
     },
     {
       "ja": "空の",
-      "en": "empty"
+      "en": "empty",
+      "example": "an empty house"
     },
     {
       "ja": "確信して／自信のある",
-      "en": "confident"
+      "en": "confident",
+      "example": "I'm confident of his success."
     },
     {
       "ja": "正確な",
-      "en": "exact"
+      "en": "exact",
+      "example": "the exact time"
     },
     {
       "ja": "死んだ",
-      "en": "dead"
+      "en": "dead",
+      "example": "the dead"
     },
     {
       "ja": "好奇心の強い／知りたがる",
-      "en": "curious"
+      "en": "curious",
+      "example": "be curious about anything new"
     },
     {
       "ja": "精通して／よく知られた",
-      "en": "familiar"
+      "en": "familiar",
+      "example": "I'm not familiar with this field."
     },
     {
       "ja": "素晴らしい／空想的な",
-      "en": "fantastic"
+      "en": "fantastic",
+      "example": "a fantastic idea"
     },
     {
       "ja": "(互いに)似ている／同様で",
-      "en": "alike"
+      "en": "alike",
+      "example": "Our ideas are very much alike."
     },
     {
       "ja": "落ち着いた",
-      "en": "calm"
+      "en": "calm",
+      "example": "stay calm"
     },
     {
       "ja": "取り扱いの難しい／繊細な",
-      "en": "delicate"
+      "en": "delicate",
+      "example": "a delicate matter"
     },
     {
       "ja": "平らな／空気の抜けた／均一の",
-      "en": "flat"
+      "en": "flat",
+      "example": "flat ground"
     },
     {
       "ja": "(その)次の／以下の",
-      "en": "following"
+      "en": "following",
+      "example": "in the following way"
     },
     {
       "ja": "ハンサムな／端正な顔立ちの",
-      "en": "handsome"
+      "en": "handsome",
+      "example": "a handsome young man"
     },
     {
       "ja": "バランス[均衡]の取れた",
-      "en": "balanced"
+      "en": "balanced",
+      "example": "a balanced diet"
     },
     {
       "ja": "勇敢な／勇ましい",
-      "en": "brave"
+      "en": "brave",
+      "example": "praise him for being brave"
     },
     {
       "ja": "(人・行為が)不注意な／軽率な",
-      "en": "careless"
+      "en": "careless",
+      "example": "a careless spelling mistake"
     },
     {
       "ja": "愚かな／ばかな",
-      "en": "foolish"
+      "en": "foolish",
+      "example": "Don't be foolish."
     },
     {
       "ja": "いてつくように寒い[冷たい]",
-      "en": "freezing"
+      "en": "freezing",
+      "example": "It's freezing outside."
     },
     {
       "ja": "徐々に",
-      "en": "gradually"
+      "en": "gradually",
+      "example": "gradually disappear"
     },
     {
       "ja": "結局(は)",
-      "en": "eventually"
+      "en": "eventually",
+      "example": "He will fail eventually."
     },
     {
       "ja": "その上／さらに",
-      "en": "besides"
+      "en": "besides",
+      "example": "Besides, it is cheap!"
     },
     {
       "ja": "(apart fromで)〜を除いて",
-      "en": "apart"
+      "en": "apart",
+      "example": "apart from the case"
     },
     {
       "ja": "ほとんど〜ない",
-      "en": "hardly"
+      "en": "hardly",
+      "example": "I can hardly believe it."
     },
     {
       "ja": "強く主張する",
-      "en": "insist"
+      "en": "insist",
+      "example": "He insisted on his theory."
     },
     {
       "ja": "を元気づける／の気分をさわやかにする",
-      "en": "refresh"
+      "en": "refresh",
+      "example": "A cup of coffee always refreshes me."
     },
     {
       "ja": "溶ける／を溶かす",
-      "en": "melt"
+      "en": "melt",
+      "example": "The snow began to melt."
     },
     {
       "ja": "追求する／を捜す",
-      "en": "seek"
+      "en": "seek",
+      "example": "seek for the truth"
     },
     {
       "ja": "滑り下りる／を滑らせる",
-      "en": "slide"
+      "en": "slide",
+      "example": "slide down a slope"
     },
     {
       "ja": "を編む／編み物をする",
-      "en": "knit"
+      "en": "knit",
+      "example": "knit a sweater for me"
     },
     {
       "ja": "(外見・性質などが)に似ている",
-      "en": "resemble"
+      "en": "resemble",
+      "example": "She resembles her mother in character."
     },
     {
       "ja": "苦しむ／病気にかかる",
-      "en": "suffer"
+      "en": "suffer",
+      "example": "suffering people"
     },
     {
       "ja": "(ホームページなどを)見て回る／サーフィンをする",
-      "en": "surf"
+      "en": "surf",
+      "example": "surf on the Internet"
     },
     {
       "ja": "くっつく／を突き刺す",
-      "en": "stick"
+      "en": "stick",
+      "example": "Gum stuck to his shoes."
     },
     {
       "ja": "を閉じ込める／(動物)をわなで捕らえる",
-      "en": "trap"
+      "en": "trap",
+      "example": "be trapped in the building"
     },
     {
       "ja": "をスイッチで切り替える／を変える",
-      "en": "switch"
+      "en": "switch",
+      "example": "switch the music off"
     },
     {
       "ja": "専門とする／専攻する",
-      "en": "specialize"
+      "en": "specialize",
+      "example": "specialize in literature"
     },
     {
       "ja": "を供給する",
-      "en": "supply"
+      "en": "supply",
+      "example": "supply enough electricity for the whole country"
     },
     {
       "ja": "を生き残る",
-      "en": "survive"
+      "en": "survive",
+      "example": "survive without enough food"
     },
     {
       "ja": "成功する／継承する",
-      "en": "succeed"
+      "en": "succeed",
+      "example": "succeed as a businessperson"
     },
     {
       "ja": "を裂く／を破る",
-      "en": "tear"
+      "en": "tear",
+      "example": "tear the letter into pieces"
     },
     {
       "ja": "投票する／を投票で決める",
-      "en": "vote"
+      "en": "vote",
+      "example": "Who will you vote for in the next election?"
     },
     {
       "ja": "に鍵をかける",
-      "en": "lock"
+      "en": "lock",
+      "example": "lock a door"
     },
     {
       "ja": "を損なう／を傷つける",
-      "en": "harm"
+      "en": "harm",
+      "example": "Smoking may harm your health."
     },
     {
       "ja": "(賞など)を与える",
-      "en": "award"
+      "en": "award",
+      "example": "award a gold medal to him"
     },
     {
       "ja": "についてよく考える／を熟考する",
-      "en": "consider"
+      "en": "consider",
+      "example": "consider a proposal carefully"
     },
     {
       "ja": "を解放する",
-      "en": "release"
+      "en": "release",
+      "example": "be released from the hospital"
     },
     {
       "ja": "出現する／のように見える",
-      "en": "appear"
+      "en": "appear",
+      "example": "appear on the stage"
     },
     {
       "ja": "研究者／調査員",
-      "en": "researcher"
+      "en": "researcher",
+      "example": "according to some researchers"
     },
     {
       "ja": "金属",
-      "en": "metal"
+      "en": "metal",
+      "example": "a cup made of metal"
     },
     {
       "ja": "支配人／管理者／経営者",
-      "en": "manager"
+      "en": "manager",
+      "example": "a general manager"
     },
     {
       "ja": "組織／団体",
-      "en": "organization"
+      "en": "organization",
+      "example": "set up an organization"
     },
     {
       "ja": "ミステリー／神秘",
-      "en": "mystery"
+      "en": "mystery",
+      "example": "a mystery novel"
     },
     {
       "ja": "(列車・飛行機・船などの)乗客",
-      "en": "passenger"
+      "en": "passenger",
+      "example": "a passenger list"
     },
     {
       "ja": "人口",
-      "en": "population"
+      "en": "population",
+      "example": "have a large population"
     },
     {
       "ja": "イメージ／映像",
-      "en": "image"
+      "en": "image",
+      "example": "change his image"
     },
     {
       "ja": "水準／レベル",
-      "en": "level"
+      "en": "level",
+      "example": "the level of living"
     },
     {
       "ja": "機会",
-      "en": "opportunity"
+      "en": "opportunity",
+      "example": "an opportunity to go abroad"
     },
     {
       "ja": "市長",
-      "en": "mayor"
+      "en": "mayor",
+      "example": "elect her mayor"
     },
     {
       "ja": "質",
-      "en": "quality"
+      "en": "quality",
+      "example": "the quality of life"
     },
     {
       "ja": "信号／合図",
-      "en": "signal"
+      "en": "signal",
+      "example": "a traffic signal"
     },
     {
       "ja": "液体",
-      "en": "liquid"
+      "en": "liquid",
+      "example": "a clear liquid"
     },
     {
       "ja": "大多数／多数派／過半数",
-      "en": "majority"
+      "en": "majority",
+      "example": "the majority of students"
     },
     {
       "ja": "場所／位置",
-      "en": "location"
+      "en": "location",
+      "example": "a good location for skiing"
     },
     {
       "ja": "苦痛／(〜s)苦労",
-      "en": "pain"
+      "en": "pain",
+      "example": "feel pain"
     },
     {
       "ja": "現実(性)／現実のもの",
-      "en": "reality"
+      "en": "reality",
+      "example": "escape from reality"
     },
     {
       "ja": "賃貸し[賃借り]すること／レンタル料",
-      "en": "rental"
+      "en": "rental",
+      "example": "arrange car rental"
     },
     {
       "ja": "午前0時／夜中の12時",
-      "en": "midnight"
+      "en": "midnight",
+      "example": "at midnight"
     },
     {
       "ja": "影響",
-      "en": "influence"
+      "en": "influence",
+      "example": "have a good influence on children"
     },
     {
       "ja": "(公共建物内の)トイレ／化粧室",
-      "en": "restroom"
+      "en": "restroom",
+      "example": "Where is the restroom?"
     },
     {
       "ja": "避難所／住まい",
-      "en": "shelter"
+      "en": "shelter",
+      "example": "an emergency shelter"
     },
     {
       "ja": "1枚(の紙)／薄板／シーツ",
-      "en": "sheet"
+      "en": "sheet",
+      "example": "take out a sheet of paper"
     },
     {
       "ja": "手術／操作",
-      "en": "operation"
+      "en": "operation",
+      "example": "have an operation on one's stomach"
     },
     {
       "ja": "写真",
-      "en": "photograph"
+      "en": "photograph",
+      "example": "a black-and-white photograph"
     },
     {
       "ja": "プリンター／印刷機",
-      "en": "printer"
+      "en": "printer",
+      "example": "fix a printer"
     },
     {
       "ja": "リズム",
-      "en": "rhythm"
+      "en": "rhythm",
+      "example": "dance to the rhythm"
     },
     {
       "ja": "小エビ",
-      "en": "shrimp"
+      "en": "shrimp",
+      "example": "a shrimp burger"
     },
     {
       "ja": "みやげ／記念品／思い出の品",
-      "en": "souvenir"
+      "en": "souvenir",
+      "example": "buy some souvenirs for my son"
     },
     {
       "ja": "レシート／領収書／受領",
-      "en": "receipt"
+      "en": "receipt",
+      "example": "May I have the receipt?"
     },
     {
       "ja": "講義／講演",
-      "en": "lecture"
+      "en": "lecture",
+      "example": "attend a lecture on art"
     },
     {
       "ja": "階級／ランク",
-      "en": "rank"
+      "en": "rank",
+      "example": "a person of high rank"
     },
     {
       "ja": "(the〜)地平線／水平線",
-      "en": "horizon"
+      "en": "horizon",
+      "example": "rise above the horizon"
     },
     {
       "ja": "ハンドバッグ／(主に女性用の)財布",
-      "en": "purse"
+      "en": "purse",
+      "example": "a purse made of leather"
     },
     {
       "ja": "調和",
-      "en": "harmony"
+      "en": "harmony",
+      "example": "be in harmony with nature"
     },
     {
       "ja": "弁護士／法律家",
-      "en": "lawyer"
+      "en": "lawyer",
+      "example": "consult a lawyer"
     },
     {
       "ja": "起源",
-      "en": "origin"
+      "en": "origin",
+      "example": "the origin of civilization"
     },
     {
       "ja": "休止／中止",
-      "en": "pause"
+      "en": "pause",
+      "example": "start again after a pause"
     },
     {
       "ja": "人気",
-      "en": "popularity"
+      "en": "popularity",
+      "example": "Their popularity has increased."
     },
     {
       "ja": "称賛／賞美",
-      "en": "praise"
+      "en": "praise",
+      "example": "receive praise from the audience"
     },
     {
       "ja": "プライド／誇り",
-      "en": "pride"
+      "en": "pride",
+      "example": "injure his pride"
     },
     {
       "ja": "反応",
-      "en": "reaction"
+      "en": "reaction",
+      "example": "a natural reaction"
     },
     {
       "ja": "うわさ",
-      "en": "rumor"
+      "en": "rumor",
+      "example": "spread a rumor"
     },
     {
       "ja": "影／(日)陰",
-      "en": "shadow"
+      "en": "shadow",
+      "example": "the shadow of a stranger"
     },
     {
       "ja": "喫煙者",
-      "en": "smoker"
+      "en": "smoker",
+      "example": "separate smokers and non-smokers"
     },
     {
       "ja": "笑い／笑い声",
-      "en": "laughter"
+      "en": "laughter",
+      "example": "burst into laughter"
     },
     {
       "ja": "奇跡",
-      "en": "miracle"
+      "en": "miracle",
+      "example": "It was a miracle that he came back alive."
     },
     {
       "ja": "めい",
-      "en": "niece"
+      "en": "niece",
+      "example": "My niece is a high school student."
     },
     {
       "ja": "カキ",
-      "en": "oyster"
+      "en": "oyster",
+      "example": "Oysters are now in season."
     },
     {
       "ja": "(発展・生活・運動などの)速さ／ペース",
-      "en": "pace"
+      "en": "pace",
+      "example": "study at your own pace"
     },
     {
       "ja": "罰金／罰",
-      "en": "penalty"
+      "en": "penalty",
+      "example": "pay a penalty"
     },
     {
       "ja": "祈り",
-      "en": "prayer"
+      "en": "prayer",
+      "example": "a prayer for world peace"
     },
     {
       "ja": "映写機／プロジェクター",
-      "en": "projector"
+      "en": "projector",
+      "example": "Something is wrong with this projector."
     },
     {
       "ja": "スケッチ／概略",
-      "en": "sketch"
+      "en": "sketch",
+      "example": "make a rough sketch of the house"
     },
     {
       "ja": "特定の／特別の",
-      "en": "particular"
+      "en": "particular",
+      "example": "particular people"
     },
     {
       "ja": "必要な",
-      "en": "necessary"
+      "en": "necessary",
+      "example": "necessary information"
     },
     {
       "ja": "自然の／当然の／生まれつきの",
-      "en": "natural"
+      "en": "natural",
+      "example": "natural energy"
     },
     {
       "ja": "頭の良い／しゃれた",
-      "en": "smart"
+      "en": "smart",
+      "example": "a smart solution"
     },
     {
       "ja": "否定の／消極的な",
-      "en": "negative"
+      "en": "negative",
+      "example": "a negative reaction"
     },
     {
       "ja": "普通の／並の",
-      "en": "ordinary"
+      "en": "ordinary",
+      "example": "in ordinary dress"
     },
     {
       "ja": "簡単な／単純な／質素な",
-      "en": "simple"
+      "en": "simple",
+      "example": "a simple structure"
     },
     {
       "ja": "塩辛い／塩気のある",
-      "en": "salty"
+      "en": "salty",
+      "example": "This tastes a little salty."
     },
     {
       "ja": "礼儀正しい",
-      "en": "polite"
+      "en": "polite",
+      "example": "polite behavior"
     },
     {
       "ja": "汚れていない／純粋な",
-      "en": "pure"
+      "en": "pure",
+      "example": "pure water"
     },
     {
       "ja": "引っ込み思案の／恥ずかしがりの",
-      "en": "shy"
+      "en": "shy",
+      "example": "a shy student"
     },
     {
       "ja": "正直な",
-      "en": "honest"
+      "en": "honest",
+      "example": "to be honest with you"
     },
     {
       "ja": "即時の／即席の",
-      "en": "instant"
+      "en": "instant",
+      "example": "an instant reply"
     },
     {
       "ja": "怒って／狂気の／熱中して",
-      "en": "mad"
+      "en": "mad",
+      "example": "get mad at him"
     },
     {
       "ja": "隠された／秘密の",
-      "en": "hidden"
+      "en": "hidden",
+      "example": "discover his hidden talent"
     },
     {
       "ja": "焼いた／あぶった",
-      "en": "roast"
+      "en": "roast",
+      "example": "roast chicken"
     },
     {
       "ja": "直ちに",
-      "en": "immediately"
+      "en": "immediately",
+      "example": "start immediately"
     },
     {
       "ja": "自然に／(通例文頭で)当然",
-      "en": "naturally"
+      "en": "naturally",
+      "example": "behave naturally"
     },
     {
       "ja": "めったに〜しない",
-      "en": "rarely"
+      "en": "rarely",
+      "example": "Such accidents rarely happen."
     },
     {
       "ja": "じきに／まもなく",
-      "en": "shortly"
+      "en": "shortly",
+      "example": "shortly after that"
     },
     {
       "ja": "めったに(〜し)ない",
-      "en": "seldom"
+      "en": "seldom",
+      "example": "We seldom eat out."
     },
     {
       "ja": "と主張する／言い争う",
-      "en": "argue"
+      "en": "argue",
+      "example": "She argued that she was right."
     },
     {
       "ja": "集中する",
-      "en": "concentrate"
+      "en": "concentrate",
+      "example": "concentrate on work"
     },
     {
       "ja": "を遅らせる／を延期する",
-      "en": "delay"
+      "en": "delay",
+      "example": "The train was delayed."
     },
     {
       "ja": "専攻する",
-      "en": "major"
+      "en": "major",
+      "example": "major in economics"
     },
     {
       "ja": "を達成する／を成し遂げる",
-      "en": "achieve"
+      "en": "achieve",
+      "example": "achieve a goal"
     },
     {
       "ja": "に欠けている／がない",
-      "en": "lack"
+      "en": "lack",
+      "example": "lack enough experience"
     },
     {
       "ja": "言及する／参照する",
-      "en": "refer"
+      "en": "refer",
+      "example": "refer to his paper"
     },
     {
       "ja": "燃える／を燃やす",
-      "en": "burn"
+      "en": "burn",
+      "example": "Paper burns well."
     },
     {
       "ja": "沈む／を沈める",
-      "en": "sink"
+      "en": "sink",
+      "example": "sink to the bottom"
     },
     {
       "ja": "成る／ある",
-      "en": "consist"
+      "en": "consist",
+      "example": "consist of five elements"
     },
     {
       "ja": "をこぼす／こぼれる",
-      "en": "spill"
+      "en": "spill",
+      "example": "spill soup on a dress"
     },
     {
       "ja": "に言及する／を述べる",
-      "en": "mention"
+      "en": "mention",
+      "example": "mention her latest book"
     },
     {
       "ja": "を(事実・妥当だと)認める",
-      "en": "admit"
+      "en": "admit",
+      "example": "admit one's guilt"
     },
     {
       "ja": "(風が)吹く／に息を吹きかける",
-      "en": "blow"
+      "en": "blow",
+      "example": "The north wind began to blow."
     },
     {
       "ja": "のふりをする",
-      "en": "pretend"
+      "en": "pretend",
+      "example": "pretend to be ill"
     },
     {
       "ja": "を後悔する",
-      "en": "regret"
+      "en": "regret",
+      "example": "He regrets what he did."
     },
     {
       "ja": "治療／取り扱い",
-      "en": "treatment"
+      "en": "treatment",
+      "example": "free medical treatment"
     },
     {
       "ja": "(詳細な)調査",
-      "en": "survey"
+      "en": "survey",
+      "example": "according to a recent survey"
     },
     {
       "ja": "寺／神殿",
-      "en": "temple"
+      "en": "temple",
+      "example": "visit temples and shrines in Kyoto"
     },
     {
       "ja": "制服／ユニフォーム",
-      "en": "uniform"
+      "en": "uniform",
+      "example": "be in school uniform"
     },
     {
       "ja": "代理店",
-      "en": "agency"
+      "en": "agency",
+      "example": "a travel agency"
     },
     {
       "ja": "気温／温度／体温",
-      "en": "temperature"
+      "en": "temperature",
+      "example": "the average temperature"
     },
     {
       "ja": "傾向／流行",
-      "en": "trend"
+      "en": "trend",
+      "example": "the recent trend toward cashless payment"
     },
     {
       "ja": "表面／(the〜)外見",
-      "en": "surface"
+      "en": "surface",
+      "example": "the surface of the Earth"
     },
     {
       "ja": "のど",
-      "en": "throat"
+      "en": "throat",
+      "example": "clear one's throat"
     },
     {
       "ja": "利益／もうけ",
-      "en": "profit"
+      "en": "profit",
+      "example": "make a large profit on a new product"
     },
     {
       "ja": "(しばしば the〜)職場／仕事場",
-      "en": "workplace"
+      "en": "workplace",
+      "example": "experience in the workplace"
     },
     {
       "ja": "象徴／シンボル",
-      "en": "symbol"
+      "en": "symbol",
+      "example": "a symbol of peace"
     },
     {
       "ja": "(the Webで)(ワールドワイド)ウェブ",
-      "en": "web"
+      "en": "web",
+      "example": "be available on the Web"
     },
     {
       "ja": "線路／走路",
-      "en": "track"
+      "en": "track",
+      "example": "repair a railroad track"
     },
     {
       "ja": "(課せられた)仕事",
-      "en": "task"
+      "en": "task",
+      "example": "a difficult task"
     },
     {
       "ja": "つづり／(字を正しく)つづること",
-      "en": "spelling"
+      "en": "spelling",
+      "example": "Be careful of spelling mistakes."
     },
     {
       "ja": "要約／まとめ",
-      "en": "summary"
+      "en": "summary",
+      "example": "make a brief summary of her speech"
     },
     {
       "ja": "雷を伴う暴風雨",
-      "en": "thunderstorm"
+      "en": "thunderstorm",
+      "example": "be canceled because of the thunderstorm"
     },
     {
       "ja": "ダイヤモンド",
-      "en": "diamond"
+      "en": "diamond",
+      "example": "find the stolen diamonds in his house"
     },
     {
       "ja": "説明書／マニュアル",
-      "en": "manual"
+      "en": "manual",
+      "example": "read the manual for my new computer"
     },
     {
       "ja": "胃／腹",
-      "en": "stomach"
+      "en": "stomach",
+      "example": "My stomach hurts."
     },
     {
       "ja": "テーマ／主題",
-      "en": "theme"
+      "en": "theme",
+      "example": "the theme of this novel"
     },
     {
       "ja": "考え／思考",
-      "en": "thought"
+      "en": "thought",
+      "example": "express your thoughts clearly"
     },
     {
       "ja": "勝利",
-      "en": "victory"
+      "en": "victory",
+      "example": "celebrate a victory"
     },
     {
       "ja": "剣／刀",
-      "en": "sword"
+      "en": "sword",
+      "example": "attack the monster with a sword"
     },
     {
       "ja": "音量／分量／(シリーズ本などの)巻",
-      "en": "volume"
+      "en": "volume",
+      "example": "turn the volume up"
     },
     {
       "ja": "影響／結果",
-      "en": "effect"
+      "en": "effect",
+      "example": "have a bad effect on school life"
     },
     {
       "ja": "材料／生地／資料",
-      "en": "material"
+      "en": "material",
+      "example": "the cost of materials"
     },
     {
       "ja": "陳述／声明",
-      "en": "statement"
+      "en": "statement",
+      "example": "the following statement"
     },
     {
       "ja": "海岸／沿岸",
-      "en": "coast"
+      "en": "coast",
+      "example": "the West Coast of the United States"
     },
     {
       "ja": "恐れ／心配",
-      "en": "fear"
+      "en": "fear",
+      "example": "for fear of being arrested"
     },
     {
       "ja": "(通例 the〜)田舎／田園地帯",
-      "en": "countryside"
+      "en": "countryside",
+      "example": "live in the countryside"
     },
     {
       "ja": "(雑誌などの)第〜号／発行／問題",
-      "en": "issue"
+      "en": "issue",
+      "example": "the latest issue"
     },
     {
       "ja": "状態／(〜s)状況／条件",
-      "en": "condition"
+      "en": "condition",
+      "example": "He is in good condition."
     },
     {
       "ja": "犯罪",
-      "en": "crime"
+      "en": "crime",
+      "example": "commit a crime"
     },
     {
       "ja": "(温度・角度などの)度／程度",
-      "en": "degree"
+      "en": "degree",
+      "example": "five degrees below zero"
     },
     {
       "ja": "日光",
-      "en": "sunlight"
+      "en": "sunlight",
+      "example": "bright sunlight"
     },
     {
       "ja": "首都／資本／大文字",
-      "en": "capital"
+      "en": "capital",
+      "example": "the capital of Japan"
     },
     {
       "ja": "振る舞い／行動",
-      "en": "behavior"
+      "en": "behavior",
+      "example": "his rude behavior"
     },
     {
       "ja": "子供のころ／幼児期",
-      "en": "childhood"
+      "en": "childhood",
+      "example": "in one's childhood"
     },
     {
       "ja": "比率／割合／速度",
-      "en": "rate"
+      "en": "rate",
+      "example": "a birth rate"
     },
     {
       "ja": "祖先",
-      "en": "ancestor"
+      "en": "ancestor",
+      "example": "the roots of my ancestors"
     },
     {
       "ja": "地震",
-      "en": "earthquake"
+      "en": "earthquake",
+      "example": "a severe earthquake"
     },
     {
       "ja": "自由",
-      "en": "freedom"
+      "en": "freedom",
+      "example": "freedom of speech"
     },
     {
       "ja": "市民／国民",
-      "en": "citizen"
+      "en": "citizen",
+      "example": "the citizens of Tokyo"
     },
     {
       "ja": "娯楽／催し物／もてなし",
-      "en": "entertainment"
+      "en": "entertainment",
+      "example": "entertainment for children"
     },
     {
       "ja": "額縁／枠",
-      "en": "frame"
+      "en": "frame",
+      "example": "put a picture in a frame"
     },
     {
       "ja": "(乗り物の)料金",
-      "en": "fare"
+      "en": "fare",
+      "example": "a train fare"
     },
     {
       "ja": "欠点／誤り",
-      "en": "fault"
+      "en": "fault",
+      "example": "find fault with her"
     },
     {
       "ja": "特徴",
-      "en": "feature"
+      "en": "feature",
+      "example": "a distinctive feature of this machine"
     },
     {
       "ja": "敬意／光栄／名誉",
-      "en": "honor"
+      "en": "honor",
+      "example": "in honor of the inventor"
     },
     {
       "ja": "(俳優などの)役／役割",
-      "en": "role"
+      "en": "role",
+      "example": "play the leading role"
     },
     {
       "ja": "ストレスの原因となる／緊張を強いる",
-      "en": "stressful"
+      "en": "stressful",
+      "example": "a stressful experience"
     },
     {
       "ja": "薄い／細い／やせた",
-      "en": "thin"
+      "en": "thin",
+      "example": "a thin book"
     },
     {
       "ja": "価値がある",
-      "en": "worth"
+      "en": "worth",
+      "example": "This movie is worth seeing."
     },
     {
       "ja": "困難な／頑丈な／堅い",
-      "en": "tough"
+      "en": "tough",
+      "example": "a tough match"
     },
     {
       "ja": "よく知られている／有名な",
-      "en": "well-known"
+      "en": "well-known",
+      "example": "work with a well-known researcher"
     },
     {
       "ja": "太い／厚い",
-      "en": "thick"
+      "en": "thick",
+      "example": "a thick rope"
     },
     {
       "ja": "適した",
-      "en": "suitable"
+      "en": "suitable",
+      "example": "be suitable for beginners"
     },
     {
       "ja": "平方の／正方形の",
-      "en": "square"
+      "en": "square",
+      "example": "100 square meters"
     },
     {
       "ja": "常勤の／専任の",
-      "en": "full-time"
+      "en": "full-time",
+      "example": "a full-time employee"
     },
     {
       "ja": "不親切な／よそよそしい",
-      "en": "unfriendly"
+      "en": "unfriendly",
+      "example": "be unfriendly to tourists"
     },
     {
       "ja": "(A is likely to doで)Aは〜しそうである",
-      "en": "likely"
+      "en": "likely",
+      "example": "It's likely to rain."
     },
     {
       "ja": "公式の／正式の／職務上の",
-      "en": "official"
+      "en": "official",
+      "example": "an official record"
     },
     {
       "ja": "澄んだ／はっきりした／よく晴れた",
-      "en": "clear"
+      "en": "clear",
+      "example": "clear water"
     },
     {
       "ja": "病気で",
-      "en": "ill"
+      "en": "ill",
+      "example": "be ill in bed"
     },
     {
       "ja": "異常な／普通でない",
-      "en": "unusual"
+      "en": "unusual",
+      "example": "unusual weather"
     },
     {
       "ja": "特定の／明確な",
-      "en": "specific"
+      "en": "specific",
+      "example": "specific age groups"
     },
     {
       "ja": "反対の",
-      "en": "opposite"
+      "en": "opposite",
+      "example": "in the opposite direction"
     },
     {
       "ja": "気持ちの良い／快い",
-      "en": "pleasant"
+      "en": "pleasant",
+      "example": "a pleasant climate"
     },
     {
       "ja": "ひどい",
-      "en": "awful"
+      "en": "awful",
+      "example": "an awful error"
     },
     {
       "ja": "直接の／まっすぐな",
-      "en": "direct"
+      "en": "direct",
+      "example": "direct sunlight"
     },
     {
       "ja": "未加工の／生の",
-      "en": "raw"
+      "en": "raw",
+      "example": "raw materials"
     },
     {
       "ja": "完全に／全く／とても",
-      "en": "totally"
+      "en": "totally",
+      "example": "He's not totally wrong."
     },
     {
       "ja": "驚くほど／意外にも",
-      "en": "surprisingly"
+      "en": "surprisingly",
+      "example": "surprisingly expensive"
     },
     {
       "ja": "間違って／誤って",
-      "en": "wrongly"
+      "en": "wrongly",
+      "example": "correct words wrongly spelled"
     },
     {
       "ja": "もっと遠くに／さらに",
-      "en": "further"
+      "en": "further",
+      "example": "travel further"
     },
     {
       "ja": "実は／本当に",
-      "en": "indeed"
+      "en": "indeed",
+      "example": "Indeed, it's true."
     },
     {
       "ja": "非常に／極端に",
-      "en": "extremely"
+      "en": "extremely",
+      "example": "an extremely boring game"
     },
     {
       "ja": "もしかすると",
-      "en": "perhaps"
+      "en": "perhaps",
+      "example": "Perhaps he is innocent."
     },
     {
       "ja": "…でない限り／…でなければ",
-      "en": "unless"
+      "en": "unless",
+      "example": "unless you break the promise"
     },
     {
       "ja": "〜と異なって／〜らしくない",
-      "en": "unlike"
+      "en": "unlike",
+      "example": "unlike the usual case"
     },
     {
       "ja": "〜以内で[に]",
-      "en": "within"
+      "en": "within",
+      "example": "within half an hour"
     },
     {
       "ja": "〜の方へ",
-      "en": "toward"
+      "en": "toward",
+      "example": "walk toward the door"
     }
   ],
   "単語/単語01.xlsx": [

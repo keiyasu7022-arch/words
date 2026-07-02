@@ -282,6 +282,13 @@
         .answer-area.visible { display: block; }
         .a-label { font-size: 0.72rem; color: #a0aec0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
         .a-text  { font-size: 1.45rem; font-weight: 700; color: #667eea; }
+        .a-example {
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: #718096;
+            font-style: italic;
+            line-height: 1.5;
+        }
 
         /* ====== Action buttons ====== */
         .action-buttons {
@@ -798,7 +805,12 @@ function processFile(file) {
             const wb = XLSX.read(new Uint8Array(e.target.result), { type: 'array' });
             const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1 });
             const parsed = rows
-                .map(r => ({ ja: String(r[0]||'').trim(), en: String(r[1]||'').trim(), status: 'unknown' }))
+                .map(r => {
+                    const w = { ja: String(r[0]||'').trim(), en: String(r[1]||'').trim(), status: 'unknown' };
+                    const example = String(r[2]||'').trim();
+                    if (example) w.example = example;
+                    return w;
+                })
                 .filter(w => w.ja && w.en);
             if (!parsed.length) { toast('単語が見つかりません。A列:日本語 B列:英語 の形式で入力してください'); return; }
             words = parsed;
@@ -932,6 +944,7 @@ function render() {
             <div class="answer-area ${revealed ? 'visible' : ''}" id="answerArea">
                 <div class="a-label">${aLabel}</div>
                 <div class="a-text">${esc(a)}</div>
+                ${w.example ? `<div class="a-example">📝 ${esc(w.example)}</div>` : ''}
             </div>
         </div>`;
 

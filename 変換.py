@@ -42,8 +42,12 @@ for f in files:
     for row in ws.iter_rows(values_only=True):
         ja = str(row[0] if row[0] is not None else '').strip()
         en = str(row[1] if row[1] is not None else '').strip()
+        example = str(row[2] if len(row) > 2 and row[2] is not None else '').strip()
         if ja and en:
-            words.append({'ja': ja, 'en': en})
+            w = {'ja': ja, 'en': en}
+            if example:
+                w['example'] = example
+            words.append(w)
     wb.close()
     if words:
         all_data[rel] = words
