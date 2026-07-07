@@ -9961,115 +9961,95 @@
   ],
   "単語/単語12.xlsx": [
     {
-      "ja": "〜の世話をする",
+      "ja": "〜を世話する",
       "en": "take care of ~"
     },
     {
-      "ja": "気をつける／注意する",
+      "ja": "注意する、気をつける",
       "en": "take care"
     },
     {
-      "ja": "2、3の〜、いくつかの〜",
+      "ja": "少数の〜、いくつかの〜",
       "en": "a few ~"
     },
     {
-      "ja": "かつて〜していた",
+      "ja": "以前は〜であった",
       "en": "used to do"
     },
     {
-      "ja": "〜することに慣れている",
+      "ja": "〜するのに慣れている",
       "en": "be used to doing"
     },
     {
-      "ja": "近ごろ、最近",
+      "ja": "このごろ",
       "en": "these days"
     },
     {
-      "ja": "〜のために支払う",
-      "en": "pay for ~"
+      "ja": "〜するには…すぎる",
+      "en": "too ... to do"
     },
     {
-      "ja": "〜を拾う、〜を迎えに行く",
-      "en": "pick up ~"
+      "ja": "…のやり方",
+      "en": "the way ..."
     },
     {
-      "ja": "AがBするのを手伝う",
-      "en": "help A (to) do"
+      "ja": "〜の理由で",
+      "en": "because of ~"
     },
     {
       "ja": "Aに〜させる",
       "en": "get A to do"
     },
     {
-      "ja": "〜のために、〜が原因で",
-      "en": "because of ~"
+      "ja": "Aが〜するのを助ける",
+      "en": "help A (to) do"
     },
     {
-      "ja": "〜のやり方",
-      "en": "the way ..."
+      "ja": "〜を拾い上げる、〜を取りに行く",
+      "en": "pick up ~"
     },
     {
-      "ja": "あまりに〜すぎて…できない",
-      "en": "too ... to do"
-    },
-    {
-      "ja": "〜するための時間がある",
-      "en": "have time to do"
-    },
-    {
-      "ja": "〜するのに十分なAがある",
-      "en": "have enough A to do"
-    },
-    {
-      "ja": "〜に取り組む",
-      "en": "work on ~"
-    },
-    {
-      "ja": "〜のために働く、〜に勤める",
-      "en": "work for ~"
-    },
-    {
-      "ja": "Aを来集する、迎えに行く",
-      "en": "pick A up"
-    },
-    {
-      "ja": "最初は",
-      "en": "at first"
-    },
-    {
-      "ja": "互いに",
-      "en": "each other"
-    },
-    {
-      "ja": "とても〜なので…",
-      "en": "so ~ that ..."
+      "ja": "〜の費用を払う",
+      "en": "pay for ~"
     },
     {
       "ja": "〜のような",
       "en": "such as ~"
     },
     {
-      "ja": "〜について心配する",
-      "en": "be worried about ~"
+      "ja": "とても〜なので…",
+      "en": "so ~ that ..."
     },
     {
-      "ja": "AのことをBに感謝する",
-      "en": "thank A for B"
+      "ja": "お互い",
+      "en": "each other"
     },
     {
-      "ja": "うまくやる、調子が良い",
+      "ja": "初めは",
+      "en": "at first"
+    },
+    {
+      "ja": "Aの役に立つ",
       "en": "do A good"
     },
     {
-      "ja": "過去には",
+      "ja": "AにBを感謝する",
+      "en": "thank A for B"
+    },
+    {
+      "ja": "〜を心配する",
+      "en": "be worried about ~"
+    },
+    {
+      "ja": "昔は、これまでに",
       "en": "in the past"
     },
     {
-      "ja": "〜に暮らす、〜に頼って生活する",
+      "ja": "〜を常食とする、〜を収入源として生活する",
       "en": "live on ~"
     },
     {
-      "ja": "〜を消す",
+      "ja": "（明かり・火）を消す",
       "en": "put out ~"
     },
     {
@@ -10077,15 +10057,15 @@
       "en": "far away"
     },
     {
-      "ja": "…のように見える、…しそうだ",
+      "ja": "…であるように見える、…しそうだ",
       "en": "look like ..."
     },
     {
-      "ja": "実際には、本当は",
+      "ja": "実際は",
       "en": "in fact"
     },
     {
-      "ja": "〜を見つける、〜を調べる",
+      "ja": "〜を見つけ出す",
       "en": "find out ~"
     },
     {
@@ -10093,7 +10073,7 @@
       "en": "look up ~"
     },
     {
-      "ja": "〜を片付ける",
+      "ja": "（〜を）すっかりきれいにする",
       "en": "clean up (~)"
     },
     {
@@ -10105,11 +10085,11 @@
       "en": "keep (on) doing"
     },
     {
-      "ja": "〜を着る、〜を身につける",
+      "ja": "〜を着用する",
       "en": "put on ~"
     },
     {
-      "ja": "(Aと)結婚する",
+      "ja": "（Aと）結婚する",
       "en": "get married (to A)"
     },
     {
@@ -10117,40 +10097,32 @@
       "en": "be afraid of ~"
     },
     {
-      "ja": "〜のために準備をする",
-      "en": "get ready for ~"
+      "ja": "〜する時間を持つ",
+      "en": "have time to do"
     },
     {
-      "ja": "〜することを考える",
-      "en": "think about doing"
+      "ja": "〜するのに十分なAを持っている",
+      "en": "have enough A to do"
     },
     {
-      "ja": "無料で",
-      "en": "for free"
+      "ja": "〜で働く",
+      "en": "work for ~"
     },
     {
-      "ja": "多くの〜",
-      "en": "a number of ~"
+      "ja": "〜に取り組む",
+      "en": "work on ~"
     },
     {
-      "ja": "〜を頼む、〜を要求する",
-      "en": "ask for ~"
+      "ja": "Aを車で迎えに行く[来る]",
+      "en": "pick A up"
     },
     {
-      "ja": "〜を設立する",
-      "en": "set up ~"
+      "ja": "初めて…する[した]とき",
+      "en": "the first time ..."
     },
     {
-      "ja": "〜を思いつく",
-      "en": "come up with ~"
-    },
-    {
-      "ja": "〜の用意ができている",
-      "en": "be ready for ~"
-    },
-    {
-      "ja": "〜のためのになる",
-      "en": "get ready for ~"
+      "ja": "直ちに",
+      "en": "right away"
     },
     {
       "ja": "〜するために",
@@ -10161,11 +10133,11 @@
       "en": "on time"
     },
     {
-      "ja": "〜を確かめる、面倒をみる",
-      "en": "see to it that ..."
+      "ja": "必ず…するように取り計らう",
+      "en": "see (to it) that ..."
     },
     {
-      "ja": "〜することになる",
+      "ja": "たまたま〜する",
       "en": "happen to do"
     },
     {
@@ -10177,7 +10149,11 @@
       "en": "be ready for ~"
     },
     {
-      "ja": "AのことをBに手伝ってもらう",
+      "ja": "予約する",
+      "en": "make a reservation"
+    },
+    {
+      "ja": "AのBを手伝う",
       "en": "help A with B"
     },
     {
@@ -10185,95 +10161,35 @@
       "en": "get lost"
     },
     {
-      "ja": "赤ちゃんが生まれる",
+      "ja": "赤ちゃんができる、子供を産む",
       "en": "have a baby"
     },
     {
-      "ja": "何をすればよいか",
+      "ja": "何を〜すべきか",
       "en": "what to do"
     },
     {
-      "ja": "最後の〜すべきA",
+      "ja": "最も〜しそうにないA",
       "en": "the last A to do"
     },
     {
-      "ja": "〜の代わりに",
+      "ja": "〜の代わりに、〜しないで",
       "en": "instead of ~"
     },
     {
-      "ja": "AをBに取り替える",
+      "ja": "AをBと間違える",
       "en": "take A for B"
     },
     {
-      "ja": "〜するどころじゃない",
-      "en": "be ready for ~"
-    },
-    {
-      "ja": "少なくとも",
-      "en": "at least"
-    },
-    {
-      "ja": "さまざまな〜",
-      "en": "a variety of ~"
-    },
-    {
-      "ja": "〜の世話をする",
-      "en": "look after ~"
-    },
-    {
-      "ja": "〜と一緒に",
-      "en": "along with ~"
-    },
-    {
-      "ja": "〜の中へ入る",
-      "en": "go into ~"
-    },
-    {
-      "ja": "行われる、起こる",
-      "en": "take place"
-    },
-    {
-      "ja": "〜をあきらめる",
-      "en": "give up (~)"
-    },
-    {
-      "ja": "2、3の〜",
-      "en": "a couple of ~"
-    },
-    {
-      "ja": "AをBに翻訳する",
-      "en": "translate A into B"
-    },
-    {
-      "ja": "地球上で、一体全体",
-      "en": "on earth"
-    },
-    {
-      "ja": "入院している",
-      "en": "be in the hospital"
-    },
-    {
-      "ja": "〜に決める",
-      "en": "decide on ~"
-    },
-    {
-      "ja": "1人きりで",
-      "en": "(all) by oneself"
-    },
-    {
-      "ja": "〜を試着する、〜を試してみる",
-      "en": "try on ~"
-    },
-    {
-      "ja": "〜も、〜もまた",
+      "ja": "もまた",
       "en": "as well"
     },
     {
-      "ja": "〜を消す",
+      "ja": "（テレビ・明かりなど）を消す、（水など）を止める",
       "en": "turn off ~"
     },
     {
-      "ja": "現れる、(本・映画が)出る",
+      "ja": "（太陽・月などが）出る、（花が）咲く",
       "en": "come out"
     },
     {
@@ -10285,19 +10201,19 @@
       "en": "have fun"
     },
     {
-      "ja": "1冊[1本、1枚]の〜",
+      "ja": "1個[1本、1枚]の〜",
       "en": "a piece of ~"
     },
     {
-      "ja": "Aが〜できるように[ために]",
+      "ja": "Aが〜できるように[〜するように]",
       "en": "so that A can [will] do"
     },
     {
-      "ja": "特売中で、安売りで",
+      "ja": "売り出し中で",
       "en": "on sale"
     },
     {
-      "ja": "回復する",
+      "ja": "体調が良くなる、上手になる",
       "en": "get better"
     },
     {
@@ -10305,23 +10221,23 @@
       "en": "throw away ~"
     },
     {
-      "ja": "うまくいく、うまくやる",
+      "ja": "うまくいく、成功する",
       "en": "do well"
     },
     {
-      "ja": "たとえ〜でも",
+      "ja": "たとえ…でも",
       "en": "even if ..."
     },
     {
-      "ja": "〜の中の最もAな1つ",
+      "ja": "最も〜なAのうちの1つ",
       "en": "one of the ~ A"
     },
     {
-      "ja": "どこで〜すべきか",
+      "ja": "どこへ[に、で]〜すべきか",
       "en": "where to do"
     },
     {
-      "ja": "〜を調べる",
+      "ja": "Bを求めてA（場所）を探す",
       "en": "search A for B"
     },
     {
@@ -10333,7 +10249,7 @@
       "en": "be different from ~"
     },
     {
-      "ja": "〜のように聞こえる",
+      "ja": "〜のようだ、〜のように聞こえる",
       "en": "sound like ~"
     },
     {
@@ -10341,23 +10257,107 @@
       "en": "on foot"
     },
     {
-      "ja": "〜を除いて",
+      "ja": "〜を除いては",
       "en": "except for ~"
     },
     {
-      "ja": "〜を脱ぐ、〜を取り去る",
+      "ja": "（身につけていた物）を脱ぐ、とる",
       "en": "take off ~"
+    },
+    {
+      "ja": "〜の準備をする",
+      "en": "get ready for ~"
+    },
+    {
+      "ja": "〜しようかなと思う",
+      "en": "think about doing"
+    },
+    {
+      "ja": "無料で",
+      "en": "for free"
+    },
+    {
+      "ja": "たくさんの〜、いくつかの〜",
+      "en": "a number of ~"
+    },
+    {
+      "ja": "〜を求める",
+      "en": "ask for ~"
+    },
+    {
+      "ja": "〜を設立する、〜を立てる",
+      "en": "set up ~"
+    },
+    {
+      "ja": "〜を思いつく",
+      "en": "come up with ~"
+    },
+    {
+      "ja": "少なくとも",
+      "en": "at least"
+    },
+    {
+      "ja": "さまざまな",
+      "en": "a variety of ~"
+    },
+    {
+      "ja": "〜のお世話をする",
+      "en": "look after ~"
+    },
+    {
+      "ja": "〜と一緒に",
+      "en": "along with ~"
+    },
+    {
+      "ja": "〜の中に入る",
+      "en": "go into ~"
+    },
+    {
+      "ja": "行われる、起こる",
+      "en": "take place"
+    },
+    {
+      "ja": "（〜を）あきらめる",
+      "en": "give up (~)"
+    },
+    {
+      "ja": "2, 3の〜、2つの〜",
+      "en": "a couple of ~"
+    },
+    {
+      "ja": "AをBに翻訳する",
+      "en": "translate A into B"
+    },
+    {
+      "ja": "一体全体",
+      "en": "on earth"
+    },
+    {
+      "ja": "入院している",
+      "en": "be in the hospital"
+    },
+    {
+      "ja": "〜に決める",
+      "en": "decide on ~"
+    },
+    {
+      "ja": "1人きりで、独力で",
+      "en": "(all) by oneself"
+    },
+    {
+      "ja": "〜を試着する",
+      "en": "try on ~"
     },
     {
       "ja": "Aに〜する方法を教える",
       "en": "show A how to do"
     },
     {
-      "ja": "(〜へ行く)途中で",
+      "ja": "（〜へ行く）途中で",
       "en": "on one's [the] way (to ~)"
     },
     {
-      "ja": "BにA(お金・時間など)を使う",
+      "ja": "BにA（お金・時間など）を使う",
       "en": "spend A on B"
     }
   ]
